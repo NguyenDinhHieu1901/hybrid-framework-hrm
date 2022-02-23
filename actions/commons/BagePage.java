@@ -151,10 +151,6 @@ public class BagePage {
 		return driver.findElements(getByLocator(locatorType));
 	}
 
-	private List<WebElement> getListWebElement(WebDriver driver, String locatorType, String... dynamicValues) {
-		return driver.findElements(getByLocator(getDynamicLocator(locatorType, dynamicValues)));
-	}
-
 	protected void clickToElement(WebDriver driver, String locatorType) {
 		getWebElement(driver, locatorType).click();
 	}
@@ -435,7 +431,7 @@ public class BagePage {
 
 			@Override
 			public Boolean apply(WebDriver driver) {
-				return (Boolean) jsExecutor.executeScript("return window.jQuery != null && jQuery.active === 0;");
+				return (Boolean) jsExecutor.executeScript("return (window.jQuery != null) && (jQuery.active === 0);");
 			}
 		};
 		return explicitWait.until(jQueryLoad);
@@ -526,21 +522,23 @@ public class BagePage {
 		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
 		explicitWait.until(ExpectedConditions.invisibilityOfAllElements(getListWebElement(driver, getDynamicLocator(locatorType, dynamicValues))));
 	}
-	
+
 	@Step("Open Menu page with Menu: {1}")
 	public void openMenuPage(WebDriver driver, String menuName) {
 		waitForElementClickable(driver, BasePageUI.MENU_PAGE_BY_TEXT, menuName);
 		clickToElement(driver, BasePageUI.MENU_PAGE_BY_TEXT, menuName);
+		isJQueryAjaxLoadedSuccess(driver);
 	}
-	
+
 	@Step("Open Sub Menu page with Sub Menu: {2}")
 	public void openSubMenuPage(WebDriver driver, String menuName, String subMenuName) {
 		waitForElementClickable(driver, BasePageUI.MENU_PAGE_BY_TEXT, menuName);
 		clickToElement(driver, BasePageUI.MENU_PAGE_BY_TEXT, menuName);
 		waitForElementClickable(driver, BasePageUI.SUB_MENU_BY_TEXT, menuName, subMenuName);
 		clickToElement(driver, BasePageUI.SUB_MENU_BY_TEXT, menuName, subMenuName);
+		isJQueryAjaxLoadedSuccess(driver);
 	}
-	
+
 	@Step("Open Child Sub Menu page with Child Sub Menu: {3}")
 	public void openChildSubMenuPage(WebDriver driver, String menuName, String subMenuName, String childSubMenu) {
 		waitForElementClickable(driver, BasePageUI.MENU_PAGE_BY_TEXT, menuName);
@@ -548,43 +546,43 @@ public class BagePage {
 		waitForElementVisible(driver, BasePageUI.SUB_MENU_BY_TEXT, menuName, subMenuName);
 		hoverMouseToElement(driver, BasePageUI.SUB_MENU_BY_TEXT, menuName, subMenuName);
 		clickToElement(driver, BasePageUI.CHILD_SUB_MENU_BY_TEXT, menuName, subMenuName, childSubMenu);
+		isJQueryAjaxLoadedSuccess(driver);
 	}
-	
+
 	@Step("Click to Button with ID: {1}")
 	public void clickToButtonByID(WebDriver driver, String buttonID) {
 		waitForElementClickable(driver, BasePageUI.BUTTON_BY_ID, buttonID);
 		clickToElement(driver, BasePageUI.BUTTON_BY_ID, buttonID);
 	}
-	
+
 	@Step("Input to textbox with ID: {1} and value: {2}")
 	public void inputToTextboxByID(WebDriver driver, String textboxID, String textValue) {
 		waitForElementVisible(driver, BasePageUI.TEXTBOX_BY_ID, textboxID);
 		sendkeyToElement(driver, BasePageUI.TEXTBOX_BY_ID, textValue, textboxID);
 	}
-	
+
 	@Step("Get employee Id by Attribute name: {2}")
 	public String getEmployeeIDByAttribute(WebDriver driver, String textboxID, String attributeName) {
 		waitForElementVisible(driver, BasePageUI.TEXTBOX_BY_ID, textboxID);
 		return getElementAttribute(driver, BasePageUI.TEXTBOX_BY_ID, attributeName, textboxID);
 	}
-	
+
 	@Step("Click to Checkbox with Label name: {1}")
 	public void checkToDefaultCheckboxByLabel(WebDriver driver, String labelText) {
 		waitForElementClickable(driver, BasePageUI.CHECKBOX_BY_LABEL_TEXT, labelText);
 		checkToDefaultCheckboxOrRadio(driver, BasePageUI.CHECKBOX_BY_LABEL_TEXT, labelText);
 	}
-	
+
 	@Step("Select item in Default Dropdown with value: {2}")
 	public void selectItemInDefaultDropdownByName(WebDriver driver, String dropdownName, String itemValue) {
 		waitForElementVisible(driver, BasePageUI.DROPDOWN_BY_NAME, dropdownName);
 		selectItemInDefaultDropdown(driver, BasePageUI.DROPDOWN_BY_NAME, itemValue, dropdownName);
 	}
-	
+
 	@Step("Get value text in Data Table")
 	public String getValueTextInDataTableByRowAndColumnIndex(WebDriver driver, String tableName, String rowIndex, String headerTable) {
-		isJQueryAjaxLoadedSuccess(driver);
-		List<WebElement> headerTableElements = getListWebElement(driver, BasePageUI.INDEX_COLUMN_BY_TABLE_NAME_ADN_HEADER_NAME, tableName, headerTable);
-		int columnIndex = headerTableElements.size() + 1;
+		int columnIndex = getElementSize(driver, BasePageUI.INDEX_COLUMN_BY_TABLE_NAME_ADN_HEADER_NAME, tableName, headerTable) + 1;
+		waitForElementVisible(driver, BasePageUI.VALUE_DATA_TABLE_BY_TABLE_NAME_ROW_INDEX_ADN_COLUMN_INDEX, tableName, rowIndex, String.valueOf(columnIndex));
 		return getElementText(driver, BasePageUI.VALUE_DATA_TABLE_BY_TABLE_NAME_ROW_INDEX_ADN_COLUMN_INDEX, tableName, rowIndex, String.valueOf(columnIndex));
 	}
 

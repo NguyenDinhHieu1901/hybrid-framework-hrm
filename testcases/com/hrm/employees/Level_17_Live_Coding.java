@@ -39,7 +39,7 @@ public class Level_17_Live_Coding extends BaseTest {
 		log.info("Pre-Condition - Step 02: Login to system as Admin role");
 		dashboardPage = loginPage.loginToSystem(userNameAdmin, passwordAdmin);
 	}
-	
+
 	@Description("Employee_01_Add_New_Employee")
 	@Story("Add New Employee to system")
 	@Severity(SeverityLevel.CRITICAL)
@@ -84,14 +84,15 @@ public class Level_17_Live_Coding extends BaseTest {
 		log.info("Employee_01 - Step 12: Open Employee List page");
 		personalDetailsPage.openSubMenuPage(driver, "PIM", "Employee List");
 		employeeListPage = PageGeneratorManager.getEmployeeListPage(driver);
-		employeeListPage.isJQueryAjaxLoadedSuccess(driver);
+		verifyTrue(employeeListPage.isJQueryAjaxLoadedSuccess(driver));
 
 		log.info("Employee_01 - Step 13: Input to Employee Name textbox");
 		employeeListPage.inputToTextboxByID(driver, "empsearch_employee_name_empName", fullname);
+		verifyTrue(employeeListPage.isJQueryAjaxLoadedSuccess(driver));
 
 		log.info("Employee_01 - Step 14: Click to Search button");
 		employeeListPage.clickToButtonByID(driver, "searchBtn");
-		employeeListPage.isJQueryAjaxLoadedSuccess(driver);
+		verifyTrue(employeeListPage.isJQueryAjaxLoadedSuccess(driver));
 
 		log.info("Employee_01 - Step 15: Verify Information Employee is displayed in data table");
 		verifyEquals(employeeListPage.getValueTextInDataTableByRowAndColumnIndex(driver, "resultTable", "1", "Id"), employeeID);
