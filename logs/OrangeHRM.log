@@ -1,0 +1,474 @@
+[INFO ] [2022-02-23 10:14:05,118] ------------ START delete file in folder ------------
+[INFO ] [2022-02-23 10:14:05,122] ------------ END delete file in folder ------------
+[INFO ] [2022-02-23 10:14:05,141] Pre-Condition - Step 01: Opening the application with 'FIREFOX'
+[INFO ] [2022-02-23 10:14:15,897] Pre-Condition - Step 02: Login to system as Admin role
+[INFO ] [2022-02-23 10:14:20,646] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-02-23 10:14:23,828] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-02-23 10:14:24,665] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-02-23 10:14:24,791] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-02-23 10:14:24,877] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-02-23 10:14:24,960] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-02-23 10:14:25,253] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-02-23 10:14:25,378] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-02-23 10:14:25,499] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-02-23 10:14:25,583] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-02-23 10:14:25,673] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-02-23 10:14:28,227] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-02-23 10:14:30,368] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-02-23 10:14:31,026] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-02-23 10:14:32,455] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-02-23 10:14:32,531] --------------------- PASSED ---------------------
+[INFO ] [2022-02-23 10:14:32,602] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 10:14:32,679] --------------------- PASSED ---------------------
+[INFO ] [2022-02-23 10:14:32,870] Post-Condition: Cleaning the browser 'FIREFOX'
+[INFO ] [2022-02-23 10:30:21,691] ------------ START delete file in folder ------------
+[INFO ] [2022-02-23 10:30:21,695] ------------ END delete file in folder ------------
+[INFO ] [2022-02-23 10:30:21,714] Pre-Condition - Step 01: Opening the application with 'FIREFOX'
+[INFO ] [2022-02-23 10:30:33,485] Pre-Condition - Step 02: Login to system as Admin role
+[INFO ] [2022-02-23 10:30:38,170] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-02-23 10:30:41,147] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-02-23 10:30:41,982] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-02-23 10:30:42,107] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-02-23 10:30:42,224] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-02-23 10:30:42,294] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-02-23 10:30:42,602] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-02-23 10:30:42,696] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-02-23 10:30:42,819] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-02-23 10:30:42,912] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-02-23 10:30:43,040] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-02-23 10:30:45,535] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-02-23 10:30:47,646] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-02-23 10:30:48,294] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-02-23 10:30:49,473] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-02-23 10:30:49,473] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 10:30:49,547] --------------------- PASSED ---------------------
+[INFO ] [2022-02-23 10:30:49,620] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 10:30:49,683] --------------------- PASSED ---------------------
+[INFO ] [2022-02-23 10:30:49,848] Post-Condition: Cleaning the browser 'FIREFOX'
+[INFO ] [2022-02-23 10:36:14,400] ------------ START delete file in folder ------------
+[INFO ] [2022-02-23 10:36:14,404] ------------ END delete file in folder ------------
+[INFO ] [2022-02-23 10:36:36,592] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 10:42:40,190] ------------ START delete file in folder ------------
+[INFO ] [2022-02-23 10:42:40,193] ------------ END delete file in folder ------------
+[INFO ] [2022-02-23 10:42:40,216] Pre-Condition - Step 01: Opening the application with 'FIREFOX'
+[INFO ] [2022-02-23 10:42:53,768] Pre-Condition - Step 02: Login to system as Admin role
+[INFO ] [2022-02-23 10:42:58,685] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-02-23 10:43:01,185] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-02-23 10:43:01,986] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-02-23 10:43:02,109] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-02-23 10:43:02,198] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-02-23 10:43:02,252] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-02-23 10:43:02,560] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-02-23 10:43:02,654] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-02-23 10:43:02,775] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-02-23 10:43:02,860] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-02-23 10:43:02,968] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-02-23 10:43:05,457] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-02-23 10:43:07,577] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-02-23 10:43:08,241] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-02-23 10:43:09,414] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-02-23 10:43:09,414] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 10:43:09,488] --------------------- PASSED ---------------------
+[INFO ] [2022-02-23 10:43:09,561] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 10:43:09,623] --------------------- PASSED ---------------------
+[INFO ] [2022-02-23 10:43:09,792] Post-Condition: Cleaning the browser 'FIREFOX'
+[INFO ] [2022-02-23 10:54:55,519] ------------ START delete file in folder ------------
+[INFO ] [2022-02-23 10:54:55,523] ------------ END delete file in folder ------------
+[INFO ] [2022-02-23 10:54:55,544] Pre-Condition - Step 01: Opening the application with 'FIREFOX'
+[INFO ] [2022-02-23 10:55:07,856] Pre-Condition - Step 02: Login to system as Admin role
+[INFO ] [2022-02-23 10:55:12,375] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-02-23 10:55:15,934] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-02-23 10:55:16,747] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-02-23 10:55:16,857] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-02-23 10:55:16,947] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-02-23 10:55:17,014] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-02-23 10:55:17,322] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-02-23 10:55:17,415] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-02-23 10:55:17,538] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-02-23 10:55:17,620] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-02-23 10:55:17,764] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-02-23 10:55:20,224] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-02-23 10:55:22,379] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-02-23 10:55:23,038] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-02-23 10:55:24,227] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-02-23 10:55:24,619] Post-Condition: Cleaning the browser 'FIREFOX'
+[INFO ] [2022-02-23 11:14:20,308] ------------ START delete file in folder ------------
+[INFO ] [2022-02-23 11:14:20,313] ------------ END delete file in folder ------------
+[INFO ] [2022-02-23 11:14:20,334] Pre-Condition - Step 01: Opening the application with 'FIREFOX'
+[INFO ] [2022-02-23 11:14:33,254] Pre-Condition - Step 02: Login to system as Admin role
+[INFO ] [2022-02-23 11:14:39,104] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-02-23 11:14:42,455] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-02-23 11:14:43,283] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-02-23 11:14:43,429] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-02-23 11:14:43,518] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-02-23 11:14:43,604] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-02-23 11:14:43,913] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-02-23 11:14:44,021] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-02-23 11:14:44,151] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-02-23 11:14:44,239] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-02-23 11:14:44,381] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-02-23 11:14:47,243] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-02-23 11:14:49,503] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-02-23 11:14:50,166] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-02-23 11:14:51,612] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-02-23 11:14:51,612] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 11:14:51,687] --------------------- PASSED ---------------------
+[INFO ] [2022-02-23 11:14:51,762] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 11:14:51,824] --------------------- PASSED ---------------------
+[INFO ] [2022-02-23 11:14:52,028] Post-Condition: Cleaning the browser 'FIREFOX'
+[INFO ] [2022-02-23 11:15:43,755] ------------ START delete file in folder ------------
+[INFO ] [2022-02-23 11:15:43,759] ------------ END delete file in folder ------------
+[INFO ] [2022-02-23 11:15:43,770] Pre-Condition - Step 01: Opening the application with 'FIREFOX'
+[INFO ] [2022-02-23 11:15:55,387] Pre-Condition - Step 02: Login to system as Admin role
+[INFO ] [2022-02-23 11:15:59,762] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-02-23 11:16:02,751] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-02-23 11:16:03,586] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-02-23 11:16:03,708] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-02-23 11:16:03,801] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-02-23 11:16:03,870] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-02-23 11:16:04,176] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-02-23 11:16:04,268] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-02-23 11:16:04,386] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-02-23 11:16:04,474] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-02-23 11:16:04,563] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-02-23 11:16:04,849] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-02-23 11:16:07,757] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-02-23 11:16:08,408] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-02-23 11:16:09,755] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-02-23 11:16:09,755] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 11:16:09,827] --------------------- PASSED ---------------------
+[INFO ] [2022-02-23 11:16:09,901] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 11:16:09,964] --------------------- PASSED ---------------------
+[INFO ] [2022-02-23 11:16:10,080] Post-Condition: Cleaning the browser 'FIREFOX'
+[INFO ] [2022-02-23 11:16:42,653] ------------ START delete file in folder ------------
+[INFO ] [2022-02-23 11:16:42,657] ------------ END delete file in folder ------------
+[INFO ] [2022-02-23 11:16:42,669] Pre-Condition - Step 01: Opening the application with 'FIREFOX'
+[INFO ] [2022-02-23 11:16:53,950] Pre-Condition - Step 02: Login to system as Admin role
+[INFO ] [2022-02-23 11:16:58,594] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-02-23 11:17:33,738] ------------ START delete file in folder ------------
+[INFO ] [2022-02-23 11:17:33,740] ------------ END delete file in folder ------------
+[INFO ] [2022-02-23 11:17:33,751] Pre-Condition - Step 01: Opening the application with 'FIREFOX'
+[INFO ] [2022-02-23 11:17:43,822] Pre-Condition - Step 02: Login to system as Admin role
+[INFO ] [2022-02-23 11:17:47,853] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-02-23 11:17:51,068] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-02-23 11:17:51,916] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-02-23 11:17:52,040] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-02-23 11:17:52,145] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-02-23 11:17:52,231] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-02-23 11:17:52,536] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-02-23 11:17:52,630] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-02-23 11:17:52,752] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-02-23 11:17:52,833] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-02-23 11:17:52,919] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-02-23 11:17:55,582] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-02-23 11:17:58,053] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-02-23 11:17:58,200] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-02-23 11:18:00,260] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-02-23 11:18:00,260] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 11:18:00,332] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 11:18:00,406] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 11:18:00,467] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 11:18:00,604] Post-Condition: Cleaning the browser 'FIREFOX'
+[INFO ] [2022-02-23 11:20:49,583] ------------ START delete file in folder ------------
+[INFO ] [2022-02-23 11:20:49,589] ------------ END delete file in folder ------------
+[INFO ] [2022-02-23 11:20:49,615] Pre-Condition - Step 01: Opening the application with 'FIREFOX'
+[INFO ] [2022-02-23 11:20:59,900] Pre-Condition - Step 02: Login to system as Admin role
+[INFO ] [2022-02-23 11:21:04,545] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-02-23 11:21:07,609] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-02-23 11:21:08,454] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-02-23 11:21:08,570] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-02-23 11:21:08,660] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-02-23 11:21:08,747] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-02-23 11:21:09,048] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-02-23 11:21:09,144] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-02-23 11:21:09,268] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-02-23 11:21:09,376] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-02-23 11:21:09,483] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-02-23 11:21:12,083] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-02-23 11:21:14,409] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-02-23 11:21:15,073] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-02-23 11:21:16,313] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-02-23 11:21:16,314] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 11:21:16,389] --------------------- PASSED ---------------------
+[INFO ] [2022-02-23 11:21:16,475] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 11:21:16,537] --------------------- PASSED ---------------------
+[INFO ] [2022-02-23 11:21:16,720] Post-Condition: Cleaning the browser 'FIREFOX'
+[INFO ] [2022-02-23 11:24:43,869] ------------ START delete file in folder ------------
+[INFO ] [2022-02-23 11:24:43,874] ------------ END delete file in folder ------------
+[INFO ] [2022-02-23 11:24:43,901] Pre-Condition - Step 01: Opening the application with 'FIREFOX'
+[INFO ] [2022-02-23 11:24:55,531] Pre-Condition - Step 02: Login to system as Admin role
+[INFO ] [2022-02-23 11:24:59,514] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-02-23 11:25:02,070] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-02-23 11:25:03,721] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-02-23 11:25:03,848] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-02-23 11:25:03,939] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-02-23 11:25:04,022] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-02-23 11:25:04,316] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-02-23 11:25:04,412] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-02-23 11:25:04,533] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-02-23 11:25:04,614] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-02-23 11:25:04,726] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-02-23 11:25:07,507] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-02-23 11:25:09,717] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-02-23 11:25:09,844] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-02-23 11:25:11,864] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-02-23 11:25:11,864] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 11:25:11,939] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 11:25:12,012] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 11:25:12,075] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 11:25:12,251] Post-Condition: Cleaning the browser 'FIREFOX'
+[INFO ] [2022-02-23 11:27:31,411] ------------ START delete file in folder ------------
+[INFO ] [2022-02-23 11:27:31,416] ------------ END delete file in folder ------------
+[INFO ] [2022-02-23 11:27:31,435] Pre-Condition - Step 01: Opening the application with 'FIREFOX'
+[INFO ] [2022-02-23 11:27:42,772] Pre-Condition - Step 02: Login to system as Admin role
+[INFO ] [2022-02-23 11:27:46,841] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-02-23 11:27:49,923] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-02-23 11:27:50,747] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-02-23 11:27:50,891] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-02-23 11:27:50,981] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-02-23 11:27:51,049] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-02-23 11:27:51,357] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-02-23 11:27:51,473] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-02-23 11:27:51,587] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-02-23 11:27:51,685] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-02-23 11:27:51,792] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-02-23 11:27:54,396] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-02-23 11:27:56,599] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-02-23 11:27:56,733] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-02-23 11:27:58,279] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-02-23 11:27:58,279] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 11:27:58,397] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 11:27:58,464] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 11:27:58,528] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 11:27:58,877] Post-Condition: Cleaning the browser 'FIREFOX'
+[INFO ] [2022-02-23 11:32:07,746] ------------ START delete file in folder ------------
+[INFO ] [2022-02-23 11:32:07,751] ------------ END delete file in folder ------------
+[INFO ] [2022-02-23 11:32:07,773] Pre-Condition - Step 01: Opening the application with 'FIREFOX'
+[INFO ] [2022-02-23 11:32:17,814] Pre-Condition - Step 02: Login to system as Admin role
+[INFO ] [2022-02-23 11:32:22,128] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-02-23 11:32:25,246] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-02-23 11:32:26,098] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-02-23 11:32:26,203] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-02-23 11:32:26,307] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-02-23 11:32:26,374] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-02-23 11:32:26,683] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-02-23 11:32:26,778] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-02-23 11:32:26,901] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-02-23 11:32:27,017] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-02-23 11:32:27,121] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-02-23 11:32:29,670] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-02-23 11:32:31,779] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-02-23 11:32:32,462] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-02-23 11:32:33,428] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-02-23 11:32:33,429] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 11:32:33,522] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 11:32:33,597] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 11:32:33,658] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 11:32:33,962] Post-Condition: Cleaning the browser 'FIREFOX'
+[INFO ] [2022-02-23 11:34:17,480] ------------ START delete file in folder ------------
+[INFO ] [2022-02-23 11:34:17,485] ------------ END delete file in folder ------------
+[INFO ] [2022-02-23 11:34:17,505] Pre-Condition - Step 01: Opening the application with 'FIREFOX'
+[INFO ] [2022-02-23 11:34:27,171] Pre-Condition - Step 02: Login to system as Admin role
+[INFO ] [2022-02-23 11:34:31,472] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-02-23 11:34:34,636] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-02-23 11:34:35,476] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-02-23 11:34:35,593] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-02-23 11:34:35,680] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-02-23 11:34:35,749] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-02-23 11:34:36,056] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-02-23 11:34:36,153] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-02-23 11:34:36,276] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-02-23 11:34:36,373] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-02-23 11:34:36,481] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-02-23 11:34:39,129] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-02-23 11:34:41,268] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-02-23 11:34:41,937] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-02-23 11:34:43,465] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-02-23 11:34:43,465] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 11:34:43,541] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 11:34:43,612] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 11:34:43,676] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 11:34:44,002] Post-Condition: Cleaning the browser 'FIREFOX'
+[INFO ] [2022-02-23 11:38:03,309] ------------ START delete file in folder ------------
+[INFO ] [2022-02-23 11:38:03,314] ------------ END delete file in folder ------------
+[INFO ] [2022-02-23 11:38:03,332] Pre-Condition - Step 01: Opening the application with 'FIREFOX'
+[INFO ] [2022-02-23 11:38:12,810] Pre-Condition - Step 02: Login to system as Admin role
+[INFO ] [2022-02-23 11:38:17,157] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-02-23 11:38:19,783] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-02-23 11:38:21,748] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-02-23 11:38:21,868] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-02-23 11:38:21,973] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-02-23 11:38:22,051] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-02-23 11:38:22,359] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-02-23 11:38:22,455] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-02-23 11:38:22,576] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-02-23 11:38:22,672] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-02-23 11:38:22,778] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-02-23 11:38:25,707] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-02-23 11:38:27,839] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-02-23 11:38:28,504] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-02-23 11:38:29,722] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-02-23 11:38:29,722] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 11:38:29,781] --------------------- PASSED ---------------------
+[INFO ] [2022-02-23 11:38:29,838] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 11:38:29,883] --------------------- PASSED ---------------------
+[INFO ] [2022-02-23 11:38:30,103] Post-Condition: Cleaning the browser 'FIREFOX'
+[INFO ] [2022-02-23 11:43:03,714] ------------ START delete file in folder ------------
+[INFO ] [2022-02-23 11:43:03,719] ------------ END delete file in folder ------------
+[INFO ] [2022-02-23 11:43:03,738] Pre-Condition - Step 01: Opening the application with 'FIREFOX'
+[INFO ] [2022-02-23 11:43:13,814] Pre-Condition - Step 02: Login to system as Admin role
+[INFO ] [2022-02-23 11:43:18,052] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-02-23 11:43:20,593] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-02-23 11:43:21,434] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-02-23 11:43:21,559] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-02-23 11:43:21,660] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-02-23 11:43:21,732] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-02-23 11:43:22,041] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-02-23 11:43:22,134] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-02-23 11:43:22,257] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-02-23 11:43:22,342] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-02-23 11:43:22,450] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-02-23 11:43:25,009] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-02-23 11:43:27,121] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-02-23 11:43:27,790] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-02-23 11:43:28,942] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-02-23 11:43:28,942] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 11:43:29,002] --------------------- PASSED ---------------------
+[INFO ] [2022-02-23 11:43:29,060] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 11:43:29,106] --------------------- PASSED ---------------------
+[INFO ] [2022-02-23 11:43:29,421] Post-Condition: Cleaning the browser 'FIREFOX'
+[INFO ] [2022-02-23 11:46:53,817] ------------ START delete file in folder ------------
+[INFO ] [2022-02-23 11:46:53,821] ------------ END delete file in folder ------------
+[INFO ] [2022-02-23 11:46:53,850] Pre-Condition - Step 01: Opening the application with 'FIREFOX'
+[INFO ] [2022-02-23 11:47:06,529] Pre-Condition - Step 02: Login to system as Admin role
+[INFO ] [2022-02-23 11:47:11,240] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-02-23 11:47:15,481] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-02-23 11:47:16,341] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-02-23 11:47:16,463] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-02-23 11:47:16,570] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-02-23 11:47:16,638] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-02-23 11:47:16,944] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-02-23 11:47:17,037] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-02-23 11:47:17,158] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-02-23 11:47:17,245] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-02-23 11:47:17,369] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-02-23 11:47:19,622] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-02-23 11:47:21,711] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-02-23 11:47:22,376] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-02-23 11:47:23,557] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-02-23 11:47:23,620] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 11:47:23,675] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 11:47:23,722] --------------------- PASSED ---------------------
+[INFO ] [2022-02-23 11:47:24,008] Post-Condition: Cleaning the browser 'FIREFOX'
+[INFO ] [2022-02-23 11:48:59,600] ------------ START delete file in folder ------------
+[INFO ] [2022-02-23 11:48:59,605] ------------ END delete file in folder ------------
+[INFO ] [2022-02-23 11:48:59,625] Pre-Condition - Step 01: Opening the application with 'FIREFOX'
+[INFO ] [2022-02-23 11:49:09,259] Pre-Condition - Step 02: Login to system as Admin role
+[INFO ] [2022-02-23 11:49:13,441] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-02-23 11:49:16,472] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-02-23 11:49:17,279] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-02-23 11:49:17,404] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-02-23 11:49:17,490] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-02-23 11:49:17,562] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-02-23 11:49:17,865] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-02-23 11:49:17,958] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-02-23 11:49:18,080] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-02-23 11:49:18,186] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-02-23 11:49:18,286] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-02-23 11:49:20,773] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-02-23 11:49:22,917] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-02-23 11:49:23,600] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-02-23 11:49:25,082] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-02-23 11:49:25,143] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 11:49:25,199] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 11:49:25,248] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 11:49:25,597] Post-Condition: Cleaning the browser 'FIREFOX'
+[INFO ] [2022-02-23 11:51:32,187] ------------ START delete file in folder ------------
+[INFO ] [2022-02-23 11:51:32,191] ------------ END delete file in folder ------------
+[INFO ] [2022-02-23 11:51:32,212] Pre-Condition - Step 01: Opening the application with 'FIREFOX'
+[INFO ] [2022-02-23 11:51:42,676] Pre-Condition - Step 02: Login to system as Admin role
+[INFO ] [2022-02-23 11:51:46,339] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-02-23 11:51:48,871] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-02-23 11:51:49,697] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-02-23 11:51:49,813] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-02-23 11:51:49,902] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-02-23 11:51:49,973] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-02-23 11:51:50,268] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-02-23 11:51:50,371] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-02-23 11:51:50,494] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-02-23 11:51:50,574] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-02-23 11:51:50,683] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-02-23 11:51:53,282] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-02-23 11:51:55,972] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-02-23 11:51:56,080] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-02-23 11:51:57,247] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-02-23 11:51:57,309] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 11:51:57,363] --------------------- PASSED ---------------------
+[INFO ] [2022-02-23 11:51:57,412] --------------------- PASSED ---------------------
+[INFO ] [2022-02-23 11:51:57,759] Post-Condition: Cleaning the browser 'FIREFOX'
+[INFO ] [2022-02-23 12:00:39,675] ------------ START delete file in folder ------------
+[INFO ] [2022-02-23 12:00:39,680] ------------ END delete file in folder ------------
+[INFO ] [2022-02-23 12:00:39,700] Pre-Condition - Step 01: Opening the application with 'FIREFOX'
+[INFO ] [2022-02-23 12:00:51,517] Pre-Condition - Step 02: Login to system as Admin role
+[INFO ] [2022-02-23 12:00:56,304] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-02-23 12:00:59,419] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-02-23 12:01:00,216] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-02-23 12:01:00,336] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-02-23 12:01:00,425] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-02-23 12:01:00,495] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-02-23 12:01:00,801] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-02-23 12:01:00,895] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-02-23 12:01:01,017] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-02-23 12:01:01,099] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-02-23 12:01:01,208] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-02-23 12:01:02,249] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-02-23 12:01:04,923] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-02-23 12:01:05,013] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-02-23 12:01:06,201] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-02-23 12:01:36,801] Post-Condition: Cleaning the browser 'FIREFOX'
+[INFO ] [2022-02-23 12:02:02,268] ------------ START delete file in folder ------------
+[INFO ] [2022-02-23 12:02:02,273] ------------ END delete file in folder ------------
+[INFO ] [2022-02-23 12:02:02,294] Pre-Condition - Step 01: Opening the application with 'FIREFOX'
+[INFO ] [2022-02-23 12:02:11,876] Pre-Condition - Step 02: Login to system as Admin role
+[INFO ] [2022-02-23 12:02:17,394] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-02-23 12:02:20,524] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-02-23 12:02:21,392] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-02-23 12:02:21,511] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-02-23 12:02:21,601] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-02-23 12:02:21,669] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-02-23 12:02:21,978] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-02-23 12:02:22,071] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-02-23 12:02:22,192] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-02-23 12:02:22,289] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-02-23 12:02:22,398] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-02-23 12:02:24,818] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-02-23 12:02:28,118] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-02-23 12:02:28,217] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-02-23 12:02:29,166] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-02-23 12:02:29,758] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 12:02:29,816] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 12:02:29,865] --------------------- FAILED ---------------------
+[INFO ] [2022-02-23 12:02:30,216] Post-Condition: Cleaning the browser 'FIREFOX'
+[INFO ] [2022-02-23 12:04:06,138] ------------ START delete file in folder ------------
+[INFO ] [2022-02-23 12:04:06,145] ------------ END delete file in folder ------------
+[INFO ] [2022-02-23 12:04:06,166] Pre-Condition - Step 01: Opening the application with 'FIREFOX'
+[INFO ] [2022-02-23 12:04:16,316] Pre-Condition - Step 02: Login to system as Admin role
+[INFO ] [2022-02-23 12:04:20,048] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-02-23 12:04:22,684] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-02-23 12:04:23,496] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-02-23 12:04:23,617] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-02-23 12:04:23,705] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-02-23 12:04:23,774] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-02-23 12:04:24,067] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-02-23 12:04:24,158] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-02-23 12:04:24,278] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-02-23 12:04:24,359] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-02-23 12:04:24,467] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-02-23 12:04:27,060] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-02-23 12:04:29,816] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-02-23 12:04:29,911] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-02-23 12:04:31,082] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-02-23 12:04:31,142] --------------------- PASSED ---------------------
+[INFO ] [2022-02-23 12:04:31,199] --------------------- PASSED ---------------------
+[INFO ] [2022-02-23 12:04:31,247] --------------------- PASSED ---------------------
+[INFO ] [2022-02-23 12:04:31,451] Post-Condition: Cleaning the browser 'FIREFOX'
