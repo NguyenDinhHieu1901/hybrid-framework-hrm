@@ -17,6 +17,7 @@ public class LoginPO extends BagePage {
 		sendkeyToElement(driver, LoginPageUI.USERNAME_TEXTBOX, userNameAdmin);
 		sendkeyToElement(driver, LoginPageUI.PASSWORD_TEXTBOX, passwordAdmin);
 		clickToElement(driver, LoginPageUI.LOGIN_BUTTON);
+		isJQueryAjaxLoadedSuccess(driver);
 		return PageGeneratorManager.gerDashboardPage(driver);
 	}
 }

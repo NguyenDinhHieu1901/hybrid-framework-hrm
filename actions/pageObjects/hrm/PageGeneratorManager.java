@@ -24,7 +24,7 @@ public class PageGeneratorManager {
 		return new AddEmployeePO(driver);
 	}
 
-	public static PersonalDetailsPO getPersonalDetailsPage(WebDriver driver) {
-		return new PersonalDetailsPO(driver);
+	public static MyInfoPO getMyInfoPage(WebDriver driver) {
+		return new MyInfoPO(driver);
 	}
 }

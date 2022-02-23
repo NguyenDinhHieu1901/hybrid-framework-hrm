@@ -7,6 +7,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.BaseTest;
+import commons.GlobalConstants;
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
@@ -16,7 +17,7 @@ import pageObjects.hrm.DashboardPO;
 import pageObjects.hrm.EmployeeListPO;
 import pageObjects.hrm.LoginPO;
 import pageObjects.hrm.PageGeneratorManager;
-import pageObjects.hrm.PersonalDetailsPO;
+import pageObjects.hrm.MyInfoPO;
 
 public class Level_17_Live_Coding extends BaseTest {
 	@Parameters("browser")
@@ -31,6 +32,7 @@ public class Level_17_Live_Coding extends BaseTest {
 		employeeID = "";
 		statusValue = "Enabled";
 		fullname = firstName + " " + lastName;
+		pathAvatarFile = GlobalConstants.UPLOAD_FILE_FOLDER + "Avatar.jpg";
 
 		log.info("Pre-Condition - Step 01: Opening the application with '" + browserName + "'");
 		driver = getBrowserDriver(browserName);
@@ -79,10 +81,10 @@ public class Level_17_Live_Coding extends BaseTest {
 
 		log.info("Employee_01 - Step 11: Click to Save button");
 		addEmployeePage.clickToButtonByID(driver, "btnSave");
-		personalDetailsPage = PageGeneratorManager.getPersonalDetailsPage(driver);
+		myInfoPage = PageGeneratorManager.getMyInfoPage(driver);
 
 		log.info("Employee_01 - Step 12: Open Employee List page");
-		personalDetailsPage.openSubMenuPage(driver, "PIM", "Employee List");
+		myInfoPage.openSubMenuPage(driver, "PIM", "Employee List");
 		employeeListPage = PageGeneratorManager.getEmployeeListPage(driver);
 		verifyTrue(employeeListPage.isJQueryAjaxLoadedSuccess(driver));
 
@@ -99,10 +101,31 @@ public class Level_17_Live_Coding extends BaseTest {
 		verifyEquals(employeeListPage.getValueTextInDataTableByRowAndColumnIndex(driver, "resultTable", "1", "First (& Middle) Name"), firstName);
 		verifyEquals(employeeListPage.getValueTextInDataTableByRowAndColumnIndex(driver, "resultTable", "1", "Last Name"), lastName);
 	}
-
+	
+	@Description("Upload Avatar for New Employee")
+	@Severity(SeverityLevel.CRITICAL)
 	@Test
 	public void Employee_02_Upload_Avatar() {
-
+		log.info("Upload_Avatar_02 - Step 01: Login to system as User role");
+		loginPage = employeeListPage.logoutToSystem(driver);
+		dashboardPage = loginPage.loginToSystem(userNameEmp, passwordEmp);
+		
+		log.info("Upload_Avatar_02 - Step 02: Open 'My Info' page");
+		dashboardPage.openMenuPage(driver, "My Info");
+		myInfoPage = PageGeneratorManager.getMyInfoPage(driver);
+		
+		log.info("Upload_Avatar_02 - Step 03: Click to Change photo link");
+		myInfoPage.clickToChangePhotoImage();
+		
+		log.info("Upload_Avatar_02 - Step 04: Upload new Avatar");
+		myInfoPage.uploadFile(driver, pathAvatarFile);
+		myInfoPage.clickToButtonByID(driver, "btnSave");
+		
+		log.info("Upload_Avatar_02 - Step 05: Verify success message is displayed");
+		verifyTrue(myInfoPage.isSuccessMessageDisplayed(driver, "Successfully Uploaded"));
+		
+		log.info("Upload_Avatar_02 - Step 06: Verify image uploaded successfully");
+		verifyTrue(myInfoPage.isImageUploadedSuccess());
 	}
 
 	@Test
@@ -162,6 +185,6 @@ public class Level_17_Live_Coding extends BaseTest {
 	private DashboardPO dashboardPage;
 	private EmployeeListPO employeeListPage;
 	private AddEmployeePO addEmployeePage;
-	private PersonalDetailsPO personalDetailsPage;
-	String userNameAdmin, passwordAdmin, userNameEmp, passwordEmp, firstName, lastName, employeeID, statusValue, fullname;
+	private MyInfoPO myInfoPage;
+	String userNameAdmin, passwordAdmin, userNameEmp, passwordEmp, firstName, lastName, employeeID, statusValue, fullname, pathAvatarFile;
 }
