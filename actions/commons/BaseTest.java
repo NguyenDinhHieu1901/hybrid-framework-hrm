@@ -32,6 +32,10 @@ public class BaseTest {
 		FIREFOX, CHROME, EDGE, IE, SAFARI, COCCOC, OPERA, BRAVE;
 	}
 
+	private enum EnvironmentList {
+		DEV, TESTING, PREPRODUCTION, LIVE;
+	}
+
 	protected WebDriver getBrowserDriver(String browserName) {
 		BrowserList browserList = BrowserList.valueOf(browserName.toUpperCase());
 
@@ -85,12 +89,12 @@ public class BaseTest {
 
 	private String getBrowserEnvironment(String environmentName) {
 		String url = null;
-		environmentName = environmentName.toUpperCase();
-		switch (environmentName) {
-		case "DEV":
+		EnvironmentList environmentList = EnvironmentList.valueOf(environmentName.toUpperCase());
+		switch (environmentList) {
+		case DEV:
 			url = GlobalConstants.ADMIN_HRM_URL;
 			break;
-		case "TESTING":
+		case TESTING:
 			url = GlobalConstants.PORTAL_HRM_URL;
 			break;
 

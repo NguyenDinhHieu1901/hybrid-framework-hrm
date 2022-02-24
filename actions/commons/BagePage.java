@@ -18,6 +18,8 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import io.qameta.allure.Step;
+import pageObjects.hrm.LoginPO;
+import pageObjects.hrm.PageGeneratorManager;
 import pageUIs.hrm.BasePageUI;
 
 public class BagePage {
@@ -169,6 +171,10 @@ public class BagePage {
 		WebElement element = getWebElement(driver, getDynamicLocator(locatorType, dynamicValues));
 		element.clear();
 		element.sendKeys(textValue);
+	}
+
+	protected void sendkeyToElementWithoutClear(WebDriver driver, String locatorType, String textValue) {
+		getWebElement(driver, locatorType).sendKeys(textValue);
 	}
 
 	protected String getElementText(WebDriver driver, String locatorType) {
@@ -561,8 +567,8 @@ public class BagePage {
 		sendkeyToElement(driver, BasePageUI.TEXTBOX_BY_ID, textValue, textboxID);
 	}
 
-	@Step("Get employee Id by Attribute name: {2}")
-	public String getEmployeeIDByAttribute(WebDriver driver, String textboxID, String attributeName) {
+	@Step("Get text value of {1} with Attribute name: {2}")
+	public String getTextValueByAttribute(WebDriver driver, String textboxID, String attributeName) {
 		waitForElementVisible(driver, BasePageUI.TEXTBOX_BY_ID, textboxID);
 		return getElementAttribute(driver, BasePageUI.TEXTBOX_BY_ID, attributeName, textboxID);
 	}
@@ -573,10 +579,22 @@ public class BagePage {
 		checkToDefaultCheckboxOrRadio(driver, BasePageUI.CHECKBOX_BY_LABEL_TEXT, labelText);
 	}
 
+	@Step("Click to Radio button with Label name: {1}")
+	public void checkToRadioButtonByLabel(WebDriver driver, String labelText) {
+		waitForElementClickable(driver, BasePageUI.RADIO_BUTTON_BY_LABEL_TEXT, labelText);
+		checkToDefaultCheckboxOrRadio(driver, BasePageUI.RADIO_BUTTON_BY_LABEL_TEXT, labelText);
+	}
+
 	@Step("Select item in Default Dropdown with value: {2}")
 	public void selectItemInDefaultDropdownByName(WebDriver driver, String dropdownName, String itemValue) {
-		waitForElementVisible(driver, BasePageUI.DROPDOWN_BY_NAME, dropdownName);
+		waitForElementClickable(driver, BasePageUI.DROPDOWN_BY_NAME, dropdownName);
 		selectItemInDefaultDropdown(driver, BasePageUI.DROPDOWN_BY_NAME, itemValue, dropdownName);
+	}
+
+	@Step("Get first selected item in dropdown {1}")
+	public String getItemSelectedInDefaultDropdownByName(WebDriver driver, String dropdownName) {
+		waitForElementVisible(driver, BasePageUI.DROPDOWN_BY_NAME, dropdownName);
+		return getFirstSelectedItemInDropdown(driver, BasePageUI.DROPDOWN_BY_NAME, dropdownName);
 	}
 
 	@Step("Get value text in Data Table")
@@ -584,6 +602,39 @@ public class BagePage {
 		int columnIndex = getElementSize(driver, BasePageUI.INDEX_COLUMN_BY_TABLE_NAME_ADN_HEADER_NAME, tableName, headerTable) + 1;
 		waitForElementVisible(driver, BasePageUI.VALUE_DATA_TABLE_BY_TABLE_NAME_ROW_INDEX_ADN_COLUMN_INDEX, tableName, rowIndex, String.valueOf(columnIndex));
 		return getElementText(driver, BasePageUI.VALUE_DATA_TABLE_BY_TABLE_NAME_ROW_INDEX_ADN_COLUMN_INDEX, tableName, rowIndex, String.valueOf(columnIndex));
+	}
+
+	@Step("Logout to System")
+	public LoginPO logoutToSystem(WebDriver driver) {
+		waitForElementClickable(driver, BasePageUI.WELCOME_USER);
+		clickToElement(driver, BasePageUI.WELCOME_USER);
+		waitForElementClickable(driver, BasePageUI.LOGOUT_LINK);
+		clickToElement(driver, BasePageUI.LOGOUT_LINK);
+		return PageGeneratorManager.getLoginPage(driver);
+	}
+
+	@Step("Upload file with path: {1}")
+	public void uploadEmployeeImage(WebDriver driver, String pathAvatarFile) {
+		waitForElementVisible(driver, BasePageUI.UPLOAD_FILE);
+		sendkeyToElementWithoutClear(driver, BasePageUI.UPLOAD_FILE, pathAvatarFile);
+	}
+
+	@Step("Verify Success message is displayed with message: {1}")
+	public boolean isSuccessMessageDisplayed(WebDriver driver, String successMessage) {
+		waitForElementVisible(driver, BasePageUI.SUCCESS_MESSAGE_BY_TEXT, successMessage);
+		return isElementDisplayed(driver, BasePageUI.SUCCESS_MESSAGE_BY_TEXT, successMessage);
+	}
+
+	@Step("Verify is field {1} enabled")
+	public boolean isAnyFieldsEnabledByID(WebDriver driver, String fieldID) {
+		waitForElementVisible(driver, BasePageUI.ANY_FIELDS_BY_ID, fieldID);
+		return isElementEnabled(driver, BasePageUI.ANY_FIELDS_BY_ID, fieldID);
+	}
+
+	@Step("Verify is Radio button selected with label {1}")
+	public boolean isRadioButtonSelected(WebDriver driver, String labelText) {
+		waitForElementVisible(driver, BasePageUI.RADIO_BUTTON_BY_LABEL_TEXT, labelText);
+		return isElementSelected(driver, BasePageUI.RADIO_BUTTON_BY_LABEL_TEXT, labelText);
 	}
 
 	private long longTimeout = GlobalConstants.LONG_TIMEOUT;
