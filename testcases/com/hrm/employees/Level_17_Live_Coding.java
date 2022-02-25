@@ -71,9 +71,11 @@ public class Level_17_Live_Coding extends BaseTest {
 		payFrequency = "Monthly";
 		currency = "United States Dollar";
 		amount = "35000";
+		floatAmount = "35000.00";
 		accountNumber = "4214 0281 1201 0975";
 		accountType = "Savings";
 		routingNumber = "41215032";
+		comments = "Day of payment is 3";
 
 		log.info("Pre-Condition - Step 01: Opening the application with '" + browserName + "'");
 		driver = getBrowserDriver(browserName);
@@ -390,7 +392,7 @@ public class Level_17_Live_Coding extends BaseTest {
 		verifyFalse(myInfoPage.isAnyFieldsEnabledByID(driver, "job_contract_end_date"));
 
 		log.info("Edit_View_Job_07 - Step 03: Verify is 'Edit' button not displayed");
-		verifyTrue(myInfoPage.isEditButtonUndisplayed(driver, "btnSave"));
+		verifyTrue(myInfoPage.isAnyButtonUndisplayed(driver, "btnSave"));
 
 		log.info("Edit_View_Job_07 - Step 04: Login to system as Admin role with username & password:" + userNameAdmin + " " + passwordAdmin);
 		loginPage = myInfoPage.logoutToSystem(driver);
@@ -425,7 +427,7 @@ public class Level_17_Live_Coding extends BaseTest {
 		verifyFalse(myInfoPage.isAnyFieldsEnabledByID(driver, "job_contract_end_date"));
 
 		log.info("Edit_View_Job_07 - Step 11: Verify is 'Edit' button displayed");
-		verifyFalse(employeeListPage.isEditButtonUndisplayed(driver, "btnSave"));
+		verifyFalse(employeeListPage.isAnyButtonUndisplayed(driver, "btnSave"));
 
 		log.info("Edit_View_Job_07 - Step 12: Click to 'Edit' button");
 		employeeListPage.clickToButtonByID(driver, "btnSave");
@@ -475,24 +477,98 @@ public class Level_17_Live_Coding extends BaseTest {
 	@Test
 	public void Employee_08_Edit_View_Salary() {
 		log.info("Edit_View_Salary_08 - Step 01: open 'Salary' form at Sidebar link");
+		employeeListPage.openSidebarLinkByName("Salary");
+
 		log.info("Edit_View_Salary_08 - Step 02: Verify 'Add' button is displayed as Admin role");
+		verifyFalse(employeeListPage.isAnyButtonUndisplayed(driver, "addSalary"));
+
 		log.info("Edit_View_Salary_08 - Step 03: Click to 'Add' button");
+		employeeListPage.clickToButtonByID(driver, "addSalary");
+
 		log.info("Edit_View_Salary_08 - Step 04: Select item in 'Pay Grade' dropdown");
+		employeeListPage.selectItemInDefaultDropdownByName(driver, "salary[sal_grd_code]", payGrade);
+
 		log.info("Edit_View_Salary_08 - Step 05: Input to 'Salary Component' textbox");
+		employeeListPage.inputToTextboxByID(driver, "salary_salary_component", salaryComponent);
+
 		log.info("Edit_View_Salary_08 - Step 06: Select item in 'Pay Frequency' dropdown");
+		employeeListPage.selectItemInDefaultDropdownByName(driver, "salary[payperiod_code]", payFrequency);
+
 		log.info("Edit_View_Salary_08 - Step 07: Select item in 'Currency' dropdown");
+		employeeListPage.selectItemInDefaultDropdownByName(driver, "salary[currency_id]", currency);
+
 		log.info("Edit_View_Salary_08 - Step 08: Input to 'Amount' textbox");
+		employeeListPage.inputToTextboxByID(driver, "salary_basic_salary", amount);
+
 		log.info("Edit_View_Salary_08 - Step 09: Input to 'Comments' textarea");
+		employeeListPage.inputToCommentsTextarea(comments);
+
 		log.info("Edit_View_Salary_08 - Step 10: Click to 'Add Direct Deposit Details' checkbox");
+		employeeListPage.checkToDefaultCheckboxByLabel(driver, "Add Direct Deposit Details");
+
 		log.info("Edit_View_Salary_08 - Step 11: Input to 'Account Number' textbox");
+		employeeListPage.inputToTextboxByID(driver, "directdeposit_account", accountNumber);
+
 		log.info("Edit_View_Salary_08 - Step 12: Select item in 'Account Type' dropdown");
+		employeeListPage.selectItemInDefaultDropdownByName(driver, "directdeposit[account_type]", accountType);
+
 		log.info("Edit_View_Salary_08 - Step 13: Input to 'Routing Number' textbox");
+		employeeListPage.inputToTextboxByID(driver, "directdeposit_routing_num", routingNumber);
+
 		log.info("Edit_View_Salary_08 - Step 14: Input to 'Amount' textbox");
+		employeeListPage.inputToTextboxByID(driver, "directdeposit_amount", amount);
+
 		log.info("Edit_View_Salary_08 - Step 15: Click to 'Save' button");
+		employeeListPage.clickToButtonByID(driver, "btnSalarySave");
+
 		log.info("Edit_View_Salary_08 - Step 16: Verify success message is displayed");
+		employeeListPage.isSuccessMessageDisplayed(driver, "Successfully Saved");
+
 		log.info("Edit_View_Salary_08 - Step 17: Verify information in data table is displayed correctly");
+		verifyEquals(employeeListPage.getValueTextInDataTableByRowAndColumnIndex(driver, "tblSalary", "1", "Salary Component"), salaryComponent);
+		verifyEquals(employeeListPage.getValueTextInDataTableByRowAndColumnIndex(driver, "tblSalary", "1", "Pay Frequency"), payFrequency);
+		verifyEquals(employeeListPage.getValueTextInDataTableByRowAndColumnIndex(driver, "tblSalary", "1", "Currency"), currency);
+		verifyEquals(employeeListPage.getAmountValueInSalaryTableByRowIndex("1"), amount);
+		verifyEquals(employeeListPage.getValueTextInDataTableByRowAndColumnIndex(driver, "tblSalary", "1", "Comments"), comments);
+
 		log.info("Edit_View_Salary_08 - Step 18: Click to 'Show Direct Deposit Details' checkbox in data table");
+		employeeListPage.checkToCheckboxInDataTableByRowIndexAndHeaderName(driver, "1", "Show Direct Deposit Details");
+
 		log.info("Edit_View_Salary_08 - Step 19: Verify information in 'Direct Deposit details' table is displayed correctly");
+		verifyEquals(employeeListPage.getValueInDirectDepositDetailsTableByRowIndexAndHeaderName(driver, "1", "Account Number"), accountNumber);
+		verifyEquals(employeeListPage.getValueInDirectDepositDetailsTableByRowIndexAndHeaderName(driver, "1", "Account Type"), accountType);
+		verifyEquals(employeeListPage.getValueInDirectDepositDetailsTableByRowIndexAndHeaderName(driver, "1", "Routing Number"), routingNumber);
+		verifyEquals(employeeListPage.getValueInDirectDepositDetailsTableByRowIndexAndHeaderName(driver, "1", "Amount"), floatAmount);
+
+		log.info("Edit_View_Salary_08 - Step 20: Login to system as User role with username & password: " + userNameEmp + " " + passwordEmp);
+		loginPage = employeeListPage.logoutToSystem(driver);
+		dashboardPage = loginPage.loginToSystem(userNameEmp, passwordEmp);
+
+		log.info("Edit_View_Salary_08 - Step 21: Open 'My Info' page");
+		dashboardPage.openMenuPage(driver, "My Info");
+		myInfoPage = PageGeneratorManager.getMyInfoPage(driver);
+
+		log.info("Edit_View_Salary_08 - Step 22: Open 'Salary' form at Sidebar link");
+		myInfoPage.openSidebarLinkByName("Salary");
+
+		log.info("Edit_View_Salary_08 - Step 23: Verify 'Add' button is undisplayed");
+		verifyTrue(myInfoPage.isAnyButtonUndisplayed(driver, "addSalary"));
+
+		log.info("Edit_View_Salary_08 - Step 24: Verify information in data table is displayed correctly");
+		verifyEquals(myInfoPage.getValueTextInDataTableByRowAndColumnIndex(driver, "tblSalary", "1", "Salary Component"), salaryComponent);
+		verifyEquals(myInfoPage.getValueTextInDataTableByRowAndColumnIndex(driver, "tblSalary", "1", "Pay Frequency"), payFrequency);
+		verifyEquals(myInfoPage.getValueTextInDataTableByRowAndColumnIndex(driver, "tblSalary", "1", "Currency"), currency);
+		verifyEquals(employeeListPage.getAmountValueInSalaryTableByRowIndex("1"), amount);
+		verifyEquals(myInfoPage.getValueTextInDataTableByRowAndColumnIndex(driver, "tblSalary", "1", "Comments"), comments);
+
+		log.info("Edit_View_Salary_08 - Step 25: Click to 'Show Direct Deposit Details' checkbox in data table");
+		myInfoPage.checkToCheckboxInDataTableByRowIndexAndHeaderName(driver, "1", "Show Direct Deposit Details");
+
+		log.info("Edit_View_Salary_08 - Step 26: Verify information in 'Direct Deposit details' table is displayed correctly");
+		verifyEquals(myInfoPage.getValueInDirectDepositDetailsTableByRowIndexAndHeaderName(driver, "1", "Account Number"), accountNumber);
+		verifyEquals(myInfoPage.getValueInDirectDepositDetailsTableByRowIndexAndHeaderName(driver, "1", "Account Type"), accountType);
+		verifyEquals(myInfoPage.getValueInDirectDepositDetailsTableByRowIndexAndHeaderName(driver, "1", "Routing Number"), routingNumber);
+		verifyEquals(myInfoPage.getValueInDirectDepositDetailsTableByRowIndexAndHeaderName(driver, "1", "Amount"), floatAmount);
 	}
 
 	@Test
@@ -528,5 +604,5 @@ public class Level_17_Live_Coding extends BaseTest {
 	String addressStreet1, addressStreet2, city, zipCode, country, homeTelephone, mobile, workTelephone, workEmail, otherEmail;
 	String emergencyContactName, emergencyContactRelationship, emergencyContactHomeTelephone, emergencyContactMobile, emergencyContactWorkTelephone;
 	String jobTitle, employmentStatus, jobCategory, joinedDate, subUnit, location, startDate, endDate;
-	String payGrade, salaryComponent, payFrequency, currency, amount, accountNumber, accountType, routingNumber;
+	String payGrade, salaryComponent, payFrequency, currency, amount, floatAmount, accountNumber, accountType, routingNumber, comments;
 }

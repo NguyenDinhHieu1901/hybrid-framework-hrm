@@ -1,187 +1,233 @@
-[INFO ] [2022-02-25 09:33:58,650] ------------ START delete file in folder ------------
-[INFO ] [2022-02-25 09:33:58,657] ------------ END delete file in folder ------------
-[INFO ] [2022-02-25 09:33:58,692] Pre-Condition - Step 01: Opening the application with 'CHROME'
-[INFO ] [2022-02-25 09:34:05,341] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
-[INFO ] [2022-02-25 09:34:10,251] Employee_01 - Step 01: Open Employee List page
-[INFO ] [2022-02-25 09:34:13,833] Employee_01 - Step 02: Click to Add button
-[INFO ] [2022-02-25 09:34:15,819] Employee_01 - Step 03: Input to First Name textbox
-[INFO ] [2022-02-25 09:34:16,017] Employee_01 - Step 04: Input to Last Name textbox
-[INFO ] [2022-02-25 09:34:16,183] Employee_01 - Step 05: Get Employee ID
-[INFO ] [2022-02-25 09:34:16,261] Employee_01 - Step 06: Check to Create Login Details checkbox
-[INFO ] [2022-02-25 09:34:16,395] Employee_01 - Step 07: Input to User Name textbox
-[INFO ] [2022-02-25 09:34:16,576] Employee_01 - Step 08: Input to Password textbox
-[INFO ] [2022-02-25 09:34:16,764] Employee_01 - Step 09: Input to Confirm Password textbox
-[INFO ] [2022-02-25 09:34:16,924] Employee_01 - Step 10: Select Enabled Status dropdown
-[INFO ] [2022-02-25 09:34:17,007] Employee_01 - Step 11: Click to Save button
-[INFO ] [2022-02-25 09:34:20,375] Employee_01 - Step 12: Open Employee List page
-[INFO ] [2022-02-25 09:34:23,469] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:23,472] Employee_01 - Step 13: Input to Employee Name textbox
-[INFO ] [2022-02-25 09:34:23,692] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:23,692] Employee_01 - Step 14: Click to Search button
-[INFO ] [2022-02-25 09:34:25,982] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:25,982] Employee_01 - Step 15: Verify Information Employee is displayed in data table
-[INFO ] [2022-02-25 09:34:26,078] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:26,172] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:26,264] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:26,389] Upload_Avatar_02 - Step 01: Login to system as User role with username & password: nguyentest1754 nguyentest123
-[INFO ] [2022-02-25 09:34:29,992] Upload_Avatar_02 - Step 02: Open 'My Info' page
-[INFO ] [2022-02-25 09:34:31,707] Upload_Avatar_02 - Step 03: Click to Change photo link
-[INFO ] [2022-02-25 09:34:32,560] Upload_Avatar_02 - Step 04: Upload new Avatar
-[INFO ] [2022-02-25 09:34:32,666] Upload_Avatar_02 - Step 05: Click to 'Upload' button
-[INFO ] [2022-02-25 09:34:37,958] Upload_Avatar_02 - Step 05: Verify success message is displayed
-[INFO ] [2022-02-25 09:34:38,049] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:38,050] Upload_Avatar_02 - Step 06: Verify image uploaded successfully
-[INFO ] [2022-02-25 09:34:38,109] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:38,116] Personal_Details_03 - Step 01: Opening 'Personal Details' form at Sidebar link
-[INFO ] [2022-02-25 09:34:39,087] Personal_Details_03 - Step 02: Verify is all of fileds in 'Personal Details' form disabled
-[INFO ] [2022-02-25 09:34:39,169] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:39,247] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:39,323] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:39,403] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:39,480] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:39,559] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:39,635] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:39,713] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:39,793] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:39,869] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:39,949] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:39,949] Personal_Details_03 - Step 03: Verify is 'First Name' displayed correctly
-[INFO ] [2022-02-25 09:34:40,028] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:40,028] Personal_Details_03 - Step 04: Verify is 'Last Name' displayed correctly
-[INFO ] [2022-02-25 09:34:40,105] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:40,105] Personal_Details_03 - Step 05: Verify is 'Employee Id' displayed correctly
-[INFO ] [2022-02-25 09:34:40,186] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:40,186] Personal_Details_03 - Step 06: Click to 'Edit' button
-[INFO ] [2022-02-25 09:34:41,413] Personal_Details_03 - Step 07: Verify is field 'Employee Id' disabled
-[INFO ] [2022-02-25 09:34:41,473] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:41,473] Personal_Details_03 - Step 08: Verify is field 'Driver's License Number' disabled
-[INFO ] [2022-02-25 09:34:41,534] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:41,534] Personal_Details_03 - Step 09: Verify is field 'SSN Number' disabled
-[INFO ] [2022-02-25 09:34:41,597] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:41,598] Personal_Details_03 - Step 10: Verify is field 'SIN Number' disabled
-[INFO ] [2022-02-25 09:34:41,659] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:41,659] Personal_Details_03 - Step 11: Verify is field 'Date of Birth' disabled
-[INFO ] [2022-02-25 09:34:41,737] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:41,737] Personal_Details_03 - Step 12: Updated 'First Name' textbox
-[INFO ] [2022-02-25 09:34:41,904] Personal_Details_03 - Step 13: Updated 'Last Name' textbox
-[INFO ] [2022-02-25 09:34:42,057] Personal_Details_03 - Step 14: Updated 'Male Gender' Radio butto
-[INFO ] [2022-02-25 09:34:42,205] Personal_Details_03 - Step 15: Updated 'Marital Status' dropdown
-[INFO ] [2022-02-25 09:34:42,324] Personal_Details_03 - Step 16: Updated 'Nationality' dropdown
-[INFO ] [2022-02-25 09:34:42,431] Personal_Details_03 - Step 17: Click to 'Save' button
-[INFO ] [2022-02-25 09:34:45,128] Personal_Details_03 - Step 18: Verify is Success message displayed
-[INFO ] [2022-02-25 09:34:45,211] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:45,211] Personal_Details_03 - Step 19: Verify is all of fields updated successfully
-[INFO ] [2022-02-25 09:34:45,270] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:45,333] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:45,393] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:45,454] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:45,599] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:47,250] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:47,257] Contact_Details_04 - Step 01: Open 'Contact Details' form at Sidebar link
-[INFO ] [2022-02-25 09:34:48,374] Contact_Details_04 - Step 02: Verify is all of fields in 'Contact Details' form disabled
-[INFO ] [2022-02-25 09:34:48,450] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:48,528] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:48,605] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:48,682] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:48,761] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:48,854] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:48,929] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:48,993] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:49,072] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:49,148] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:49,227] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:49,227] Contact_Details_04 - Step 03: Click to 'Edit' button
-[INFO ] [2022-02-25 09:34:50,459] Contact_Details_04 - Step 04: Input to all of fields in 'Contact Details' form
-[INFO ] [2022-02-25 09:34:52,225] Contact_Details_04 - Step 05: Click to 'Save' button
-[INFO ] [2022-02-25 09:34:55,204] Contact_Details_04 - Step 06: Verify is success message displayed
-[INFO ] [2022-02-25 09:34:55,280] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:55,280] Contact_Details_04 - Step 07: Verify is all of fields updated correctly
-[INFO ] [2022-02-25 09:34:55,339] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:55,401] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:55,463] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:55,525] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:57,724] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:57,806] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:57,868] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:57,931] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:58,008] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:58,085] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:34:58,091] Emergency_Contacts_05 - Step 01: Open 'Emergency Contacts' form at Sidebar link
-[INFO ] [2022-02-25 09:34:58,978] Emergency_Contacts_05 - Step 02: Click to 'Add' button
-[INFO ] [2022-02-25 09:35:00,204] Emergency_Contacts_05 - Step 03: Input to 'Name' textbox
-[INFO ] [2022-02-25 09:35:00,396] Emergency_Contacts_05 - Step 04: Input to 'Relationship' textbox
-[INFO ] [2022-02-25 09:35:00,570] Emergency_Contacts_05 - Step 05: Input to 'Home Telephone' textbox
-[INFO ] [2022-02-25 09:35:00,743] Emergency_Contacts_05 - Step 06: Input to 'Mobile' textbox
-[INFO ] [2022-02-25 09:35:00,918] Emergency_Contacts_05 - Step 07: Input to 'Work Telephone' textbox
-[INFO ] [2022-02-25 09:35:01,102] Emergency_Contacts_05 - Step 08: Click to 'Save' button
-[INFO ] [2022-02-25 09:35:03,434] Emergency_Contacts_05 - Step 09: Verify is success message displayed
-[INFO ] [2022-02-25 09:35:03,513] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:35:03,513] Emergency_Contacts_05 - Step 10: Verify is information in data table correctly
-[INFO ] [2022-02-25 09:35:03,619] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:35:03,713] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:35:03,788] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:35:03,881] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:35:03,959] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:35:03,964] Assigened_Dependents_06 - Step 01: Open 'Dependents' form at Sidebar link
-[INFO ] [2022-02-25 09:35:04,907] Assigened_Dependents_06 - Step 02: Click to 'Add' button
-[INFO ] [2022-02-25 09:35:06,139] Assigened_Dependents_06 - Step 03: Input to 'Name' textbox
-[INFO ] [2022-02-25 09:35:06,316] Assigened_Dependents_06 - Step 04: Select Relationship item in Dropdown
-[INFO ] [2022-02-25 09:35:06,431] Assigened_Dependents_06 - Step 05: Input to 'Date of Birth' textbox with format yyyy-mm-dd
-[INFO ] [2022-02-25 09:35:06,662] Assigened_Dependents_06 - Step 06: Click to 'Save' button
-[INFO ] [2022-02-25 09:35:09,016] Assigened_Dependents_06 - Step 07: Verify is success message displayed
-[INFO ] [2022-02-25 09:35:09,099] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:35:09,099] Assigened_Dependents_06 - Step 08: Verify is information in data table displayed correctly
-[INFO ] [2022-02-25 09:35:09,190] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:35:09,268] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:35:09,360] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:35:09,364] Edit_View_Job_07 - Step 01: Open 'Job' form at Sidebar link
-[INFO ] [2022-02-25 09:35:10,407] Edit_View_Job_07 - Step 02: Verify all of fields in 'Job' form is disabled
-[INFO ] [2022-02-25 09:35:10,478] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:35:10,542] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:35:10,621] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:35:10,697] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:35:10,775] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:35:10,838] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:35:10,917] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:35:10,993] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:35:10,993] Edit_View_Job_07 - Step 03: Verify is 'Edit' button not displayed
-[INFO ] [2022-02-25 09:35:16,068] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:35:16,068] Edit_View_Job_07 - Step 04: Login to system as Admin role with username & password:Admin admin123
-[INFO ] [2022-02-25 09:35:20,911] Edit_View_Job_07 - Step 05: Open 'Employee List' page
-[INFO ] [2022-02-25 09:35:23,755] Edit_View_Job_07 - Step 06: Input to 'Employee Name' textbox
-[INFO ] [2022-02-25 09:35:23,944] Edit_View_Job_07 - Step 07: Click To 'Search' button
-[INFO ] [2022-02-25 09:35:26,204] Edit_View_Job_07 - Step 08: Click to 'First Name' in Data table
-[INFO ] [2022-02-25 09:35:27,512] Edit_View_Job_07 - Step 09: Open 'Job' form in Sidebar link
-[INFO ] [2022-02-25 09:35:28,665] Edit_View_Job_07 - Step 10: Verify all of fields in 'Job' form is disabled
-[INFO ] [2022-02-25 09:35:28,737] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:35:28,815] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:35:28,893] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:35:28,973] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:35:29,052] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:35:29,128] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:35:29,205] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:35:29,281] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:35:29,281] Edit_View_Job_07 - Step 11: Verify is 'Edit' button displayed
-[INFO ] [2022-02-25 09:35:29,353] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:35:29,353] Edit_View_Job_07 - Step 12: Click to 'Edit' button
-[INFO ] [2022-02-25 09:35:30,577] Edit_View_Job_07 - Step 13: Select item in 'Job Title' dropdown
-[INFO ] [2022-02-25 09:35:30,696] Edit_View_Job_07 - Step 14: Select item in 'Employment Status' dropdown
-[INFO ] [2022-02-25 09:35:30,807] Edit_View_Job_07 - Step 15: Select item in 'Job Category' dropdown
-[INFO ] [2022-02-25 09:35:30,928] Edit_View_Job_07 - Step 16: Input to 'Joined Date' textbox
-[INFO ] [2022-02-25 09:35:31,225] Edit_View_Job_07 - Step 17: Select item in 'Sub Unit' dropdown
-[INFO ] [2022-02-25 09:35:46,421] Edit_View_Job_07 - Step 18: Select item in 'Location' dropdown
-[INFO ] [2022-02-25 09:35:46,533] Edit_View_Job_07 - Step 19: Input to 'Start Date' textbox
-[INFO ] [2022-02-25 09:35:46,733] Edit_View_Job_07 - Step 20: Input to 'JEnd Date' textbox
-[INFO ] [2022-02-25 09:35:46,946] Edit_View_Job_07 - Step 21: Click to 'Save' button
-[INFO ] [2022-02-25 09:35:49,622] Edit_View_Job_07 - Step 22: Verify is success message is displayed
-[INFO ] [2022-02-25 09:35:49,702] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:35:49,702] Edit_View_Job_07 - Step 23: Verify all of fields in 'Job' form updated correctly
-[INFO ] [2022-02-25 09:35:49,998] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:35:50,120] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:35:50,310] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:35:50,370] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:35:50,511] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:35:50,641] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:35:50,700] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:35:50,763] --------------------- PASSED ---------------------
-[INFO ] [2022-02-25 09:35:50,785] Post-Condition: Cleaning the browser 'CHROME'
+[INFO ] [2022-02-25 14:55:17,508] ------------ START delete file in folder ------------
+[INFO ] [2022-02-25 14:55:17,513] ------------ END delete file in folder ------------
+[INFO ] [2022-02-25 14:55:17,546] Pre-Condition - Step 01: Opening the application with 'CHROME'
+[INFO ] [2022-02-25 14:55:23,535] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-02-25 14:55:28,882] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-02-25 14:55:32,408] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-02-25 14:55:34,370] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-02-25 14:55:34,557] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-02-25 14:55:34,723] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-02-25 14:55:34,808] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-02-25 14:55:34,943] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-02-25 14:55:35,125] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-02-25 14:55:35,316] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-02-25 14:55:35,492] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-02-25 14:55:35,607] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-02-25 14:55:38,943] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-02-25 14:55:41,401] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:55:41,404] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-02-25 14:55:41,635] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:55:41,635] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-02-25 14:55:43,954] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:55:43,955] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-02-25 14:55:44,051] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:55:44,160] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:55:44,255] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:55:44,377] Upload_Avatar_02 - Step 01: Login to system as User role with username & password: nguyentest7612 nguyentest123
+[INFO ] [2022-02-25 14:55:48,173] Upload_Avatar_02 - Step 02: Open 'My Info' page
+[INFO ] [2022-02-25 14:55:49,947] Upload_Avatar_02 - Step 03: Click to Change photo link
+[INFO ] [2022-02-25 14:55:50,864] Upload_Avatar_02 - Step 04: Upload new Avatar
+[INFO ] [2022-02-25 14:55:50,965] Upload_Avatar_02 - Step 05: Click to 'Upload' button
+[INFO ] [2022-02-25 14:55:56,644] Upload_Avatar_02 - Step 05: Verify success message is displayed
+[INFO ] [2022-02-25 14:55:56,727] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:55:56,727] Upload_Avatar_02 - Step 06: Verify image uploaded successfully
+[INFO ] [2022-02-25 14:55:56,787] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:55:56,794] Personal_Details_03 - Step 01: Opening 'Personal Details' form at Sidebar link
+[INFO ] [2022-02-25 14:55:57,800] Personal_Details_03 - Step 02: Verify is all of fileds in 'Personal Details' form disabled
+[INFO ] [2022-02-25 14:55:57,871] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:55:57,949] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:55:58,027] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:55:58,124] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:55:58,198] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:55:58,274] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:55:58,358] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:55:58,431] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:55:58,510] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:55:58,587] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:55:58,680] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:55:58,680] Personal_Details_03 - Step 03: Verify is 'First Name' displayed correctly
+[INFO ] [2022-02-25 14:55:58,748] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:55:58,748] Personal_Details_03 - Step 04: Verify is 'Last Name' displayed correctly
+[INFO ] [2022-02-25 14:55:58,811] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:55:58,811] Personal_Details_03 - Step 05: Verify is 'Employee Id' displayed correctly
+[INFO ] [2022-02-25 14:55:58,888] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:55:58,888] Personal_Details_03 - Step 06: Click to 'Edit' button
+[INFO ] [2022-02-25 14:56:00,138] Personal_Details_03 - Step 07: Verify is field 'Employee Id' disabled
+[INFO ] [2022-02-25 14:56:00,198] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:00,198] Personal_Details_03 - Step 08: Verify is field 'Driver's License Number' disabled
+[INFO ] [2022-02-25 14:56:00,264] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:00,264] Personal_Details_03 - Step 09: Verify is field 'SSN Number' disabled
+[INFO ] [2022-02-25 14:56:00,320] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:00,321] Personal_Details_03 - Step 10: Verify is field 'SIN Number' disabled
+[INFO ] [2022-02-25 14:56:00,384] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:00,385] Personal_Details_03 - Step 11: Verify is field 'Date of Birth' disabled
+[INFO ] [2022-02-25 14:56:00,446] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:00,446] Personal_Details_03 - Step 12: Updated 'First Name' textbox
+[INFO ] [2022-02-25 14:56:00,631] Personal_Details_03 - Step 13: Updated 'Last Name' textbox
+[INFO ] [2022-02-25 14:56:00,812] Personal_Details_03 - Step 14: Updated 'Male Gender' Radio butto
+[INFO ] [2022-02-25 14:56:00,942] Personal_Details_03 - Step 15: Updated 'Marital Status' dropdown
+[INFO ] [2022-02-25 14:56:01,096] Personal_Details_03 - Step 16: Updated 'Nationality' dropdown
+[INFO ] [2022-02-25 14:56:01,268] Personal_Details_03 - Step 17: Click to 'Save' button
+[INFO ] [2022-02-25 14:56:03,848] Personal_Details_03 - Step 18: Verify is Success message displayed
+[INFO ] [2022-02-25 14:56:03,938] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:03,938] Personal_Details_03 - Step 19: Verify is all of fields updated successfully
+[INFO ] [2022-02-25 14:56:03,996] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:04,058] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:04,139] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:04,225] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:04,358] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:06,474] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:06,480] Contact_Details_04 - Step 01: Open 'Contact Details' form at Sidebar link
+[INFO ] [2022-02-25 14:56:07,986] Contact_Details_04 - Step 02: Verify is all of fields in 'Contact Details' form disabled
+[INFO ] [2022-02-25 14:56:08,063] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:08,150] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:08,204] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:08,281] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:08,364] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:08,439] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:08,509] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:08,607] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:08,674] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:08,736] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:08,801] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:08,801] Contact_Details_04 - Step 03: Click to 'Edit' button
+[INFO ] [2022-02-25 14:56:10,043] Contact_Details_04 - Step 04: Input to all of fields in 'Contact Details' form
+[INFO ] [2022-02-25 14:56:11,907] Contact_Details_04 - Step 05: Click to 'Save' button
+[INFO ] [2022-02-25 14:56:14,550] Contact_Details_04 - Step 06: Verify is success message displayed
+[INFO ] [2022-02-25 14:56:14,636] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:14,636] Contact_Details_04 - Step 07: Verify is all of fields updated correctly
+[INFO ] [2022-02-25 14:56:14,700] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:14,758] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:14,817] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:14,880] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:17,310] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:17,386] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:17,462] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:17,524] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:17,604] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:17,682] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:17,688] Emergency_Contacts_05 - Step 01: Open 'Emergency Contacts' form at Sidebar link
+[INFO ] [2022-02-25 14:56:19,377] Emergency_Contacts_05 - Step 02: Click to 'Add' button
+[INFO ] [2022-02-25 14:56:20,645] Emergency_Contacts_05 - Step 03: Input to 'Name' textbox
+[INFO ] [2022-02-25 14:56:20,830] Emergency_Contacts_05 - Step 04: Input to 'Relationship' textbox
+[INFO ] [2022-02-25 14:56:21,014] Emergency_Contacts_05 - Step 05: Input to 'Home Telephone' textbox
+[INFO ] [2022-02-25 14:56:21,200] Emergency_Contacts_05 - Step 06: Input to 'Mobile' textbox
+[INFO ] [2022-02-25 14:56:21,394] Emergency_Contacts_05 - Step 07: Input to 'Work Telephone' textbox
+[INFO ] [2022-02-25 14:56:21,558] Emergency_Contacts_05 - Step 08: Click to 'Save' button
+[INFO ] [2022-02-25 14:56:23,926] Emergency_Contacts_05 - Step 09: Verify is success message displayed
+[INFO ] [2022-02-25 14:56:24,019] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:24,019] Emergency_Contacts_05 - Step 10: Verify is information in data table correctly
+[INFO ] [2022-02-25 14:56:24,108] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:24,203] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:24,309] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:24,389] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:24,498] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:24,504] Assigened_Dependents_06 - Step 01: Open 'Dependents' form at Sidebar link
+[INFO ] [2022-02-25 14:56:25,359] Assigened_Dependents_06 - Step 02: Click to 'Add' button
+[INFO ] [2022-02-25 14:56:26,616] Assigened_Dependents_06 - Step 03: Input to 'Name' textbox
+[INFO ] [2022-02-25 14:56:26,812] Assigened_Dependents_06 - Step 04: Select Relationship item in Dropdown
+[INFO ] [2022-02-25 14:56:26,979] Assigened_Dependents_06 - Step 05: Input to 'Date of Birth' textbox with format yyyy-mm-dd
+[INFO ] [2022-02-25 14:56:27,221] Assigened_Dependents_06 - Step 06: Click to 'Save' button
+[INFO ] [2022-02-25 14:56:29,536] Assigened_Dependents_06 - Step 07: Verify is success message displayed
+[INFO ] [2022-02-25 14:56:29,627] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:29,627] Assigened_Dependents_06 - Step 08: Verify is information in data table displayed correctly
+[INFO ] [2022-02-25 14:56:29,715] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:29,792] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:29,870] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:29,875] Edit_View_Job_07 - Step 01: Open 'Job' form at Sidebar link
+[INFO ] [2022-02-25 14:56:30,973] Edit_View_Job_07 - Step 02: Verify all of fields in 'Job' form is disabled
+[INFO ] [2022-02-25 14:56:31,060] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:31,139] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:31,215] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:31,277] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:31,372] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:31,435] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:31,512] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:31,591] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:31,591] Edit_View_Job_07 - Step 03: Verify is 'Edit' button not displayed
+[INFO ] [2022-02-25 14:56:36,690] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:36,690] Edit_View_Job_07 - Step 04: Login to system as Admin role with username & password:Admin admin123
+[INFO ] [2022-02-25 14:56:41,442] Edit_View_Job_07 - Step 05: Open 'Employee List' page
+[INFO ] [2022-02-25 14:56:44,354] Edit_View_Job_07 - Step 06: Input to 'Employee Name' textbox
+[INFO ] [2022-02-25 14:56:44,547] Edit_View_Job_07 - Step 07: Click To 'Search' button
+[INFO ] [2022-02-25 14:56:47,446] Edit_View_Job_07 - Step 08: Click to 'First Name' in Data table
+[INFO ] [2022-02-25 14:56:48,795] Edit_View_Job_07 - Step 09: Open 'Job' form in Sidebar link
+[INFO ] [2022-02-25 14:56:49,984] Edit_View_Job_07 - Step 10: Verify all of fields in 'Job' form is disabled
+[INFO ] [2022-02-25 14:56:50,089] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:50,160] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:50,240] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:50,315] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:50,396] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:50,462] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:50,520] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:50,613] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:50,613] Edit_View_Job_07 - Step 11: Verify is 'Edit' button displayed
+[INFO ] [2022-02-25 14:56:50,685] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:56:50,685] Edit_View_Job_07 - Step 12: Click to 'Edit' button
+[INFO ] [2022-02-25 14:56:51,927] Edit_View_Job_07 - Step 13: Select item in 'Job Title' dropdown
+[INFO ] [2022-02-25 14:56:52,107] Edit_View_Job_07 - Step 14: Select item in 'Employment Status' dropdown
+[INFO ] [2022-02-25 14:56:52,281] Edit_View_Job_07 - Step 15: Select item in 'Job Category' dropdown
+[INFO ] [2022-02-25 14:56:52,469] Edit_View_Job_07 - Step 16: Input to 'Joined Date' textbox
+[INFO ] [2022-02-25 14:56:52,789] Edit_View_Job_07 - Step 17: Select item in 'Sub Unit' dropdown
+[INFO ] [2022-02-25 14:57:08,043] Edit_View_Job_07 - Step 18: Select item in 'Location' dropdown
+[INFO ] [2022-02-25 14:57:08,230] Edit_View_Job_07 - Step 19: Input to 'Start Date' textbox
+[INFO ] [2022-02-25 14:57:08,488] Edit_View_Job_07 - Step 20: Input to 'JEnd Date' textbox
+[INFO ] [2022-02-25 14:57:08,709] Edit_View_Job_07 - Step 21: Click to 'Save' button
+[INFO ] [2022-02-25 14:57:11,793] Edit_View_Job_07 - Step 22: Verify is success message is displayed
+[INFO ] [2022-02-25 14:57:11,889] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:57:11,889] Edit_View_Job_07 - Step 23: Verify all of fields in 'Job' form updated correctly
+[INFO ] [2022-02-25 14:57:12,156] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:57:12,308] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:57:12,490] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:57:12,558] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:57:12,708] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:57:12,847] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:57:12,904] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:57:12,968] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:57:12,973] Edit_View_Salary_08 - Step 01: open 'Salary' form at Sidebar link
+[INFO ] [2022-02-25 14:57:14,148] Edit_View_Salary_08 - Step 02: Verify 'Add' button is displayed as Admin role
+[INFO ] [2022-02-25 14:57:14,235] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:57:14,236] Edit_View_Salary_08 - Step 03: Click to 'Add' button
+[INFO ] [2022-02-25 14:57:15,475] Edit_View_Salary_08 - Step 04: Select item in 'Pay Grade' dropdown
+[INFO ] [2022-02-25 14:57:15,659] Edit_View_Salary_08 - Step 05: Input to 'Salary Component' textbox
+[INFO ] [2022-02-25 14:57:15,866] Edit_View_Salary_08 - Step 06: Select item in 'Pay Frequency' dropdown
+[INFO ] [2022-02-25 14:57:16,068] Edit_View_Salary_08 - Step 07: Select item in 'Currency' dropdown
+[INFO ] [2022-02-25 14:57:16,238] Edit_View_Salary_08 - Step 08: Input to 'Amount' textbox
+[INFO ] [2022-02-25 14:57:16,409] Edit_View_Salary_08 - Step 09: Input to 'Comments' textarea
+[INFO ] [2022-02-25 14:57:16,581] Edit_View_Salary_08 - Step 10: Click to 'Add Direct Deposit Details' checkbox
+[INFO ] [2022-02-25 14:57:16,726] Edit_View_Salary_08 - Step 11: Input to 'Account Number' textbox
+[INFO ] [2022-02-25 14:57:16,945] Edit_View_Salary_08 - Step 12: Select item in 'Account Type' dropdown
+[INFO ] [2022-02-25 14:57:17,112] Edit_View_Salary_08 - Step 13: Input to 'Routing Number' textbox
+[INFO ] [2022-02-25 14:57:17,283] Edit_View_Salary_08 - Step 14: Input to 'Amount' textbox
+[INFO ] [2022-02-25 14:57:17,475] Edit_View_Salary_08 - Step 15: Click to 'Save' button
+[INFO ] [2022-02-25 14:57:20,854] Edit_View_Salary_08 - Step 16: Verify success message is displayed
+[INFO ] [2022-02-25 14:57:20,938] Edit_View_Salary_08 - Step 17: Verify information in data table is displayed correctly
+[INFO ] [2022-02-25 14:57:21,028] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:57:21,118] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:57:21,210] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:57:21,306] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:57:21,417] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:57:21,417] Edit_View_Salary_08 - Step 18: Click to 'Show Direct Deposit Details' checkbox in data table
+[INFO ] [2022-02-25 14:57:21,585] Edit_View_Salary_08 - Step 19: Verify information in 'Direct Deposit details' table is displayed correctly
+[INFO ] [2022-02-25 14:57:36,730] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:57:36,840] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:57:36,915] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:57:37,010] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:57:37,010] Edit_View_Salary_08 - Step 20: Login to system as User role with username & password: nguyentest7612 nguyentest123
+[INFO ] [2022-02-25 14:57:41,830] Edit_View_Salary_08 - Step 21: Open 'My Info' page
+[INFO ] [2022-02-25 14:57:43,526] Edit_View_Salary_08 - Step 22: Open 'Salary' form at Sidebar link
+[INFO ] [2022-02-25 14:57:44,597] Edit_View_Salary_08 - Step 23: Verify 'Add' button is undisplayed
+[INFO ] [2022-02-25 14:57:49,638] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:57:49,638] Edit_View_Salary_08 - Step 24: Verify information in data table is displayed correctly
+[INFO ] [2022-02-25 14:58:04,803] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:58:04,880] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:58:04,990] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:58:05,144] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:58:05,221] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:58:05,221] Edit_View_Salary_08 - Step 25: Click to 'Show Direct Deposit Details' checkbox in data table
+[INFO ] [2022-02-25 14:58:05,386] Edit_View_Salary_08 - Step 26: Verify information in 'Direct Deposit details' table is displayed correctly
+[INFO ] [2022-02-25 14:58:20,523] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:58:20,616] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:58:20,725] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:58:20,817] --------------------- PASSED ---------------------
+[INFO ] [2022-02-25 14:58:20,832] Post-Condition: Cleaning the browser 'CHROME'

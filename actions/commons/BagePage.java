@@ -588,7 +588,7 @@ public class BagePage {
 
 	@Step("Select item in Default Dropdown with value: {2}")
 	public void selectItemInDefaultDropdownByName(WebDriver driver, String dropdownName, String itemValue) {
-//		waitForElementClickable(driver, BasePageUI.DROPDOWN_BY_NAME, dropdownName);
+		waitForElementClickable(driver, BasePageUI.DROPDOWN_BY_NAME, dropdownName);
 		selectItemInDefaultDropdown(driver, BasePageUI.DROPDOWN_BY_NAME, itemValue, dropdownName);
 	}
 
@@ -638,8 +638,8 @@ public class BagePage {
 		return isElementSelected(driver, BasePageUI.RADIO_BUTTON_BY_LABEL_TEXT, labelText);
 	}
 
-	@Step("Verify is Edit button displayed")
-	public boolean isEditButtonUndisplayed(WebDriver driver, String buttonID) {
+	@Step("Verify is button displayed")
+	public boolean isAnyButtonUndisplayed(WebDriver driver, String buttonID) {
 		return isElementUndisplayed(driver, BasePageUI.BUTTON_BY_ID, buttonID);
 	}
 
@@ -648,6 +648,20 @@ public class BagePage {
 		int columnIndex = getElementSize(driver, BasePageUI.INDEX_COLUMN_BY_TABLE_NAME_ADN_HEADER_NAME, tableName, headerName) + 1;
 		waitForElementClickable(driver, BasePageUI.LINK_VALUE_DATA_TABLE_BY_TABLE_NAME_ROW_INDEX_ADN_COLUMN_INDEX, tableName, rowIndex, String.valueOf(columnIndex));
 		clickToElement(driver, BasePageUI.LINK_VALUE_DATA_TABLE_BY_TABLE_NAME_ROW_INDEX_ADN_COLUMN_INDEX, tableName, rowIndex, String.valueOf(columnIndex));
+	}
+
+	@Step("Check to checkbox in data table with header name: {1}")
+	public void checkToCheckboxInDataTableByRowIndexAndHeaderName(WebDriver driver, String rowIndex, String headerName) {
+		int columnIndex = getElementSize(driver, BasePageUI.INDEX_COLUMN_BY_HEADER_NAME, headerName) + 1;
+		waitForElementClickable(driver, BasePageUI.CHECKBOX_IN_DATA_TABLE, rowIndex, String.valueOf(columnIndex));
+		checkToDefaultCheckboxOrRadio(driver, BasePageUI.CHECKBOX_IN_DATA_TABLE, rowIndex, String.valueOf(columnIndex));
+	}
+
+	@Step("Get value in Direct Deposit Details table")
+	public String getValueInDirectDepositDetailsTableByRowIndexAndHeaderName(WebDriver driver, String rowIndex, String headerName) {
+		int columnIndex = getElementSize(driver, BasePageUI.INDEX_COLUMN_OF_DIRECT_DEPOSIT_DETAILS, headerName) + 1;
+		waitForElementVisible(driver, BasePageUI.VALUE_DATA_IN_DIRECT_DEPOSIT_DETAILS, rowIndex, String.valueOf(columnIndex));
+		return getElementText(driver, BasePageUI.VALUE_DATA_IN_DIRECT_DEPOSIT_DETAILS, rowIndex, String.valueOf(columnIndex));
 	}
 
 	private long longTimeout = GlobalConstants.LONG_TIMEOUT;
