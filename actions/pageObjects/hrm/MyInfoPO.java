@@ -25,10 +25,16 @@ public class MyInfoPO extends BagePage {
 		String height = getElementAttribute(driver, MyInfoPageUI.EMPLOYEE_PHOTO, "height");
 		return (width != "200") || (height != "200");
 	}
-	
+
 	@Step("Open {0} link")
 	public void openSidebarLinkByName(String formName) {
 		waitForElementClickable(driver, MyInfoPageUI.SIDE_BAR_LINK, formName);
 		clickToElement(driver, MyInfoPageUI.SIDE_BAR_LINK, formName);
 	}
+
+	public boolean isUploadedSuccessMessageDisplayed(String successMessage) {
+		waitForElementVisible(driver, MyInfoPageUI.UPLOAED_SUCCESS_MESSAGE);
+		return getElementText(driver, MyInfoPageUI.UPLOAED_SUCCESS_MESSAGE).contains(successMessage);
+	}
+
 }

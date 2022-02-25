@@ -112,7 +112,7 @@ public class BagePage {
 		switchWindowByID(driver, parentWindowID);
 	}
 
-	protected void sleepInSecond(long second) {
+	public void sleepInSecond(long second) {
 		try {
 			Thread.sleep(second * 1000);
 		} catch (Exception e) {
@@ -387,7 +387,7 @@ public class BagePage {
 	protected void highlightElementByJS(WebDriver driver, String locatorType) {
 		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
 		String originalStyle = (String) jsExecutor.executeScript("arguments[0].getAttribute(arguments[1]);", getWebElement(driver, locatorType), "style");
-		jsExecutor.executeScript("arguments[0].setAttribute(arguments[1], arguments[2]);", getWebElement(driver, locatorType), "style", "border: 3px solid red");
+		jsExecutor.executeScript("arguments[0].setAttribute(arguments[1], arguments[2]);", getWebElement(driver, locatorType), "style", "border: 3px dashed red");
 		sleepInSecond(1);
 		jsExecutor.executeScript("arguments[0].setAttribute(arguments[1], arguments[2]);", getWebElement(driver, locatorType), "style", originalStyle);
 	}
@@ -395,7 +395,7 @@ public class BagePage {
 	protected void highlightElementByJS(WebDriver driver, String locatorType, String... dynamicValues) {
 		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
 		String originalStyle = (String) jsExecutor.executeScript("arguments[0].getAttribute(arguments[1]);", getWebElement(driver, getDynamicLocator(locatorType, dynamicValues)), "style");
-		jsExecutor.executeScript("arguments[0].setAttribute(arguments[1], arguments[2]);", getWebElement(driver, getDynamicLocator(locatorType, dynamicValues)), "style", "border: 3px solid red");
+		jsExecutor.executeScript("arguments[0].setAttribute(arguments[1], arguments[2]);", getWebElement(driver, getDynamicLocator(locatorType, dynamicValues)), "style", "border: 3px dashed red");
 		sleepInSecond(1);
 		jsExecutor.executeScript("arguments[0].setAttribute(arguments[1], arguments[2]);", getWebElement(driver, getDynamicLocator(locatorType, dynamicValues)), "style", originalStyle);
 	}
@@ -474,7 +474,7 @@ public class BagePage {
 			log.info("Element is invisible and in DOM");
 			return true;
 		} else {
-			log.info("Element is invisible");
+			log.info("Element is visible");
 			return false;
 		}
 	}
@@ -557,6 +557,7 @@ public class BagePage {
 
 	@Step("Click to Button with ID: {1}")
 	public void clickToButtonByID(WebDriver driver, String buttonID) {
+		highlightElementByJS(driver, BasePageUI.BUTTON_BY_ID, buttonID);
 		waitForElementClickable(driver, BasePageUI.BUTTON_BY_ID, buttonID);
 		clickToElement(driver, BasePageUI.BUTTON_BY_ID, buttonID);
 	}
@@ -587,7 +588,7 @@ public class BagePage {
 
 	@Step("Select item in Default Dropdown with value: {2}")
 	public void selectItemInDefaultDropdownByName(WebDriver driver, String dropdownName, String itemValue) {
-		waitForElementClickable(driver, BasePageUI.DROPDOWN_BY_NAME, dropdownName);
+//		waitForElementClickable(driver, BasePageUI.DROPDOWN_BY_NAME, dropdownName);
 		selectItemInDefaultDropdown(driver, BasePageUI.DROPDOWN_BY_NAME, itemValue, dropdownName);
 	}
 
@@ -635,6 +636,18 @@ public class BagePage {
 	public boolean isRadioButtonSelected(WebDriver driver, String labelText) {
 		waitForElementVisible(driver, BasePageUI.RADIO_BUTTON_BY_LABEL_TEXT, labelText);
 		return isElementSelected(driver, BasePageUI.RADIO_BUTTON_BY_LABEL_TEXT, labelText);
+	}
+
+	@Step("Verify is Edit button displayed")
+	public boolean isEditButtonUndisplayed(WebDriver driver, String buttonID) {
+		return isElementUndisplayed(driver, BasePageUI.BUTTON_BY_ID, buttonID);
+	}
+
+	@Step("Click to data table to open 'Employee List' page")
+	public void clickToDataTableLink(WebDriver driver, String tableName, String rowIndex, String headerName) {
+		int columnIndex = getElementSize(driver, BasePageUI.INDEX_COLUMN_BY_TABLE_NAME_ADN_HEADER_NAME, tableName, headerName) + 1;
+		waitForElementClickable(driver, BasePageUI.LINK_VALUE_DATA_TABLE_BY_TABLE_NAME_ROW_INDEX_ADN_COLUMN_INDEX, tableName, rowIndex, String.valueOf(columnIndex));
+		clickToElement(driver, BasePageUI.LINK_VALUE_DATA_TABLE_BY_TABLE_NAME_ROW_INDEX_ADN_COLUMN_INDEX, tableName, rowIndex, String.valueOf(columnIndex));
 	}
 
 	private long longTimeout = GlobalConstants.LONG_TIMEOUT;

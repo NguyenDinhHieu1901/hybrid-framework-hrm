@@ -10,7 +10,8 @@ public class BasePageUI {
 	public static final String RADIO_BUTTON_BY_LABEL_TEXT = "xpath=//label[text()='%s']/preceding-sibling::input";
 	public static final String DROPDOWN_BY_NAME = "xpath=//select[@name='%s']";
 	public static final String INDEX_COLUMN_BY_TABLE_NAME_ADN_HEADER_NAME = "xpath=//table[@id='%s']//tr//th[string()='%s']/preceding-sibling::th";
-	public static final String VALUE_DATA_TABLE_BY_TABLE_NAME_ROW_INDEX_ADN_COLUMN_INDEX = "xpath=//table[@id='%s']//tbody//tr[%s]//td[%s]";
+	public static final String VALUE_DATA_TABLE_BY_TABLE_NAME_ROW_INDEX_ADN_COLUMN_INDEX = "xpath=//table[@id='%s']/tbody/tr[%s]/td[%s]";
+	public static final String LINK_VALUE_DATA_TABLE_BY_TABLE_NAME_ROW_INDEX_ADN_COLUMN_INDEX = "xpath=//table[@id='%s']/tbody/tr[%s]/td[%s]/a";
 	public static final String SUCCESS_MESSAGE_BY_TEXT = "xpath=//div[@class='message success fadable' and contains(text(),'%s')]";
 	public static final String ANY_FIELDS_BY_ID = "xpath=//*[@id='%s']";
 

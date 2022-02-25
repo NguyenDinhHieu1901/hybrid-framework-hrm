@@ -3,15 +3,15 @@
 <suite name="Orange HRM">
 
 	<listeners>
-<!-- 		<listener class-name="commons.MethodListener" /> -->
+		<listener class-name="commons.MethodListener" />
 		<listener class-name="reportConfig.AllureTestListener" />
 	</listeners>
 
-	<test name="Run on Firefox">
-		<parameter name="browser" value="FIREFOX" />
+	<test name="Run on Chrome">
+		<parameter name="browser" value="CHROME" />
 		<classes>
 			<class name="com.hrm.employees.Level_17_Live_Coding" />
 		</classes>
-
 	</test>
+
 </suite>
