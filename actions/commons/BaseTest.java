@@ -181,6 +181,7 @@ public class BaseTest {
 		File[] listOfFiles = file.listFiles();
 		for (int i = 0; i < listOfFiles.length; i++) {
 			if (!listOfFiles[i].toString().contains(".properties")) {
+				log.info("---------- FILE is removed ---------------");
 				new File(listOfFiles[i].toString()).delete();
 			}
 		}

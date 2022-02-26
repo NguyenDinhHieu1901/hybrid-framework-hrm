@@ -3,7 +3,7 @@
 <suite name="Orange HRM">
 
 	<listeners>
-		<listener class-name="commons.MethodListener" />
+<!-- 		<listener class-name="commons.MethodListener" /> -->
 		<listener class-name="reportConfig.AllureTestListener" />
 	</listeners>
 

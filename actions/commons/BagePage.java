@@ -9,6 +9,7 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -344,12 +345,12 @@ public class BagePage {
 		action.moveToElement(getWebElement(driver, getDynamicLocator(locatorType, dynamicValues))).perform();
 	}
 
-	protected void pressKeyToElement(WebDriver driver, String locatorType, String key) {
+	protected void pressKeyToElement(WebDriver driver, String locatorType, Keys key) {
 		Actions action = new Actions(driver);
 		action.sendKeys(getWebElement(driver, locatorType), key).perform();
 	}
 
-	protected void pressKeyToElement(WebDriver driver, String locatorType, String key, String... dynamicValues) {
+	protected void pressKeyToElement(WebDriver driver, String locatorType, Keys key, String... dynamicValues) {
 		Actions action = new Actions(driver);
 		action.sendKeys(getWebElement(driver, getDynamicLocator(locatorType, dynamicValues)), key).perform();
 	}
@@ -662,6 +663,24 @@ public class BagePage {
 		int columnIndex = getElementSize(driver, BasePageUI.INDEX_COLUMN_OF_DIRECT_DEPOSIT_DETAILS, headerName) + 1;
 		waitForElementVisible(driver, BasePageUI.VALUE_DATA_IN_DIRECT_DEPOSIT_DETAILS, rowIndex, String.valueOf(columnIndex));
 		return getElementText(driver, BasePageUI.VALUE_DATA_IN_DIRECT_DEPOSIT_DETAILS, rowIndex, String.valueOf(columnIndex));
+	}
+
+	@Step("Press Enter to any form to disappear Date Time Picker")
+	public void pressEnterToForm(WebDriver driver, String formID, Keys key) {
+		pressKeyToElement(driver, BasePageUI.FORM_BY_ID, key, formID);
+	}
+
+	@Step("Input to textare with comments: {3}")
+	public void inputToTextareaByID(WebDriver driver, String textareaID, String comments) {
+		waitForElementVisible(driver, BasePageUI.TEXTAREA_BY_ID, textareaID);
+		sendkeyToElement(driver, BasePageUI.TEXTAREA_BY_ID, comments, textareaID);
+	}
+
+	@Step("Get value text in Data Table")
+	public String getValueDataTableInQualificationsByFormIdRowIndexAndHeaderName(WebDriver driver, String formID, String rowIndex, String headerName) {
+		int columnIndex = getElementSize(driver, BasePageUI.INDEX_COLUMN_IN_QUALIFICATIONS_FORM, formID, headerName) + 1;
+		waitForElementVisible(driver, BasePageUI.VALUE_DATA_IN_QUALIFICATIONS_FORM_TABLE, formID, rowIndex, String.valueOf(columnIndex));
+		return getElementText(driver, BasePageUI.VALUE_DATA_IN_QUALIFICATIONS_FORM_TABLE, formID, rowIndex, String.valueOf(columnIndex));
 	}
 
 	private long longTimeout = GlobalConstants.LONG_TIMEOUT;

@@ -1,5 +1,6 @@
 package com.hrm.employees;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -62,7 +63,7 @@ public class Level_17_Live_Coding extends BaseTest {
 		employmentStatus = "Full-Time Permanent";
 		jobCategory = "Technicians";
 		joinedDate = "2020-12-12";
-		subUnit = "  Quality Assurance";
+		subUnit = "Engineering";
 		location = "New York Sales Office";
 		startDate = "2020-02-12";
 		endDate = "2025-02-12";
@@ -76,6 +77,25 @@ public class Level_17_Live_Coding extends BaseTest {
 		accountType = "Savings";
 		routingNumber = "41215032";
 		comments = "Day of payment is 3";
+		statusFedIncomeTax = "Married";
+		exemptionsFedIncomeTax = "3";
+		state = "Indiana";
+		statusStateIncomeTax = "Married";
+		exemptionsStateIncomeTax = "10";
+		workState = "Arizona";
+		company = "AS";
+		jobTitleWorkExperience = "Engineer";
+		from = "2019-12-12";
+		to = "2020-12-12";
+		commentWorkExperience = "Work as Manual Tester";
+		levelEducation = "Bachelor's Degree";
+		yearGraduated = "2019";
+		gpa = "7.3";
+		skill = "Java";
+		yearsOfExperience = "2";
+		language = "English";
+		fluency = "Writing";
+		competency = "Good";
 
 		log.info("Pre-Condition - Step 01: Opening the application with '" + browserName + "'");
 		driver = getBrowserDriver(browserName);
@@ -403,12 +423,12 @@ public class Level_17_Live_Coding extends BaseTest {
 		employeeListPage = PageGeneratorManager.getEmployeeListPage(driver);
 
 		log.info("Edit_View_Job_07 - Step 06: Input to 'Employee Name' textbox");
-		employeeListPage.isJQueryAjaxLoadedSuccess(driver);
+		verifyTrue(employeeListPage.isJQueryAjaxLoadedSuccess(driver));
 		employeeListPage.inputToTextboxByID(driver, "empsearch_employee_name_empName", editEmpFullName);
 
 		log.info("Edit_View_Job_07 - Step 07: Click To 'Search' button");
 		employeeListPage.clickToButtonByID(driver, "searchBtn");
-		employeeListPage.isJQueryAjaxLoadedSuccess(driver);
+		verifyTrue(employeeListPage.isJQueryAjaxLoadedSuccess(driver));
 
 		log.info("Edit_View_Job_07 - Step 08: Click to 'First Name' in Data table");
 		employeeListPage.clickToDataTableLink(driver, "resultTable", "1", "First (& Middle) Name");
@@ -443,7 +463,7 @@ public class Level_17_Live_Coding extends BaseTest {
 
 		log.info("Edit_View_Job_07 - Step 16: Input to 'Joined Date' textbox");
 		employeeListPage.inputToTextboxByID(driver, "job_joined_date", joinedDate);
-		employeeListPage.clickToJobFormToDisappearDateTimePicker();
+		employeeListPage.pressEnterToForm(driver, "frmEmpJobDetails", Keys.ENTER);
 
 		log.info("Edit_View_Job_07 - Step 17: Select item in 'Sub Unit' dropdown");
 		employeeListPage.selectItemInDefaultDropdownByName(driver, "job[sub_unit]", subUnit);
@@ -474,6 +494,8 @@ public class Level_17_Live_Coding extends BaseTest {
 		verifyEquals(employeeListPage.getTextValueByAttribute(driver, "job_contract_end_date", "value"), endDate);
 	}
 
+	@Description("Just only Admin role has accessed editable 'Salary' form")
+	@Severity(SeverityLevel.CRITICAL)
 	@Test
 	public void Employee_08_Edit_View_Salary() {
 		log.info("Edit_View_Salary_08 - Step 01: open 'Salary' form at Sidebar link");
@@ -501,7 +523,7 @@ public class Level_17_Live_Coding extends BaseTest {
 		employeeListPage.inputToTextboxByID(driver, "salary_basic_salary", amount);
 
 		log.info("Edit_View_Salary_08 - Step 09: Input to 'Comments' textarea");
-		employeeListPage.inputToCommentsTextarea(comments);
+		employeeListPage.inputToTextareaByID(driver, "salary_comments", comments);
 
 		log.info("Edit_View_Salary_08 - Step 10: Click to 'Add Direct Deposit Details' checkbox");
 		employeeListPage.checkToDefaultCheckboxByLabel(driver, "Add Direct Deposit Details");
@@ -571,19 +593,228 @@ public class Level_17_Live_Coding extends BaseTest {
 		verifyEquals(myInfoPage.getValueInDirectDepositDetailsTableByRowIndexAndHeaderName(driver, "1", "Amount"), floatAmount);
 	}
 
+	@Description("Just only Admin role has accessed editable 'Tax Exemptions' form")
+	@Severity(SeverityLevel.CRITICAL)
 	@Test
 	public void Employee_09_Edit_View_Tax() {
+		log.info("Edit_View_Tax_09 - Step 01: Open 'Tax Exemptions' form at Sidebar link");
+		myInfoPage.openSidebarLinkByName("Tax Exemptions");
 
+		log.info("Edit_View_Tax_09 - Step 02: Verify 'Edit' button is undisplayed with User role");
+		verifyTrue(myInfoPage.isAnyButtonUndisplayed(driver, "btnSave"));
+
+		log.info("Edit_View_Tax_09 - Step 03: Verify all of fields in 'Tax' form is disable with User role");
+		verifyFalse(myInfoPage.isAnyFieldsEnabledByID(driver, "tax_federalStatus"));
+		verifyFalse(myInfoPage.isAnyFieldsEnabledByID(driver, "tax_federalExemptions"));
+		verifyFalse(myInfoPage.isAnyFieldsEnabledByID(driver, "tax_state"));
+		verifyFalse(myInfoPage.isAnyFieldsEnabledByID(driver, "tax_stateStatus"));
+		verifyFalse(myInfoPage.isAnyFieldsEnabledByID(driver, "tax_stateExemptions"));
+		verifyFalse(myInfoPage.isAnyFieldsEnabledByID(driver, "tax_unempState"));
+		verifyFalse(myInfoPage.isAnyFieldsEnabledByID(driver, "tax_workState"));
+
+		log.info("Edit_View_Tax_09 - Step 04: Login to system as Admin role with username & password: " + userNameAdmin + " " + passwordAdmin);
+		loginPage = myInfoPage.logoutToSystem(driver);
+		dashboardPage = loginPage.loginToSystem(userNameAdmin, passwordAdmin);
+
+		log.info("Edit_View_Tax_09 - Step 05: Open 'Employee List' page");
+		dashboardPage.openSubMenuPage(driver, "PIM", "Employee List");
+		employeeListPage = PageGeneratorManager.getEmployeeListPage(driver);
+
+		log.info("Edit_View_Tax_09 - Step 06: Input to 'Employee Name' textbox");
+		verifyTrue(employeeListPage.isJQueryAjaxLoadedSuccess(driver));
+		employeeListPage.inputToTextboxByID(driver, "empsearch_employee_name_empName", editEmpFullName);
+
+		log.info("Edit_View_Tax_09 - Step 07: Click To 'Search' button");
+		employeeListPage.clickToButtonByID(driver, "searchBtn");
+		verifyTrue(employeeListPage.isJQueryAjaxLoadedSuccess(driver));
+
+		log.info("Edit_View_Tax_09 - Step 08: Click to 'First Name' in Data table");
+		employeeListPage.clickToDataTableLink(driver, "resultTable", "1", "First (& Middle) Name");
+
+		log.info("Edit_View_Tax_09 - Step 09: Open 'Tax Exemptions' form at Sidebar link");
+		employeeListPage.openSidebarLinkByName("Tax Exemptions");
+
+		log.info("Edit_View_Tax_09 - Step 10: Verify 'Edit' button is displayed with Admin role");
+		verifyFalse(employeeListPage.isAnyButtonUndisplayed(driver, "btnSave"));
+
+		log.info("Edit_View_Tax_09 - Step 11: Click to 'Edit' button");
+		employeeListPage.clickToButtonByID(driver, "btnSave");
+
+		log.info("Edit_View_Tax_09 - Step 12: Select item in Fed Status dropdown");
+		employeeListPage.selectItemInDefaultDropdownByName(driver, "tax[federalStatus]", statusFedIncomeTax);
+
+		log.info("Edit_View_Tax_09 - Step 13: Input to Exemptions Federal Income Tax dropdown");
+		employeeListPage.inputToTextboxByID(driver, "tax_federalExemptions", exemptionsFedIncomeTax);
+
+		log.info("Edit_View_Tax_09 - Step 14: Select item in State dropdown");
+		employeeListPage.selectItemInDefaultDropdownByName(driver, "tax[state]", state);
+
+		log.info("Edit_View_Tax_09 - Step 15: Select item in State Status dropdown");
+		employeeListPage.selectItemInDefaultDropdownByName(driver, "tax[stateStatus]", statusStateIncomeTax);
+
+		log.info("Edit_View_Tax_09 - Step 16: Input to Exemptions State Income Tax dropdown");
+		employeeListPage.inputToTextboxByID(driver, "tax_stateExemptions", exemptionsStateIncomeTax);
+
+		log.info("Edit_View_Tax_09 - Step 17: Select item in Work State dropdown");
+		employeeListPage.selectItemInDefaultDropdownByName(driver, "tax[workState]", workState);
+
+		log.info("Edit_View_Tax_09 - Step 18: Click to 'Save' button");
+		employeeListPage.clickToButtonByID(driver, "btnSave");
+
+		log.info("Edit_View_Tax_09 - Step 19: Verify success message is displayed");
+		verifyTrue(employeeListPage.isSuccessMessageDisplayed(driver, "Successfully Saved"));
+
+		log.info("Edit_View_Tax_09 - Step 20: Verify all of fields in 'Tax' form is updated successfully");
+		verifyEquals(employeeListPage.getItemSelectedInDefaultDropdownByName(driver, "tax[federalStatus]"), statusFedIncomeTax);
+		verifyEquals(employeeListPage.getTextValueByAttribute(driver, "tax_federalExemptions", "value"), exemptionsFedIncomeTax);
+		verifyEquals(employeeListPage.getItemSelectedInDefaultDropdownByName(driver, "tax[state]"), state);
+		verifyEquals(employeeListPage.getItemSelectedInDefaultDropdownByName(driver, "tax[stateStatus]"), statusStateIncomeTax);
+		verifyEquals(employeeListPage.getTextValueByAttribute(driver, "tax_stateExemptions", "value"), exemptionsStateIncomeTax);
+		verifyEquals(employeeListPage.getItemSelectedInDefaultDropdownByName(driver, "tax[workState]"), workState);
 	}
 
+	@Description("Employee add their qualifications")
+	@Severity(SeverityLevel.CRITICAL)
 	@Test
 	public void Employee_10_Qualifications() {
+		log.info("Qualifications_10 - Step 01: Login to system as User role with username & password: " + userNameEmp + " " + passwordEmp);
+		loginPage = employeeListPage.logoutToSystem(driver);
+		dashboardPage = loginPage.loginToSystem(userNameEmp, passwordEmp);
 
+		log.info("Qualifications_10 - Step 02: Open 'My Info' page");
+		dashboardPage.openMenuPage(driver, "My Info");
+		myInfoPage = PageGeneratorManager.getMyInfoPage(driver);
+
+		log.info("Qualifications_10 - Step 03: Open 'Qualifications' form at Sidebar link");
+		myInfoPage.openSidebarLinkByName("Qualifications");
+
+		log.info("Qualifications_10 - Step 04: Click to 'Add' button at 'Work Expericence' form");
+		myInfoPage.clickToButtonByID(driver, "addWorkExperience");
+
+		log.info("Qualifications_10 - Step 05: Input to 'Company' textbox");
+		myInfoPage.inputToTextboxByID(driver, "experience_employer", company);
+
+		log.info("Qualifications_10 - Step 06: Input to 'Title' textbox");
+		myInfoPage.inputToTextboxByID(driver, "experience_jobtitle", jobTitleWorkExperience);
+
+		log.info("Qualifications_10 - Step 07: Input to 'From' textbox");
+		myInfoPage.inputToTextboxByID(driver, "experience_from_date", from);
+		myInfoPage.pressEnterToForm(driver, "frmWorkExperience", Keys.ENTER);
+
+		log.info("Qualifications_10 - Step 08: Input to 'To' textbox");
+		myInfoPage.inputToTextboxByID(driver, "experience_to_date", to);
+		myInfoPage.pressEnterToForm(driver, "frmWorkExperience", Keys.ENTER);
+
+		log.info("Qualifications_10 - Step 09: Input to 'Experience Comment' textarea");
+		myInfoPage.inputToTextareaByID(driver, "experience_comments", commentWorkExperience);
+
+		log.info("Qualifications_10 - Step 10: Click to 'Save' button");
+		myInfoPage.clickToButtonByID(driver, "btnWorkExpSave");
+
+		log.info("Qualifications_10 - Step 11: Verify information in 'Work Experience' table is displayed correctly");
+		verifyEquals(myInfoPage.getValueDataTableInQualificationsByFormIdRowIndexAndHeaderName(driver, "frmDelWorkExperience", "1", "Company"), company);
+		verifyEquals(myInfoPage.getValueDataTableInQualificationsByFormIdRowIndexAndHeaderName(driver, "frmDelWorkExperience", "1", "Job Title"), jobTitleWorkExperience);
+		verifyEquals(myInfoPage.getValueDataTableInQualificationsByFormIdRowIndexAndHeaderName(driver, "frmDelWorkExperience", "1", "From"), from);
+		verifyEquals(myInfoPage.getValueDataTableInQualificationsByFormIdRowIndexAndHeaderName(driver, "frmDelWorkExperience", "1", "To"), to);
+		verifyEquals(myInfoPage.getValueDataTableInQualificationsByFormIdRowIndexAndHeaderName(driver, "frmDelWorkExperience", "1", "Comment"), commentWorkExperience);
+
+		log.info("Qualifications_10 - Step 12: Click to 'Add' button at 'Education' form");
+		myInfoPage.clickToButtonByID(driver, "addEducation");
+
+		log.info("Qualifications_10 - Step 13: Select item in 'Level' dropdown");
+		myInfoPage.selectItemInDefaultDropdownByName(driver, "education[code]", levelEducation);
+
+		log.info("Qualifications_10 - Step 14: Input to 'Institute' textbox");
+		myInfoPage.inputToTextboxByID(driver, "education_institute", "BK");
+
+		log.info("Qualifications_10 - Step 15: Input to 'Major' textbox");
+		myInfoPage.inputToTextboxByID(driver, "education_major", "Electronics");
+
+		log.info("Qualifications_10 - Step 16: Input to 'Year' textbox");
+		myInfoPage.inputToTextboxByID(driver, "education_year", yearGraduated);
+
+		log.info("Qualifications_10 - Step 17: Input to 'GPA' textbox");
+		myInfoPage.inputToTextboxByID(driver, "education_gpa", gpa);
+
+		log.info("Qualifications_10 - Step 18: Click to 'Save' button");
+		myInfoPage.clickToButtonByID(driver, "btnEducationSave");
+
+		log.info("Qualifications_10 - Step 19: Verify information in 'Education' table is displayed correctly");
+		verifyEquals(myInfoPage.getValueDataTableInQualificationsByFormIdRowIndexAndHeaderName(driver, "frmDelEducation", "1", "Level"), levelEducation);
+		verifyEquals(myInfoPage.getValueDataTableInQualificationsByFormIdRowIndexAndHeaderName(driver, "frmDelEducation", "1", "Year"), yearGraduated);
+		verifyEquals(myInfoPage.getValueDataTableInQualificationsByFormIdRowIndexAndHeaderName(driver, "frmDelEducation", "1", "GPA/Score"), gpa);
+
+		log.info("Qualifications_10 - Step 20: Click to 'Add' button at 'Skills' form");
+		myInfoPage.clickToButtonByID(driver, "addSkill");
+
+		log.info("Qualifications_10 - Step 21: Select item in 'Skills' dropdown");
+		myInfoPage.selectItemInDefaultDropdownByName(driver, "skill[code]", skill);
+
+		log.info("Qualifications_10 - Step 22: Input to 'Years of Experience' textbox");
+		myInfoPage.inputToTextboxByID(driver, "skill_years_of_exp", yearsOfExperience);
+
+		log.info("Qualifications_10 - Step 23: Click to 'Save' button");
+		myInfoPage.clickToButtonByID(driver, "btnSkillSave");
+
+		log.info("Qualifications_10 - Step 24: Verify information in 'Skills' table is displayed correctly");
+		verifyEquals(myInfoPage.getValueDataTableInQualificationsByFormIdRowIndexAndHeaderName(driver, "frmDelSkill", "1", "Skill"), skill);
+		verifyEquals(myInfoPage.getValueDataTableInQualificationsByFormIdRowIndexAndHeaderName(driver, "frmDelSkill", "1", "Years of Experience"), yearsOfExperience);
+
+		log.info("Qualifications_10 - Step 25: Click to 'Add' button at 'Languages' form");
+		myInfoPage.clickToButtonByID(driver, "addLanguage");
+
+		log.info("Qualifications_10 - Step 26: Select item in 'Language' dropdown");
+		myInfoPage.selectItemInDefaultDropdownByName(driver, "language[code]", language);
+
+		log.info("Qualifications_10 - Step 27: Select item in 'Fluency' dropdown");
+		myInfoPage.selectItemInDefaultDropdownByName(driver, "language[lang_type]", fluency);
+
+		log.info("Qualifications_10 - Step 28: Select item in 'Competency' dropdown");
+		myInfoPage.selectItemInDefaultDropdownByName(driver, "language[competency]", competency);
+
+		log.info("Qualifications_10 - Step 29: Input to 'Comments' textare in Language form");
+		myInfoPage.inputToTextareaByID(driver, "language_comments", "Speaking and Listening well");
+
+		log.info("Qualifications_10 - Step 30: Click to 'Save' button");
+		myInfoPage.clickToButtonByID(driver, "btnLanguageSave");
+
+		log.info("Qualifications_10 - Step 31: Verify success message is displayed");
+		verifyTrue(myInfoPage.isSuccessMessageDisplayed(driver, "Successfully Saved"));
+
+		log.info("Qualifications_10 - Step 31: Verify information in 'Languages' table is displayed correctly");
+		verifyEquals(myInfoPage.getValueDataTableInQualificationsByFormIdRowIndexAndHeaderName(driver, "frmDelLanguage", "1", "Language"), language);
+		verifyEquals(myInfoPage.getValueDataTableInQualificationsByFormIdRowIndexAndHeaderName(driver, "frmDelLanguage", "1", "Fluency"), fluency);
+		verifyEquals(myInfoPage.getValueDataTableInQualificationsByFormIdRowIndexAndHeaderName(driver, "frmDelLanguage", "1", "Competency"), competency);
+		verifyEquals(myInfoPage.getValueDataTableInQualificationsByFormIdRowIndexAndHeaderName(driver, "frmDelLanguage", "1", "Comments"), "Speaking and Listening well");
 	}
 
+	@Description("Search Employee")
+	@Severity(SeverityLevel.CRITICAL)
 	@Test
 	public void Employee_11_Search_Employee() {
+		log.info("Search_Employee_11 - Step 01: Login to system as Admin role with username and password: " + userNameAdmin + " " + passwordAdmin);
+		loginPage = myInfoPage.logoutToSystem(driver);
+		dashboardPage = loginPage.loginToSystem(userNameAdmin, passwordAdmin);
 
+		log.info("Search_Employee_11 - Step 02: Open 'Employee List' page");
+		dashboardPage.openSubMenuPage(driver, "PIM", "Employee List");
+		employeeListPage = PageGeneratorManager.getEmployeeListPage(driver);
+
+		log.info("Search_Employee_11 - Step 03: Input to 'Employee Name' textbox");
+		verifyTrue(employeeListPage.isJQueryAjaxLoadedSuccess(driver));
+		employeeListPage.inputToTextboxByID(driver, "empsearch_employee_name_empName", editEmpFullName);
+
+		log.info("Search_Employee_11 - Step 04: Click to 'Search' button");
+		employeeListPage.clickToButtonByID(driver, "searchBtn");
+		verifyTrue(employeeListPage.isJQueryAjaxLoadedSuccess(driver));
+
+		log.info("Search_Employee_11 - Step 05: Verify all of fields in 'Result Table' is updated correctly");
+		verifyEquals(employeeListPage.getValueTextInDataTableByRowAndColumnIndex(driver, "resultTable", "1", "Id"), employeeID);
+		verifyEquals(employeeListPage.getValueTextInDataTableByRowAndColumnIndex(driver, "resultTable", "1", "First (& Middle) Name"), editEmpFirstName);
+		verifyEquals(employeeListPage.getValueTextInDataTableByRowAndColumnIndex(driver, "resultTable", "1", "Last Name"), editEmpLastName);
+		verifyEquals(employeeListPage.getValueTextInDataTableByRowAndColumnIndex(driver, "resultTable", "1", "Job Title"), jobTitle);
+		verifyEquals(employeeListPage.getValueTextInDataTableByRowAndColumnIndex(driver, "resultTable", "1", "Employment Status"), employmentStatus);
+		verifyEquals(employeeListPage.getValueTextInDataTableByRowAndColumnIndex(driver, "resultTable", "1", "Sub Unit"), subUnit);
 	}
 
 	@Parameters("browser")
@@ -605,4 +836,6 @@ public class Level_17_Live_Coding extends BaseTest {
 	String emergencyContactName, emergencyContactRelationship, emergencyContactHomeTelephone, emergencyContactMobile, emergencyContactWorkTelephone;
 	String jobTitle, employmentStatus, jobCategory, joinedDate, subUnit, location, startDate, endDate;
 	String payGrade, salaryComponent, payFrequency, currency, amount, floatAmount, accountNumber, accountType, routingNumber, comments;
+	String statusFedIncomeTax, exemptionsFedIncomeTax, state, statusStateIncomeTax, exemptionsStateIncomeTax, workState;
+	String company, jobTitleWorkExperience, from, to, commentWorkExperience, levelEducation, yearGraduated, gpa, skill, yearsOfExperience, language, fluency, competency;
 }

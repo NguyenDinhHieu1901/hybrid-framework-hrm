@@ -19,16 +19,16 @@ public class EmployeeListPO extends BagePage {
 		clickToElement(driver, EmployeeListPageUI.SIDE_BAR_LINK, pageName);
 	}
 
-	@Step("Click to Job form to disappear Date Time Picker")
-	public void clickToJobFormToDisappearDateTimePicker() {
-		clickToElement(driver, EmployeeListPageUI.JOB_FORM);
-	}
+	// @Step("Click to Job form to disappear Date Time Picker")
+	// public void clickToJobFormToDisappearDateTimePicker() {
+	// clickToElement(driver, EmployeeListPageUI.JOB_FORM);
+	// }
 
-	@Step("Input to comments textare with comments: {0}")
-	public void inputToCommentsTextarea(String comments) {
-		waitForElementVisible(driver, EmployeeListPageUI.COMMENTS_TEXTAREA);
-		sendkeyToElement(driver, EmployeeListPageUI.COMMENTS_TEXTAREA, comments);
-	}
+	// @Step("Input to comments textare with comments: {0}")
+	// public void inputToCommentsTextarea(String comments) {
+	// waitForElementVisible(driver, EmployeeListPageUI.COMMENTS_TEXTAREA);
+	// sendkeyToElement(driver, EmployeeListPageUI.COMMENTS_TEXTAREA, comments);
+	// }
 
 	@Step("Get Amount Value in Salary Table")
 	public String getAmountValueInSalaryTableByRowIndex(String rowIndex) {
