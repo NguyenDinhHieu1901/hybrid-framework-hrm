@@ -52,5 +52,12 @@
 	<classpathentry kind="lib" path="libAllureReport/okhttp-3.11.0.jar"/>
 	<classpathentry kind="lib" path="libAllureReport/okio-1.14.1.jar"/>
 	<classpathentry kind="lib" path="libAllureReport/tika-core-1.20.jar"/>
+	<classpathentry kind="lib" path="libJavaFaker/generex-1.0.2.jar"/>
+	<classpathentry kind="lib" path="libJavaFaker/javafaker-1.0.2.jar" sourcepath="libJavaFaker/javafaker-1.0.2-sources.jar"/>
+	<classpathentry kind="lib" path="libJavaFaker/snakeyaml-1.30.jar"/>
+	<classpathentry kind="lib" path="libJson/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="libJackson/jackson-annotations-2.10.0.jar"/>
+	<classpathentry kind="lib" path="libJackson/jackson-core-2.10.0.jar"/>
+	<classpathentry kind="lib" path="libJackson/jackson-databind-2.10.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

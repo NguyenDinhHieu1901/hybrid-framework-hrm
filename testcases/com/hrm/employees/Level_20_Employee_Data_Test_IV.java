@@ -20,34 +20,31 @@ import pageObjects.hrm.EmployeeListPO;
 import pageObjects.hrm.LoginPO;
 import pageObjects.hrm.MyInfoPO;
 import pageObjects.hrm.PageGeneratorManager;
-import utilities.DataUtil;
+import utilities.EmployeeData;
 
 @Epic("Human Resource create information for a new employee and employee will be updated his every information")
-public class Level_19_Employee_Fake_Data extends BaseTest {
+public class Level_20_Employee_Data_Test_IV extends BaseTest {
 	@Description("Pre-Condition: Opening web application and login to system")
 	@Severity(SeverityLevel.BLOCKER)
-	@Parameters("browser")
+	@Parameters({ "browser", "userNameAdmin", "passwordAdmin" })
 	@BeforeClass
-	public void beforeClass(String browserName) {
-		data = DataUtil.getDataUtil();
-		
-		userNameAdmin = "Admin";
-		passwordAdmin = "admin123";
-		firstName = data.getFirstName();
-		lastName = data.getLastName();
-		userNameEmp = data.getUserName();
-		passwordEmp = data.getPassword();
+	public void beforeClass(String browserName, String userNameAdmin, String passwordAdmin) {
+		employeeData = EmployeeData.getEmployee();
+		firstName = employeeData.getFirstName();
+		lastName = employeeData.getLastName();
+		userNameEmp = employeeData.getUserName();
+		passwordEmp = employeeData.getPassword();
 		employeeID = "";
-		statusValue = data.getEmployeeStatus();
-		fullname = firstName + " " + lastName;
+		statusValue = employeeData.getStatusValue();
+		fullname = employeeData.getFullName();
 		pathAvatarFile = GlobalConstants.UPLOAD_FILE_FOLDER + "Avatar.jpg";
-		editEmpFirstName = data.getEditFirstName();
-		editEmpLastName = data.getEditLastName();
-		editEmpFullName = editEmpFirstName + " " + editEmpLastName;
-		editGender = data.getGender();
-		editMaritalStatus = data.getMaritalStatus();
-		editNationality = data.getNationality();
-		
+		editEmpFirstName = employeeData.getEditFirstName();
+		editEmpLastName = employeeData.getEditLastName();
+		editEmpFullName = employeeData.getEditFullName();
+		editGender = employeeData.getEditGender();
+		editMaritalStatus = employeeData.getEditMaritalStatus();
+		editNationality = employeeData.getEditNationality();
+
 		addressStreet1 = "2 Le Lai";
 		addressStreet2 = "1 Le Loi";
 		city = "Ho Chi Minh";
@@ -826,7 +823,7 @@ public class Level_19_Employee_Fake_Data extends BaseTest {
 	private EmployeeListPO employeeListPage;
 	private AddEmployeePO addEmployeePage;
 	private MyInfoPO myInfoPage;
-	private DataUtil data;
+	private EmployeeData employeeData;
 	String userNameAdmin, passwordAdmin, userNameEmp, passwordEmp, firstName, lastName, employeeID, statusValue, fullname, pathAvatarFile;
 	String editEmpFirstName, editEmpLastName, editGender, editMaritalStatus, editNationality, editEmpFullName;
 	String addressStreet1, addressStreet2, city, zipCode, country, homeTelephone, mobile, workTelephone, workEmail, otherEmail;

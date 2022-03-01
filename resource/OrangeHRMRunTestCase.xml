@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Orange HRM">
-
+	
+	<parameter name="userNameAdmin" value="Admin"/>
+	<parameter name="passwordAdmin" value="admin123"/>
+	
 	<listeners>
 <!-- 		<listener class-name="commons.MethodListener" /> -->
 		<listener class-name="reportConfig.AllureTestListener" />
 	</listeners>
 
-	<test name="Run on Chrome">
-		<parameter name="browser" value="CHROME" />
+	<test name="Run on Firefox">
+		<parameter name="browser" value="Firefox" />
 		<classes>
-			<class name="com.hrm.employees.Level_17_Live_Coding" />
+			<class name="com.hrm.employees.Level_20_Employee_Data_Test_IV" />
 		</classes>
 	</test>
 

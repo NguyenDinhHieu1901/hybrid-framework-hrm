@@ -20,9 +20,13 @@ public class DataUtil {
 	private enum MaritalStatus {
 		Married, Single;
 	}
-
+	
 	private enum EmployeeStatus {
 		Enabled
+	}
+
+	private enum Nationality {
+		Vietnamese, Japanese, Indian, French, America, Italian, Spanish;
 	}
 
 	public String getFirstName() {
@@ -58,7 +62,7 @@ public class DataUtil {
 	}
 
 	public String getNationality() {
-		return faker.nation().nationality();
+		return faker.options().option(Nationality.values()).toString();
 	}
 
 	public String getZipCode() {

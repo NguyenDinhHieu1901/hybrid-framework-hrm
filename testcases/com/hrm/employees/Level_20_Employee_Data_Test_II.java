@@ -23,16 +23,14 @@ import pageObjects.hrm.PageGeneratorManager;
 import utilities.DataUtil;
 
 @Epic("Human Resource create information for a new employee and employee will be updated his every information")
-public class Level_19_Employee_Fake_Data extends BaseTest {
+public class Level_20_Employee_Data_Test_II extends BaseTest {
 	@Description("Pre-Condition: Opening web application and login to system")
 	@Severity(SeverityLevel.BLOCKER)
-	@Parameters("browser")
+	@Parameters({"browser", "userNameAdmin", "passwordAdmin"})
 	@BeforeClass
-	public void beforeClass(String browserName) {
+	public void beforeClass(String browserName, String userNameAdmin, String passwordAdmin) {
 		data = DataUtil.getDataUtil();
 		
-		userNameAdmin = "Admin";
-		passwordAdmin = "admin123";
 		firstName = data.getFirstName();
 		lastName = data.getLastName();
 		userNameEmp = data.getUserName();

@@ -1,0 +1,22 @@
+{
+	"AddNewEmployee":
+		{
+			"firstName":"Nguyen", 
+			"lastName":"Test", 
+			"fullName":"Nguyen Test", 
+			"userName":"nguyentest12", 
+			"password":"12345678@X",
+			"statusValue":"Enabled"
+		},
+		
+	
+	"PersonalDetails":
+		{
+			"editFirstName":"El", 
+			"editLastName":"Nino", 
+			"editFullName":"El Nino", 
+			"editGender":"Male", 
+			"editMaritalStatus":"Married",
+			"editNationality":"Spanish"
+		}
+}
