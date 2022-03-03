@@ -12,7 +12,7 @@ public class PageGeneratorManager {
 		return new LoginPO(driver);
 	}
 
-	public static DashboardPO gerDashboardPage(WebDriver driver) {
+	public static DashboardPO getDashboardPage(WebDriver driver) {
 		return new DashboardPO(driver);
 	}
 

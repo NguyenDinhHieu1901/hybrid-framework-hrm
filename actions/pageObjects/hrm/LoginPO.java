@@ -18,8 +18,13 @@ public class LoginPO extends BagePage {
 		waitForElementVisible(driver, LoginPageUI.USERNAME_TEXTBOX);
 		sendkeyToElement(driver, LoginPageUI.USERNAME_TEXTBOX, userName);
 		sendkeyToElement(driver, LoginPageUI.PASSWORD_TEXTBOX, password);
-		clickToElement(driver, LoginPageUI.LOGIN_BUTTON);
+		if (driver.toString().contains("internet explorer")) {
+			clickToElementByJS(driver, LoginPageUI.LOGIN_BUTTON);
+		} else {
+			clickToElement(driver, LoginPageUI.LOGIN_BUTTON);
+			sleepInSecond(2);
+		}
 		isJQueryAjaxLoadedSuccess(driver);
-		return PageGeneratorManager.gerDashboardPage(driver);
+		return PageGeneratorManager.getDashboardPage(driver);
 	}
 }

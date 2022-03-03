@@ -1,88 +1,31 @@
-[INFO ] [2022-03-01 12:08:59,442] ------------ START delete file in folder ------------
-[INFO ] [2022-03-01 12:08:59,444] ---------- FILE is removed ---------------
-[INFO ] [2022-03-01 12:08:59,444] ---------- FILE is removed ---------------
-[INFO ] [2022-03-01 12:08:59,444] ---------- FILE is removed ---------------
-[INFO ] [2022-03-01 12:08:59,445] ---------- FILE is removed ---------------
-[INFO ] [2022-03-01 12:08:59,446] ---------- FILE is removed ---------------
-[INFO ] [2022-03-01 12:08:59,446] ---------- FILE is removed ---------------
-[INFO ] [2022-03-01 12:08:59,446] ---------- FILE is removed ---------------
-[INFO ] [2022-03-01 12:08:59,447] ---------- FILE is removed ---------------
-[INFO ] [2022-03-01 12:08:59,447] ------------ END delete file in folder ------------
-[INFO ] [2022-03-01 12:08:59,589] Pre-Condition - Step 01: Opening the application with 'Firefox'
-[INFO ] [2022-03-01 12:09:09,243] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
-[INFO ] [2022-03-01 12:09:14,288] Employee_01 - Step 01: Open Employee List page
-[INFO ] [2022-03-01 12:09:17,861] Employee_01 - Step 02: Click to Add button
-[INFO ] [2022-03-01 12:09:19,772] Employee_01 - Step 03: Input to First Name textbox
-[INFO ] [2022-03-01 12:09:19,904] Employee_01 - Step 04: Input to Last Name textbox
-[INFO ] [2022-03-01 12:09:20,005] Employee_01 - Step 05: Get Employee ID
-[INFO ] [2022-03-01 12:09:20,060] Employee_01 - Step 06: Check to Create Login Details checkbox
-[INFO ] [2022-03-01 12:09:20,368] Employee_01 - Step 07: Input to User Name textbox
-[INFO ] [2022-03-01 12:09:20,473] Employee_01 - Step 08: Input to Password textbox
-[INFO ] [2022-03-01 12:09:20,594] Employee_01 - Step 09: Input to Confirm Password textbox
-[INFO ] [2022-03-01 12:09:20,696] Employee_01 - Step 10: Select Enabled Status dropdown
-[INFO ] [2022-03-01 12:09:20,807] Employee_01 - Step 11: Click to Save button
-[INFO ] [2022-03-01 12:09:24,120] Employee_01 - Step 12: Open Employee List page
-[INFO ] [2022-03-01 12:09:26,889] --------------------- PASSED ---------------------
-[INFO ] [2022-03-01 12:09:26,893] Employee_01 - Step 13: Input to Employee Name textbox
-[INFO ] [2022-03-01 12:09:27,001] --------------------- PASSED ---------------------
-[INFO ] [2022-03-01 12:09:27,001] Employee_01 - Step 14: Click to Search button
-[INFO ] [2022-03-01 12:09:29,260] --------------------- PASSED ---------------------
-[INFO ] [2022-03-01 12:09:29,260] Employee_01 - Step 15: Verify Information Employee is displayed in data table
-[INFO ] [2022-03-01 12:09:29,333] --------------------- PASSED ---------------------
-[INFO ] [2022-03-01 12:09:29,406] --------------------- PASSED ---------------------
-[INFO ] [2022-03-01 12:09:29,467] --------------------- PASSED ---------------------
-[INFO ] [2022-03-01 12:09:29,536] Upload_Avatar_02 - Step 01: Login to system as User role with username & password: nguyentest12 12345678@X
-[INFO ] [2022-03-01 12:09:32,767] Upload_Avatar_02 - Step 02: Open 'My Info' page
-[INFO ] [2022-03-01 12:09:34,773] Upload_Avatar_02 - Step 03: Click to Change photo link
-[INFO ] [2022-03-01 12:09:35,650] Upload_Avatar_02 - Step 04: Upload new Avatar
-[INFO ] [2022-03-01 12:09:35,729] Upload_Avatar_02 - Step 05: Click to 'Upload' button
-[INFO ] [2022-03-01 12:09:40,795] Upload_Avatar_02 - Step 05: Verify success message is displayed
-[INFO ] [2022-03-01 12:09:40,866] --------------------- PASSED ---------------------
-[INFO ] [2022-03-01 12:09:40,866] Upload_Avatar_02 - Step 06: Verify image uploaded successfully
-[INFO ] [2022-03-01 12:09:40,922] --------------------- PASSED ---------------------
-[INFO ] [2022-03-01 12:09:40,928] Personal_Details_03 - Step 01: Opening 'Personal Details' form at Sidebar link
-[INFO ] [2022-03-01 12:09:42,359] Personal_Details_03 - Step 02: Verify is all of fileds in 'Personal Details' form disabled
-[INFO ] [2022-03-01 12:09:42,410] --------------------- PASSED ---------------------
-[INFO ] [2022-03-01 12:09:42,472] --------------------- PASSED ---------------------
-[INFO ] [2022-03-01 12:09:42,518] --------------------- PASSED ---------------------
-[INFO ] [2022-03-01 12:09:42,565] --------------------- PASSED ---------------------
-[INFO ] [2022-03-01 12:09:42,614] --------------------- PASSED ---------------------
-[INFO ] [2022-03-01 12:09:42,661] --------------------- PASSED ---------------------
-[INFO ] [2022-03-01 12:09:42,708] --------------------- PASSED ---------------------
-[INFO ] [2022-03-01 12:09:42,755] --------------------- PASSED ---------------------
-[INFO ] [2022-03-01 12:09:42,801] --------------------- PASSED ---------------------
-[INFO ] [2022-03-01 12:09:42,848] --------------------- PASSED ---------------------
-[INFO ] [2022-03-01 12:09:42,894] --------------------- PASSED ---------------------
-[INFO ] [2022-03-01 12:09:42,894] Personal_Details_03 - Step 03: Verify is 'First Name' displayed correctly
-[INFO ] [2022-03-01 12:09:42,954] --------------------- PASSED ---------------------
-[INFO ] [2022-03-01 12:09:42,954] Personal_Details_03 - Step 04: Verify is 'Last Name' displayed correctly
-[INFO ] [2022-03-01 12:09:43,019] --------------------- PASSED ---------------------
-[INFO ] [2022-03-01 12:09:43,019] Personal_Details_03 - Step 05: Verify is 'Employee Id' displayed correctly
-[INFO ] [2022-03-01 12:09:43,080] --------------------- PASSED ---------------------
-[INFO ] [2022-03-01 12:09:43,081] Personal_Details_03 - Step 06: Click to 'Edit' button
-[INFO ] [2022-03-01 12:09:44,495] Personal_Details_03 - Step 07: Verify is field 'Employee Id' disabled
-[INFO ] [2022-03-01 12:09:44,550] --------------------- PASSED ---------------------
-[INFO ] [2022-03-01 12:09:44,550] Personal_Details_03 - Step 08: Verify is field 'Driver's License Number' disabled
-[INFO ] [2022-03-01 12:09:44,595] --------------------- PASSED ---------------------
-[INFO ] [2022-03-01 12:09:44,595] Personal_Details_03 - Step 09: Verify is field 'SSN Number' disabled
-[INFO ] [2022-03-01 12:09:44,642] --------------------- PASSED ---------------------
-[INFO ] [2022-03-01 12:09:44,642] Personal_Details_03 - Step 10: Verify is field 'SIN Number' disabled
-[INFO ] [2022-03-01 12:09:44,687] --------------------- PASSED ---------------------
-[INFO ] [2022-03-01 12:09:44,687] Personal_Details_03 - Step 11: Verify is field 'Date of Birth' disabled
-[INFO ] [2022-03-01 12:09:44,736] --------------------- PASSED ---------------------
-[INFO ] [2022-03-01 12:09:44,736] Personal_Details_03 - Step 12: Updated 'First Name' textbox
-[INFO ] [2022-03-01 12:09:44,815] Personal_Details_03 - Step 13: Updated 'Last Name' textbox
-[INFO ] [2022-03-01 12:09:44,912] Personal_Details_03 - Step 14: Updated 'Male Gender' Radio butto
-[INFO ] [2022-03-01 12:09:45,196] Personal_Details_03 - Step 15: Updated 'Marital Status' dropdown
-[INFO ] [2022-03-01 12:09:45,537] Personal_Details_03 - Step 16: Updated 'Nationality' dropdown
-[INFO ] [2022-03-01 12:09:45,865] Personal_Details_03 - Step 17: Click to 'Save' button
-[INFO ] [2022-03-01 12:09:49,010] Personal_Details_03 - Step 18: Verify is Success message displayed
-[INFO ] [2022-03-01 12:09:49,091] --------------------- PASSED ---------------------
-[INFO ] [2022-03-01 12:09:49,091] Personal_Details_03 - Step 19: Verify is all of fields updated successfully
-[INFO ] [2022-03-01 12:09:49,149] --------------------- PASSED ---------------------
-[INFO ] [2022-03-01 12:09:49,227] --------------------- PASSED ---------------------
-[INFO ] [2022-03-01 12:09:49,287] --------------------- PASSED ---------------------
-[INFO ] [2022-03-01 12:09:49,348] --------------------- PASSED ---------------------
-[INFO ] [2022-03-01 12:09:49,442] --------------------- PASSED ---------------------
-[INFO ] [2022-03-01 12:09:50,039] --------------------- PASSED ---------------------
-[INFO ] [2022-03-01 12:09:50,044] Post-Condition: Cleaning the browser 'Firefox'
+[INFO ] [2022-03-03 20:34:27,015] ------------ START delete file in folder ------------
+[INFO ] [2022-03-03 20:34:27,016] ---------- FILE is removed ---------------
+[INFO ] [2022-03-03 20:34:27,017] ---------- FILE is removed ---------------
+[INFO ] [2022-03-03 20:34:27,017] ---------- FILE is removed ---------------
+[INFO ] [2022-03-03 20:34:27,017] ---------- FILE is removed ---------------
+[INFO ] [2022-03-03 20:34:27,018] ---------- FILE is removed ---------------
+[INFO ] [2022-03-03 20:34:27,018] ------------ END delete file in folder ------------
+[INFO ] [2022-03-03 20:34:27,175] Pre-Condition - Step 01: Opening the application with 'ie'
+[INFO ] [2022-03-03 20:34:31,392] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-03-03 20:34:33,624] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-03 20:34:38,566] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-03-03 20:34:40,829] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-03-03 20:34:42,799] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-03-03 20:34:43,967] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-03-03 20:34:44,496] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-03-03 20:34:45,179] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-03-03 20:34:46,285] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-03-03 20:34:47,392] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-03-03 20:34:48,481] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-03-03 20:34:49,260] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-03-03 20:34:51,451] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-03-03 20:34:52,667] --------------------- PASSED ---------------------
+[INFO ] [2022-03-03 20:34:52,672] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-03-03 20:34:55,154] --------------------- PASSED ---------------------
+[INFO ] [2022-03-03 20:34:55,154] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-03-03 20:34:57,417] --------------------- PASSED ---------------------
+[INFO ] [2022-03-03 20:34:57,417] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-03-03 20:34:58,325] --------------------- PASSED ---------------------
+[INFO ] [2022-03-03 20:34:59,093] --------------------- PASSED ---------------------
+[INFO ] [2022-03-03 20:34:59,872] --------------------- PASSED ---------------------
+[INFO ] [2022-03-03 20:34:59,932] Post-Condition: Cleaning the browser 'ie'

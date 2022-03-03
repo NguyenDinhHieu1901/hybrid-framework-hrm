@@ -274,28 +274,44 @@ public class BagePage {
 	protected void checkToDefaultCheckboxOrRadio(WebDriver driver, String locatorType) {
 		WebElement element = getWebElement(driver, locatorType);
 		if (!element.isSelected()) {
-			element.click();
+			if (driver.toString().contains("internet explorer")) {
+				clickToElementByJS(driver, locatorType);
+			} else {
+				element.click();
+			}
 		}
 	}
 
 	protected void checkToDefaultCheckboxOrRadio(WebDriver driver, String locatorType, String... dynamicValues) {
 		WebElement element = getWebElement(driver, getDynamicLocator(locatorType, dynamicValues));
 		if (!element.isSelected()) {
-			element.click();
+			if (driver.toString().contains("internet explorer")) {
+				clickToElementByJS(driver, getDynamicLocator(locatorType, dynamicValues));
+			} else {
+				element.click();
+			}
 		}
 	}
 
 	protected void uncheckToDefaultCheckbox(WebDriver driver, String locatorType) {
 		WebElement element = getWebElement(driver, locatorType);
 		if (element.isSelected()) {
-			element.click();
+			if (driver.toString().contains("internet explorer")) {
+				clickToElementByJS(driver, locatorType);
+			} else {
+				element.click();
+			}
 		}
 	}
 
 	protected void uncheckToDefaultCheckbox(WebDriver driver, String locatorType, String... dynamicValues) {
 		WebElement element = getWebElement(driver, getDynamicLocator(locatorType, dynamicValues));
 		if (element.isSelected()) {
-			element.click();
+			if (driver.toString().contains("internet explorer")) {
+				clickToElementByJS(driver, getDynamicLocator(locatorType, dynamicValues));
+			} else {
+				element.click();
+			}
 		}
 	}
 
@@ -540,19 +556,40 @@ public class BagePage {
 	@Step("Open Sub Menu page with Sub Menu: {2}")
 	public void openSubMenuPage(WebDriver driver, String menuName, String subMenuName) {
 		waitForElementClickable(driver, BasePageUI.MENU_PAGE_BY_TEXT, menuName);
-		clickToElement(driver, BasePageUI.MENU_PAGE_BY_TEXT, menuName);
+		if (driver.toString().contains("internet explorer")) {
+			clickToElementByJS(driver, BasePageUI.MENU_PAGE_BY_TEXT, menuName);
+		} else {
+			clickToElement(driver, BasePageUI.MENU_PAGE_BY_TEXT, menuName);
+			sleepInSecond(2);
+		}
+
 		waitForElementClickable(driver, BasePageUI.SUB_MENU_BY_TEXT, menuName, subMenuName);
-		clickToElement(driver, BasePageUI.SUB_MENU_BY_TEXT, menuName, subMenuName);
+		if (driver.toString().contains("internet explorer")) {
+			clickToElementByJS(driver, BasePageUI.SUB_MENU_BY_TEXT, menuName, subMenuName);
+		} else {
+			clickToElement(driver, BasePageUI.SUB_MENU_BY_TEXT, menuName, subMenuName);
+			sleepInSecond(2);
+		}
 		isJQueryAjaxLoadedSuccess(driver);
 	}
 
 	@Step("Open Child Sub Menu page with Child Sub Menu: {3}")
 	public void openChildSubMenuPage(WebDriver driver, String menuName, String subMenuName, String childSubMenu) {
 		waitForElementClickable(driver, BasePageUI.MENU_PAGE_BY_TEXT, menuName);
-		clickToElement(driver, BasePageUI.MENU_PAGE_BY_TEXT, menuName);
+		if (driver.toString().contains("internet explorer")) {
+			clickToElementByJS(driver, BasePageUI.MENU_PAGE_BY_TEXT, menuName);
+		} else {
+			clickToElement(driver, BasePageUI.MENU_PAGE_BY_TEXT, menuName);
+			sleepInSecond(2);
+		}
 		waitForElementVisible(driver, BasePageUI.SUB_MENU_BY_TEXT, menuName, subMenuName);
 		hoverMouseToElement(driver, BasePageUI.SUB_MENU_BY_TEXT, menuName, subMenuName);
-		clickToElement(driver, BasePageUI.CHILD_SUB_MENU_BY_TEXT, menuName, subMenuName, childSubMenu);
+		if (driver.toString().contains("internet explorer")) {
+			clickToElementByJS(driver, BasePageUI.CHILD_SUB_MENU_BY_TEXT, menuName, subMenuName, childSubMenu);
+		} else {
+			clickToElement(driver, BasePageUI.CHILD_SUB_MENU_BY_TEXT, menuName, subMenuName, childSubMenu);
+			sleepInSecond(2);
+		}
 		isJQueryAjaxLoadedSuccess(driver);
 	}
 
@@ -560,7 +597,13 @@ public class BagePage {
 	public void clickToButtonByID(WebDriver driver, String buttonID) {
 		highlightElementByJS(driver, BasePageUI.BUTTON_BY_ID, buttonID);
 		waitForElementClickable(driver, BasePageUI.BUTTON_BY_ID, buttonID);
-		clickToElement(driver, BasePageUI.BUTTON_BY_ID, buttonID);
+		
+		if (driver.toString().contains("internet explorer")) {
+			clickToElementByJS(driver, BasePageUI.BUTTON_BY_ID, buttonID);
+		} else {
+			clickToElement(driver, BasePageUI.BUTTON_BY_ID, buttonID);
+			sleepInSecond(2);
+		}
 	}
 
 	@Step("Input to textbox with ID: {1} and value: {2}")

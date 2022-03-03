@@ -53,7 +53,8 @@ public class BaseTest {
 			driver = new EdgeDriver();
 			break;
 		case IE:
-			WebDriverManager.iedriver().arch32().setup();
+//			WebDriverManager.iedriver().arch32().setup();
+			System.setProperty("webdriver.ie.driver", GlobalConstants.PROJECT_PATH + File.separator + "driverBrowsers" + File.separator + "IEDriverServer.exe");
 			driver = new InternetExplorerDriver();
 			break;
 		case SAFARI:
@@ -211,7 +212,7 @@ public class BaseTest {
 				} else {
 					cmd = "pkill msedgedriver";
 				}
-			} else if (driverInstanceName.contains("ie")) {
+			} else if (driverInstanceName.contains("internet explorer")) {
 				if (osName.contains("windows")) {
 					cmd = "taskkill /F /FI \"IMAGENAME eq IEDriverServer*\"";
 				} else {
