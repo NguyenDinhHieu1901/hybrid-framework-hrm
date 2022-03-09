@@ -18,7 +18,7 @@ public class TestJson {
 		obj.put("lastName", "Test");
 		obj.put("salary", "2500");
 		System.out.println(obj.toJSONString());
-		
+
 		TestJson test = new TestJson();
 		System.out.println(test.readJSON("users", "userName"));
 	}

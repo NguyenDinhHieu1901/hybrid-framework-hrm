@@ -26,11 +26,11 @@ import utilities.DataUtil;
 public class Level_20_Employee_Data_Test_II extends BaseTest {
 	@Description("Pre-Condition: Opening web application and login to system")
 	@Severity(SeverityLevel.BLOCKER)
-	@Parameters({"browser", "userNameAdmin", "passwordAdmin"})
+	@Parameters({ "browser", "userNameAdmin", "passwordAdmin" })
 	@BeforeClass
 	public void beforeClass(String browserName, String userNameAdmin, String passwordAdmin) {
 		data = DataUtil.getDataUtil();
-		
+
 		firstName = data.getFirstName();
 		lastName = data.getLastName();
 		userNameEmp = data.getUserName();
@@ -45,7 +45,7 @@ public class Level_20_Employee_Data_Test_II extends BaseTest {
 		editGender = data.getGender();
 		editMaritalStatus = data.getMaritalStatus();
 		editNationality = data.getNationality();
-		
+
 		addressStreet1 = "2 Le Lai";
 		addressStreet2 = "1 Le Loi";
 		city = "Ho Chi Minh";

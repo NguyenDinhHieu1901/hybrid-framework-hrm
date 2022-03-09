@@ -1,31 +1,22 @@
-[INFO ] [2022-03-03 20:34:27,015] ------------ START delete file in folder ------------
-[INFO ] [2022-03-03 20:34:27,016] ---------- FILE is removed ---------------
-[INFO ] [2022-03-03 20:34:27,017] ---------- FILE is removed ---------------
-[INFO ] [2022-03-03 20:34:27,017] ---------- FILE is removed ---------------
-[INFO ] [2022-03-03 20:34:27,017] ---------- FILE is removed ---------------
-[INFO ] [2022-03-03 20:34:27,018] ---------- FILE is removed ---------------
-[INFO ] [2022-03-03 20:34:27,018] ------------ END delete file in folder ------------
-[INFO ] [2022-03-03 20:34:27,175] Pre-Condition - Step 01: Opening the application with 'ie'
-[INFO ] [2022-03-03 20:34:31,392] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
-[INFO ] [2022-03-03 20:34:33,624] Employee_01 - Step 01: Open Employee List page
-[INFO ] [2022-03-03 20:34:38,566] Employee_01 - Step 02: Click to Add button
-[INFO ] [2022-03-03 20:34:40,829] Employee_01 - Step 03: Input to First Name textbox
-[INFO ] [2022-03-03 20:34:42,799] Employee_01 - Step 04: Input to Last Name textbox
-[INFO ] [2022-03-03 20:34:43,967] Employee_01 - Step 05: Get Employee ID
-[INFO ] [2022-03-03 20:34:44,496] Employee_01 - Step 06: Check to Create Login Details checkbox
-[INFO ] [2022-03-03 20:34:45,179] Employee_01 - Step 07: Input to User Name textbox
-[INFO ] [2022-03-03 20:34:46,285] Employee_01 - Step 08: Input to Password textbox
-[INFO ] [2022-03-03 20:34:47,392] Employee_01 - Step 09: Input to Confirm Password textbox
-[INFO ] [2022-03-03 20:34:48,481] Employee_01 - Step 10: Select Enabled Status dropdown
-[INFO ] [2022-03-03 20:34:49,260] Employee_01 - Step 11: Click to Save button
-[INFO ] [2022-03-03 20:34:51,451] Employee_01 - Step 12: Open Employee List page
-[INFO ] [2022-03-03 20:34:52,667] --------------------- PASSED ---------------------
-[INFO ] [2022-03-03 20:34:52,672] Employee_01 - Step 13: Input to Employee Name textbox
-[INFO ] [2022-03-03 20:34:55,154] --------------------- PASSED ---------------------
-[INFO ] [2022-03-03 20:34:55,154] Employee_01 - Step 14: Click to Search button
-[INFO ] [2022-03-03 20:34:57,417] --------------------- PASSED ---------------------
-[INFO ] [2022-03-03 20:34:57,417] Employee_01 - Step 15: Verify Information Employee is displayed in data table
-[INFO ] [2022-03-03 20:34:58,325] --------------------- PASSED ---------------------
-[INFO ] [2022-03-03 20:34:59,093] --------------------- PASSED ---------------------
-[INFO ] [2022-03-03 20:34:59,872] --------------------- PASSED ---------------------
-[INFO ] [2022-03-03 20:34:59,932] Post-Condition: Cleaning the browser 'ie'
+[INFO ] [2022-03-08 17:20:50,622] ------------ START delete file in folder ------------
+[INFO ] [2022-03-08 17:20:50,651] ---------- FILE is removed ---------------
+[INFO ] [2022-03-08 17:20:50,652] ---------- FILE is removed ---------------
+[INFO ] [2022-03-08 17:20:50,653] ---------- FILE is removed ---------------
+[INFO ] [2022-03-08 17:20:50,653] ---------- FILE is removed ---------------
+[INFO ] [2022-03-08 17:20:50,653] ---------- FILE is removed ---------------
+[INFO ] [2022-03-08 17:20:50,654] ---------- FILE is removed ---------------
+[INFO ] [2022-03-08 17:20:50,654] ---------- FILE is removed ---------------
+[INFO ] [2022-03-08 17:20:50,655] ---------- FILE is removed ---------------
+[INFO ] [2022-03-08 17:20:50,655] ---------- FILE is removed ---------------
+[INFO ] [2022-03-08 17:20:50,656] ---------- FILE is removed ---------------
+[INFO ] [2022-03-08 17:20:50,656] ---------- FILE is removed ---------------
+[INFO ] [2022-03-08 17:20:50,656] ---------- FILE is removed ---------------
+[INFO ] [2022-03-08 17:20:50,657] ---------- FILE is removed ---------------
+[INFO ] [2022-03-08 17:20:50,663] ---------- FILE is removed ---------------
+[INFO ] [2022-03-08 17:20:50,663] ---------- FILE is removed ---------------
+[INFO ] [2022-03-08 17:20:50,663] ---------- FILE is removed ---------------
+[INFO ] [2022-03-08 17:20:50,664] ------------ END delete file in folder ------------
+[INFO ] [2022-03-08 17:20:50,702] Dev: testing
+[INFO ] [2022-03-08 17:21:03,455] Current Testing: https://demo.guru99.com/v2/
+[INFO ] [2022-03-08 17:21:03,660] --------------------- PASSED ---------------------
+[INFO ] [2022-03-08 17:21:03,903] Post-Condition: Cleaning the browser 'firefox'

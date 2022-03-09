@@ -30,7 +30,7 @@ public class Level_20_Employee_Data_Test_I extends BaseTest {
 	@BeforeClass
 	public void beforeClass(String browserName) {
 		data = DataUtil.getDataUtil();
-		
+
 		userNameAdmin = "Admin";
 		passwordAdmin = "admin123";
 		firstName = data.getFirstName();
@@ -47,7 +47,7 @@ public class Level_20_Employee_Data_Test_I extends BaseTest {
 		editGender = data.getGender();
 		editMaritalStatus = data.getMaritalStatus();
 		editNationality = data.getNationality();
-		
+
 		addressStreet1 = "2 Le Lai";
 		addressStreet2 = "1 Le Loi";
 		city = "Ho Chi Minh";

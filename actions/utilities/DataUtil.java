@@ -20,7 +20,7 @@ public class DataUtil {
 	private enum MaritalStatus {
 		Married, Single;
 	}
-	
+
 	private enum EmployeeStatus {
 		Enabled
 	}

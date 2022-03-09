@@ -27,7 +27,7 @@ import pageObjects.hrm.PageGeneratorManager;
 public class Level_20_Employee_Data_Test_III extends BaseTest {
 	@Description("Pre-Condition: Opening web application and login to system")
 	@Severity(SeverityLevel.BLOCKER)
-	@Parameters({"browser", "userNameAdmin", "passwordAdmin"})
+	@Parameters({ "browser", "userNameAdmin", "passwordAdmin" })
 	@BeforeClass
 	public void beforeClass(String browserName, String userNameAdmin, String passwordAdmin) {
 		firstName = Employee.Add_New_Employee.firstName;
@@ -44,7 +44,7 @@ public class Level_20_Employee_Data_Test_III extends BaseTest {
 		editGender = Employee.PersonalDetails.gender;
 		editMaritalStatus = Employee.PersonalDetails.maritalStatus;
 		editNationality = Employee.PersonalDetails.nationality;
-		
+
 		addressStreet1 = "2 Le Lai";
 		addressStreet2 = "1 Le Loi";
 		city = "Ho Chi Minh";

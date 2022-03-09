@@ -597,7 +597,7 @@ public class BagePage {
 	public void clickToButtonByID(WebDriver driver, String buttonID) {
 		highlightElementByJS(driver, BasePageUI.BUTTON_BY_ID, buttonID);
 		waitForElementClickable(driver, BasePageUI.BUTTON_BY_ID, buttonID);
-		
+
 		if (driver.toString().contains("internet explorer")) {
 			clickToElementByJS(driver, BasePageUI.BUTTON_BY_ID, buttonID);
 		} else {
