@@ -7318,3 +7318,835 @@
 [INFO ] [2022-03-08 17:21:03,455] Current Testing: https://demo.guru99.com/v2/
 [INFO ] [2022-03-08 17:21:03,660] --------------------- PASSED ---------------------
 [INFO ] [2022-03-08 17:21:03,903] Post-Condition: Cleaning the browser 'firefox'
+[INFO ] [2022-03-14 16:37:32,288] ------------ START delete file in folder ------------
+[INFO ] [2022-03-14 16:37:32,288] ------------ START delete file in folder ------------
+[INFO ] [2022-03-14 16:37:32,309] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:37:32,309] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:37:32,324] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:37:32,324] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:37:32,325] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:37:32,325] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:37:32,334] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:37:32,334] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:37:32,335] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:37:32,335] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:37:32,335] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:37:32,335] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:37:32,336] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:37:32,336] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:37:32,336] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:37:32,336] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:37:32,337] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:37:32,337] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:37:32,338] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:37:32,338] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:37:32,338] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:37:32,338] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:37:32,339] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:37:32,339] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:37:32,340] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:37:32,340] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:37:32,340] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:37:32,340] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:37:32,341] ------------ END delete file in folder ------------
+[INFO ] [2022-03-14 16:37:32,341] ------------ END delete file in folder ------------
+[INFO ] [2022-03-14 16:37:32,411] Dev: testing
+[INFO ] [2022-03-14 16:37:32,411] Dev: testing
+[INFO ] [2022-03-14 16:37:34,684] Post-Condition: Cleaning the browser 'chrome'
+[INFO ] [2022-03-14 16:37:34,710] Post-Condition: Cleaning the browser 'firefox'
+[INFO ] [2022-03-14 16:39:06,672] ------------ START delete file in folder ------------
+[INFO ] [2022-03-14 16:39:06,673] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:06,674] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:06,674] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:06,675] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:06,676] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:06,676] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:06,677] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:06,677] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:06,677] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:06,678] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:06,678] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:06,678] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:06,679] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:06,679] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:06,679] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:06,679] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:06,680] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:06,680] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:06,680] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:06,681] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:06,681] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:06,681] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:06,682] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:06,682] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:06,682] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:06,683] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:06,683] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:06,683] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:06,684] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:06,684] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:06,684] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:06,685] ------------ END delete file in folder ------------
+[INFO ] [2022-03-14 16:39:06,722] Dev: testing
+[INFO ] [2022-03-14 16:39:07,721] Post-Condition: Cleaning the browser 'chrome'
+[INFO ] [2022-03-14 16:39:25,366] ------------ START delete file in folder ------------
+[INFO ] [2022-03-14 16:39:25,368] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:25,368] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:25,369] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:25,369] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:25,370] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:25,370] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:25,371] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:25,371] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:25,371] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:25,372] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:25,372] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:25,373] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:25,373] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:25,373] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:25,374] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:25,374] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:39:25,374] ------------ END delete file in folder ------------
+[INFO ] [2022-03-14 16:39:25,412] Dev: testing
+[INFO ] [2022-03-14 16:39:26,473] Post-Condition: Cleaning the browser 'firefox'
+[INFO ] [2022-03-14 16:44:06,908] ------------ START delete file in folder ------------
+[INFO ] [2022-03-14 16:44:06,909] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:44:06,909] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:44:06,910] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:44:06,910] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:44:06,910] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:44:06,911] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:44:06,911] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:44:06,911] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:44:06,912] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:44:06,912] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:44:06,912] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:44:06,912] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:44:06,913] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:44:06,913] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:44:06,913] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:44:06,914] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:44:06,914] ------------ END delete file in folder ------------
+[INFO ] [2022-03-14 16:44:06,951] Dev: testing
+[INFO ] [2022-03-14 16:44:08,156] Post-Condition: Cleaning the browser 'firefox'
+[INFO ] [2022-03-14 16:44:27,060] ------------ START delete file in folder ------------
+[INFO ] [2022-03-14 16:44:27,061] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:44:27,061] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:44:27,062] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:44:27,062] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:44:27,062] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:44:27,063] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:44:27,063] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:44:27,064] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:44:27,064] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:44:27,065] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:44:27,065] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:44:27,065] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:44:27,065] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:44:27,066] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:44:27,066] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:44:27,066] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:44:27,067] ------------ END delete file in folder ------------
+[INFO ] [2022-03-14 16:44:27,105] Dev: testing
+[INFO ] [2022-03-14 16:44:28,129] Post-Condition: Cleaning the browser 'firefox'
+[INFO ] [2022-03-14 16:47:06,954] ------------ START delete file in folder ------------
+[INFO ] [2022-03-14 16:47:06,955] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:47:06,956] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:47:06,956] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:47:06,956] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:47:06,957] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:47:06,957] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:47:06,957] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:47:06,958] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:47:06,958] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:47:06,958] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:47:06,959] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:47:06,959] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:47:06,959] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:47:06,960] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:47:06,960] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:47:06,960] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:47:06,961] ------------ END delete file in folder ------------
+[INFO ] [2022-03-14 16:47:07,000] Dev: testing
+[INFO ] [2022-03-14 16:47:08,157] Post-Condition: Cleaning the browser 'firefox'
+[INFO ] [2022-03-14 16:48:41,018] ------------ START delete file in folder ------------
+[INFO ] [2022-03-14 16:48:41,019] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:48:41,019] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:48:41,020] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:48:41,020] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:48:41,020] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:48:41,021] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:48:41,021] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:48:41,022] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:48:41,022] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:48:41,022] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:48:41,023] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:48:41,023] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:48:41,023] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:48:41,024] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:48:41,024] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:48:41,024] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 16:48:41,025] ------------ END delete file in folder ------------
+[INFO ] [2022-03-14 16:48:41,064] Dev: testing
+[INFO ] [2022-03-14 16:48:42,237] Post-Condition: Cleaning the browser 'firefox'
+[INFO ] [2022-03-14 17:01:43,678] ------------ START delete file in folder ------------
+[INFO ] [2022-03-14 17:01:43,679] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:01:43,679] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:01:43,680] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:01:43,680] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:01:43,680] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:01:43,681] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:01:43,681] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:01:43,682] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:01:43,682] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:01:43,682] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:01:43,682] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:01:43,683] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:01:43,683] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:01:43,683] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:01:43,684] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:01:43,684] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:01:43,684] ------------ END delete file in folder ------------
+[INFO ] [2022-03-14 17:01:43,725] Dev: testing
+[INFO ] [2022-03-14 17:01:44,893] Post-Condition: Cleaning the browser 'firefox'
+[INFO ] [2022-03-14 17:03:12,101] ------------ START delete file in folder ------------
+[INFO ] [2022-03-14 17:03:12,103] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:03:12,104] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:03:12,104] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:03:12,105] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:03:12,105] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:03:12,106] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:03:12,106] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:03:12,106] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:03:12,107] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:03:12,107] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:03:12,108] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:03:12,108] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:03:12,108] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:03:12,109] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:03:12,109] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:03:12,110] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:03:12,110] ------------ END delete file in folder ------------
+[INFO ] [2022-03-14 17:03:12,148] Dev: testing
+[INFO ] [2022-03-14 17:03:13,289] Post-Condition: Cleaning the browser 'firefox'
+[INFO ] [2022-03-14 17:06:02,057] ------------ START delete file in folder ------------
+[INFO ] [2022-03-14 17:06:02,059] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:06:02,059] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:06:02,060] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:06:02,060] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:06:02,060] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:06:02,061] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:06:02,061] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:06:02,062] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:06:02,062] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:06:02,062] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:06:02,063] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:06:02,064] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:06:02,064] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:06:02,065] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:06:02,065] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:06:02,065] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:06:02,066] ------------ END delete file in folder ------------
+[INFO ] [2022-03-14 17:06:02,108] Dev: testing
+[INFO ] [2022-03-14 17:06:03,225] Post-Condition: Cleaning the browser 'firefox'
+[INFO ] [2022-03-14 17:06:22,181] ------------ START delete file in folder ------------
+[INFO ] [2022-03-14 17:06:22,182] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:06:22,183] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:06:22,183] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:06:22,183] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:06:22,184] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:06:22,184] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:06:22,185] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:06:22,185] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:06:22,185] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:06:22,186] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:06:22,188] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:06:22,188] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:06:22,189] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:06:22,189] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:06:22,189] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:06:22,190] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:06:22,190] ------------ END delete file in folder ------------
+[INFO ] [2022-03-14 17:06:22,229] Dev: testing
+[INFO ] [2022-03-14 17:06:23,202] Post-Condition: Cleaning the browser 'chrome'
+[INFO ] [2022-03-14 17:10:54,970] ------------ START delete file in folder ------------
+[INFO ] [2022-03-14 17:10:54,971] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:10:54,972] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:10:54,972] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:10:54,973] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:10:54,973] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:10:54,973] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:10:54,974] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:10:54,974] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:10:54,975] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:10:54,975] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:10:54,975] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:10:54,976] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:10:54,976] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:10:54,976] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:10:54,977] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:10:54,977] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:10:54,977] ------------ END delete file in folder ------------
+[INFO ] [2022-03-14 17:10:55,017] Dev: testing
+[INFO ] [2022-03-14 17:11:05,384] Current Testing: https://demo.guru99.com/v2/
+[INFO ] [2022-03-14 17:11:05,468] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:11:05,591] Post-Condition: Cleaning the browser 'firefox'
+[INFO ] [2022-03-14 17:13:13,216] ------------ START delete file in folder ------------
+[INFO ] [2022-03-14 17:13:13,216] ------------ START delete file in folder ------------
+[INFO ] [2022-03-14 17:13:13,218] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:13:13,218] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:13:13,218] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:13:13,218] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:13:13,219] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:13:13,219] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:13:13,219] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:13:13,219] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:13:13,219] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:13:13,219] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:13:13,220] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:13:13,220] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:13:13,220] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:13:13,220] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:13:13,221] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:13:13,221] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:13:13,221] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:13:13,221] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:13:13,221] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:13:13,221] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:13:13,222] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:13:13,222] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:13:13,222] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:13:13,222] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:13:13,222] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:13:13,222] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:13:13,223] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:13:13,223] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:13:13,223] ------------ END delete file in folder ------------
+[INFO ] [2022-03-14 17:13:13,223] ------------ END delete file in folder ------------
+[INFO ] [2022-03-14 17:13:13,266] Dev: testing
+[INFO ] [2022-03-14 17:13:13,266] Dev: testing
+[INFO ] [2022-03-14 17:13:21,450] Current Testing: https://demo.guru99.com/v2/
+[INFO ] [2022-03-14 17:13:21,523] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:13:21,651] Post-Condition: Cleaning the browser 'chrome'
+[INFO ] [2022-03-14 17:13:23,856] Current Testing: https://demo.guru99.com/v2/
+[INFO ] [2022-03-14 17:13:23,870] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:13:23,929] Post-Condition: Cleaning the browser 'firefox'
+[INFO ] [2022-03-14 17:15:43,899] ------------ START delete file in folder ------------
+[INFO ] [2022-03-14 17:15:43,899] ------------ START delete file in folder ------------
+[INFO ] [2022-03-14 17:15:43,900] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,900] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,901] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,901] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,901] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,901] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,902] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,902] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,902] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,902] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,903] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,903] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,903] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,903] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,904] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,904] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,904] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,904] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,904] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,905] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,905] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,905] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,906] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,906] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,906] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,906] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,906] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,906] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,907] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,907] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,907] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,907] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,907] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,907] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,908] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,908] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,908] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,908] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,908] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,908] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,909] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,909] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,909] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,909] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,909] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,909] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,910] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,910] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,910] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,910] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,910] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,911] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,911] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,911] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:15:43,911] ------------ END delete file in folder ------------
+[INFO ] [2022-03-14 17:15:43,911] ------------ END delete file in folder ------------
+[INFO ] [2022-03-14 17:15:43,957] Dev: testing
+[INFO ] [2022-03-14 17:15:44,069] Pre-Condition - Step 01: Opening the application with 'chrome'
+[INFO ] [2022-03-14 17:15:49,006] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-03-14 17:15:54,191] Current Testing: https://demo.guru99.com/v2/
+[INFO ] [2022-03-14 17:15:54,289] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:15:54,392] Post-Condition: Cleaning the browser 'firefox'
+[INFO ] [2022-03-14 17:15:55,276] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-14 17:15:59,804] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-14 17:16:03,863] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-14 17:22:57,840] ------------ START delete file in folder ------------
+[INFO ] [2022-03-14 17:22:57,840] ------------ START delete file in folder ------------
+[INFO ] [2022-03-14 17:22:57,842] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:22:57,842] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:22:57,842] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:22:57,842] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:22:57,843] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:22:57,843] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:22:57,843] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:22:57,843] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:22:57,843] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:22:57,843] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:22:57,843] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:22:57,844] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:22:57,844] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:22:57,844] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:22:57,844] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:22:57,844] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:22:57,845] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:22:57,852] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:22:57,852] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:22:57,852] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:22:57,853] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:22:57,853] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:22:57,853] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:22:57,853] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:22:57,853] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:22:57,853] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:22:57,854] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:22:57,854] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:22:57,854] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:22:57,854] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:22:57,855] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:22:57,855] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:22:57,855] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:22:57,855] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:22:57,856] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:22:57,856] ------------ END delete file in folder ------------
+[INFO ] [2022-03-14 17:22:57,857] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:22:57,857] ------------ END delete file in folder ------------
+[INFO ] [2022-03-14 17:22:58,015] Pre-Condition - Step 01: Opening the application with 'chrome'
+[INFO ] [2022-03-14 17:22:58,016] Pre-Condition - Step 01: Opening the application with 'firefox'
+[INFO ] [2022-03-14 17:23:04,645] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-03-14 17:23:07,975] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-03-14 17:23:11,155] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-14 17:23:13,717] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-14 17:23:17,973] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-03-14 17:23:20,865] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-14 17:23:20,875] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-14 17:24:04,840] ------------ START delete file in folder ------------
+[INFO ] [2022-03-14 17:24:04,840] ------------ START delete file in folder ------------
+[INFO ] [2022-03-14 17:24:04,842] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:24:04,842] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:24:04,843] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:24:04,842] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:24:04,843] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:24:04,843] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:24:04,843] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:24:04,843] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:24:04,844] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:24:04,844] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:24:04,844] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:24:04,844] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:24:04,844] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:24:04,844] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:24:04,844] ------------ END delete file in folder ------------
+[INFO ] [2022-03-14 17:24:04,845] ------------ END delete file in folder ------------
+[INFO ] [2022-03-14 17:24:05,002] Pre-Condition - Step 01: Opening the application with 'chrome'
+[INFO ] [2022-03-14 17:24:05,002] Pre-Condition - Step 01: Opening the application with 'firefox'
+[INFO ] [2022-03-14 17:24:10,966] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-03-14 17:24:14,136] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-03-14 17:24:17,567] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-14 17:24:19,631] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-14 17:24:26,308] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-03-14 17:24:26,780] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-03-14 17:24:30,406] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-03-14 17:24:30,557] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-03-14 17:24:30,664] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-03-14 17:24:30,678] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-03-14 17:24:30,731] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-03-14 17:24:30,737] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-03-14 17:24:30,780] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-03-14 17:24:30,817] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-03-14 17:24:30,842] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-03-14 17:24:30,968] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-03-14 17:24:31,095] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-03-14 17:24:31,098] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-03-14 17:24:31,145] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-03-14 17:24:31,218] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-03-14 17:24:31,249] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-03-14 17:24:31,281] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-03-14 17:24:31,364] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-03-14 17:24:31,381] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-03-14 17:24:35,421] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-03-14 17:24:36,923] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-03-14 17:24:41,698] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:24:41,711] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-03-14 17:24:41,897] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:24:41,897] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-03-14 17:24:42,978] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:24:42,978] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-03-14 17:24:43,040] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:24:43,041] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-03-14 17:24:46,156] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:24:46,156] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-03-14 17:24:46,231] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:24:46,300] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:24:46,369] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:24:46,472] Upload_Avatar_02 - Step 01: Login to system as User role with username & password: nguyentest12 12345678@X
+[INFO ] [2022-03-14 17:24:46,685] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:24:46,685] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-03-14 17:24:46,739] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:24:46,778] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:24:46,816] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:24:46,822] Upload_Avatar_02 - Step 01: Login to system as User role with username & password: nguyentest12 12345678@X
+[INFO ] [2022-03-14 17:24:51,914] Upload_Avatar_02 - Step 02: Open 'My Info' page
+[INFO ] [2022-03-14 17:24:51,963] Upload_Avatar_02 - Step 02: Open 'My Info' page
+[INFO ] [2022-03-14 17:24:53,551] Upload_Avatar_02 - Step 03: Click to Change photo link
+[INFO ] [2022-03-14 17:24:54,044] Upload_Avatar_02 - Step 03: Click to Change photo link
+[INFO ] [2022-03-14 17:24:54,392] Upload_Avatar_02 - Step 04: Upload new Avatar
+[INFO ] [2022-03-14 17:24:54,451] Upload_Avatar_02 - Step 05: Click to 'Upload' button
+[INFO ] [2022-03-14 17:24:54,819] Upload_Avatar_02 - Step 04: Upload new Avatar
+[INFO ] [2022-03-14 17:24:54,892] Upload_Avatar_02 - Step 05: Click to 'Upload' button
+[INFO ] [2022-03-14 17:25:01,155] Upload_Avatar_02 - Step 05: Verify success message is displayed
+[INFO ] [2022-03-14 17:25:01,768] Upload_Avatar_02 - Step 05: Verify success message is displayed
+[INFO ] [2022-03-14 17:25:11,771] Upload_Avatar_02 - Step 01: Login to system as User role with username & password: nguyentest12 12345678@X
+[INFO ] [2022-03-14 17:25:12,500] Upload_Avatar_02 - Step 01: Login to system as User role with username & password: nguyentest12 12345678@X
+[INFO ] [2022-03-14 17:25:58,265] ------------ START delete file in folder ------------
+[INFO ] [2022-03-14 17:25:58,265] ------------ START delete file in folder ------------
+[INFO ] [2022-03-14 17:25:58,266] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:25:58,266] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:25:58,267] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:25:58,267] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:25:58,267] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:25:58,267] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:25:58,268] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:25:58,268] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:25:58,268] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:25:58,268] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:25:58,268] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:25:58,268] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:25:58,269] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:25:58,269] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:25:58,269] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:25:58,269] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:25:58,269] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:25:58,269] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:25:58,270] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:25:58,270] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:25:58,270] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:25:58,270] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:25:58,271] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:25:58,271] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:25:58,271] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:25:58,271] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:25:58,272] ------------ END delete file in folder ------------
+[INFO ] [2022-03-14 17:25:58,272] ------------ END delete file in folder ------------
+[INFO ] [2022-03-14 17:25:58,344] Pre-Condition - Step 01: Opening the application with 'chrome'
+[INFO ] [2022-03-14 17:25:58,344] Pre-Condition - Step 01: Opening the application with 'firefox'
+[INFO ] [2022-03-14 17:26:03,573] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-03-14 17:26:07,390] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-03-14 17:26:10,787] Post-Condition: Cleaning the browser 'firefox'
+[INFO ] [2022-03-14 17:26:15,120] Post-Condition: Cleaning the browser 'chrome'
+[INFO ] [2022-03-14 17:26:42,788] ------------ START delete file in folder ------------
+[INFO ] [2022-03-14 17:26:42,789] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:26:42,790] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:26:42,791] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:26:42,791] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:26:42,792] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:26:42,792] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:26:42,792] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:26:42,793] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:26:42,793] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:26:42,793] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:26:42,794] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:26:42,794] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:26:42,794] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:26:42,795] ------------ END delete file in folder ------------
+[INFO ] [2022-03-14 17:26:42,860] Pre-Condition - Step 01: Opening the application with 'firefox'
+[INFO ] [2022-03-14 17:26:51,700] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-03-14 17:26:58,394] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-14 17:27:05,433] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-03-14 17:27:09,287] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-03-14 17:27:09,351] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-03-14 17:27:09,404] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-03-14 17:27:09,442] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-03-14 17:27:09,708] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-03-14 17:27:09,758] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-03-14 17:27:09,827] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-03-14 17:27:09,879] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-03-14 17:27:09,939] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-03-14 17:27:13,904] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-03-14 17:27:19,951] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:27:19,952] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-03-14 17:27:20,027] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:27:20,027] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-03-14 17:27:23,655] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-14 17:27:23,667] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-14 17:32:53,961] ------------ START delete file in folder ------------
+[INFO ] [2022-03-14 17:32:53,963] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:32:53,963] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:32:53,964] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:32:53,964] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:32:53,964] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:32:53,965] ------------ END delete file in folder ------------
+[INFO ] [2022-03-14 17:32:54,109] Pre-Condition - Step 01: Opening the application with 'firefox'
+[INFO ] [2022-03-14 17:33:06,631] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-03-14 17:33:13,204] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-14 17:33:21,308] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-03-14 17:33:25,317] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-03-14 17:33:25,454] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-03-14 17:33:25,565] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-03-14 17:33:25,647] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-03-14 17:33:25,962] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-03-14 17:33:26,070] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-03-14 17:33:26,201] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-03-14 17:33:26,306] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-03-14 17:33:26,497] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-03-14 17:33:30,633] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-03-14 17:33:36,918] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:33:36,920] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-03-14 17:33:37,074] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:33:37,074] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-03-14 17:33:40,845] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:33:40,845] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-03-14 17:33:40,939] --------------------- FAILED ---------------------
+[INFO ] [2022-03-14 17:33:41,023] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:33:41,096] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:33:41,168] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-14 17:33:47,187] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-03-14 17:33:50,924] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-03-14 17:33:51,057] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-03-14 17:33:51,184] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-03-14 17:33:51,248] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-03-14 17:33:51,315] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-03-14 17:33:51,409] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-03-14 17:33:51,532] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-03-14 17:33:51,626] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-03-14 17:33:51,729] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-03-14 17:33:55,836] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-03-14 17:34:02,095] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:34:02,095] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-03-14 17:34:02,249] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:34:02,249] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-03-14 17:34:06,090] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:34:06,090] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-03-14 17:34:06,185] --------------------- FAILED ---------------------
+[INFO ] [2022-03-14 17:34:06,258] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:34:06,334] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:34:06,342] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-14 17:34:12,250] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-03-14 17:34:15,958] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-03-14 17:34:16,078] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-03-14 17:34:16,165] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-03-14 17:34:16,235] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-03-14 17:34:16,303] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-03-14 17:34:16,393] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-03-14 17:34:16,522] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-03-14 17:34:16,609] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-03-14 17:34:16,733] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-03-14 17:34:20,813] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-03-14 17:34:27,045] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:34:27,045] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-03-14 17:34:27,195] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:34:27,195] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-03-14 17:34:30,938] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:34:30,938] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-03-14 17:34:31,025] --------------------- FAILED ---------------------
+[INFO ] [2022-03-14 17:34:31,094] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:34:31,183] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:34:31,350] Upload_Avatar_02 - Step 01: Login to system as User role with username & password: nguyentest12 12345678@X
+[INFO ] [2022-03-14 17:34:36,635] Upload_Avatar_02 - Step 02: Open 'My Info' page
+[INFO ] [2022-03-14 17:34:47,141] Upload_Avatar_02 - Step 03: Click to Change photo link
+[INFO ] [2022-03-14 17:34:48,071] Upload_Avatar_02 - Step 04: Upload new Avatar
+[INFO ] [2022-03-14 17:34:48,192] Upload_Avatar_02 - Step 01: Login to system as User role with username & password: nguyentest12 12345678@X
+[INFO ] [2022-03-14 17:34:53,628] Upload_Avatar_02 - Step 02: Open 'My Info' page
+[INFO ] [2022-03-14 17:34:54,946] Upload_Avatar_02 - Step 01: Login to system as User role with username & password: nguyentest12 12345678@X
+[INFO ] [2022-03-14 17:35:43,675] ------------ START delete file in folder ------------
+[INFO ] [2022-03-14 17:35:43,675] ------------ START delete file in folder ------------
+[INFO ] [2022-03-14 17:35:43,676] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,676] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,676] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,676] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,677] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,677] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,677] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,677] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,678] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,678] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,678] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,678] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,678] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,679] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,679] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,679] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,679] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,679] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,680] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,680] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,680] ------------ END delete file in folder ------------
+[INFO ] [2022-03-14 17:35:43,680] ------------ END delete file in folder ------------
+[INFO ] [2022-03-14 17:35:43,844] Pre-Condition - Step 01: Opening the application with 'chrome'
+[INFO ] [2022-03-14 17:35:43,844] Pre-Condition - Step 01: Opening the application with 'firefox'
+[INFO ] [2022-03-14 17:35:52,576] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-03-14 17:35:55,821] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-03-14 17:35:59,513] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-14 17:36:01,864] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-14 17:36:06,374] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-03-14 17:36:09,685] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-03-14 17:36:10,198] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-03-14 17:36:10,348] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-03-14 17:36:10,492] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-03-14 17:36:10,555] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-03-14 17:36:10,670] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-03-14 17:36:10,813] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-03-14 17:36:10,957] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-03-14 17:36:11,094] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-03-14 17:36:11,217] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-03-14 17:36:13,668] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-03-14 17:36:13,798] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-03-14 17:36:13,886] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-03-14 17:36:13,958] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-03-14 17:36:14,263] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-03-14 17:36:14,374] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-03-14 17:36:14,483] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-03-14 17:36:14,607] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-03-14 17:36:14,729] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-03-14 17:36:15,227] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-03-14 17:36:18,826] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-03-14 17:36:21,326] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:21,329] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-03-14 17:36:21,538] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:21,538] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-03-14 17:36:25,112] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:25,112] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-03-14 17:36:25,192] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:25,192] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-03-14 17:36:25,237] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:25,237] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-03-14 17:36:25,272] --------------------- FAILED ---------------------
+[INFO ] [2022-03-14 17:36:25,348] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:25,419] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:25,704] Upload_Avatar_02 - Step 01: Login to system as User role with username & password: nguyentest12 12345678@X
+[INFO ] [2022-03-14 17:36:29,008] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:29,008] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-03-14 17:36:29,116] --------------------- FAILED ---------------------
+[INFO ] [2022-03-14 17:36:29,195] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:29,264] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:29,386] Upload_Avatar_02 - Step 01: Login to system as User role with username & password: nguyentest12 12345678@X
+[INFO ] [2022-03-14 17:36:31,155] Upload_Avatar_02 - Step 02: Open 'My Info' page
+[INFO ] [2022-03-14 17:36:34,653] Upload_Avatar_02 - Step 02: Open 'My Info' page
+[INFO ] [2022-03-14 17:36:40,470] Upload_Avatar_02 - Step 03: Click to Change photo link
+[INFO ] [2022-03-14 17:36:41,225] Upload_Avatar_02 - Step 04: Upload new Avatar
+[INFO ] [2022-03-14 17:36:41,309] Upload_Avatar_02 - Step 05: Click to 'Upload' button
+[INFO ] [2022-03-14 17:36:45,945] Upload_Avatar_02 - Step 03: Click to Change photo link
+[INFO ] [2022-03-14 17:36:46,601] Upload_Avatar_02 - Step 05: Verify success message is displayed
+[INFO ] [2022-03-14 17:36:46,665] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:46,665] Upload_Avatar_02 - Step 06: Verify image uploaded successfully
+[INFO ] [2022-03-14 17:36:46,711] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:46,718] Personal_Details_03 - Step 01: Opening 'Personal Details' form at Sidebar link
+[INFO ] [2022-03-14 17:36:47,031] Upload_Avatar_02 - Step 04: Upload new Avatar
+[INFO ] [2022-03-14 17:36:47,530] Personal_Details_03 - Step 01: Opening 'Personal Details' form at Sidebar link
+[INFO ] [2022-03-14 17:36:47,770] Personal_Details_03 - Step 02: Verify is all of fileds in 'Personal Details' form disabled
+[INFO ] [2022-03-14 17:36:47,833] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:47,903] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:47,950] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:47,999] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:48,046] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:48,095] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:48,144] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:48,191] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:48,239] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:48,287] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:48,336] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:48,336] Personal_Details_03 - Step 03: Verify is 'First Name' displayed correctly
+[INFO ] [2022-03-14 17:36:48,383] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:48,383] Personal_Details_03 - Step 04: Verify is 'Last Name' displayed correctly
+[INFO ] [2022-03-14 17:36:48,430] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:48,430] Personal_Details_03 - Step 05: Verify is 'Employee Id' displayed correctly
+[INFO ] [2022-03-14 17:36:48,479] --------------------- FAILED ---------------------
+[INFO ] [2022-03-14 17:36:48,479] Personal_Details_03 - Step 06: Click to 'Edit' button
+[INFO ] [2022-03-14 17:36:49,046] Personal_Details_03 - Step 02: Verify is all of fileds in 'Personal Details' form disabled
+[INFO ] [2022-03-14 17:36:49,125] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:49,186] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:49,244] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:49,304] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:49,364] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:49,422] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:49,476] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:49,531] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:49,594] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:49,650] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:49,705] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:49,705] Personal_Details_03 - Step 03: Verify is 'First Name' displayed correctly
+[INFO ] [2022-03-14 17:36:49,767] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:49,767] Personal_Details_03 - Step 04: Verify is 'Last Name' displayed correctly
+[INFO ] [2022-03-14 17:36:49,833] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:49,833] Personal_Details_03 - Step 05: Verify is 'Employee Id' displayed correctly
+[INFO ] [2022-03-14 17:36:49,892] --------------------- FAILED ---------------------
+[INFO ] [2022-03-14 17:36:49,892] Personal_Details_03 - Step 06: Click to 'Edit' button
+[INFO ] [2022-03-14 17:36:51,662] Personal_Details_03 - Step 07: Verify is field 'Employee Id' disabled
+[INFO ] [2022-03-14 17:36:51,709] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:51,709] Personal_Details_03 - Step 08: Verify is field 'Driver's License Number' disabled
+[INFO ] [2022-03-14 17:36:51,760] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:51,760] Personal_Details_03 - Step 09: Verify is field 'SSN Number' disabled
+[INFO ] [2022-03-14 17:36:51,810] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:51,811] Personal_Details_03 - Step 10: Verify is field 'SIN Number' disabled
+[INFO ] [2022-03-14 17:36:51,860] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:51,860] Personal_Details_03 - Step 11: Verify is field 'Date of Birth' disabled
+[INFO ] [2022-03-14 17:36:51,907] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:51,907] Personal_Details_03 - Step 12: Updated 'First Name' textbox
+[INFO ] [2022-03-14 17:36:52,044] Personal_Details_03 - Step 13: Updated 'Last Name' textbox
+[INFO ] [2022-03-14 17:36:52,180] Personal_Details_03 - Step 14: Updated 'Male Gender' Radio butto
+[INFO ] [2022-03-14 17:36:52,285] Personal_Details_03 - Step 15: Updated 'Marital Status' dropdown
+[INFO ] [2022-03-14 17:36:52,397] Personal_Details_03 - Step 16: Updated 'Nationality' dropdown
+[INFO ] [2022-03-14 17:36:52,509] Personal_Details_03 - Step 17: Click to 'Save' button
+[INFO ] [2022-03-14 17:36:53,286] Personal_Details_03 - Step 07: Verify is field 'Employee Id' disabled
+[INFO ] [2022-03-14 17:36:53,345] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:53,345] Personal_Details_03 - Step 08: Verify is field 'Driver's License Number' disabled
+[INFO ] [2022-03-14 17:36:53,406] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:53,407] Personal_Details_03 - Step 09: Verify is field 'SSN Number' disabled
+[INFO ] [2022-03-14 17:36:53,465] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:53,465] Personal_Details_03 - Step 10: Verify is field 'SIN Number' disabled
+[INFO ] [2022-03-14 17:36:53,519] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:53,519] Personal_Details_03 - Step 11: Verify is field 'Date of Birth' disabled
+[INFO ] [2022-03-14 17:36:53,573] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:53,573] Personal_Details_03 - Step 12: Updated 'First Name' textbox
+[INFO ] [2022-03-14 17:36:53,667] Personal_Details_03 - Step 13: Updated 'Last Name' textbox
+[INFO ] [2022-03-14 17:36:53,764] Personal_Details_03 - Step 14: Updated 'Male Gender' Radio butto
+[INFO ] [2022-03-14 17:36:54,076] Personal_Details_03 - Step 15: Updated 'Marital Status' dropdown
+[INFO ] [2022-03-14 17:36:54,462] Personal_Details_03 - Step 16: Updated 'Nationality' dropdown
+[INFO ] [2022-03-14 17:36:54,794] Personal_Details_03 - Step 17: Click to 'Save' button
+[INFO ] [2022-03-14 17:36:56,905] Personal_Details_03 - Step 18: Verify is Success message displayed
+[INFO ] [2022-03-14 17:36:56,975] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:56,975] Personal_Details_03 - Step 19: Verify is all of fields updated successfully
+[INFO ] [2022-03-14 17:36:57,028] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:57,075] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:57,119] --------------------- FAILED ---------------------
+[INFO ] [2022-03-14 17:36:57,168] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:57,280] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:58,928] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:59,162] Post-Condition: Cleaning the browser 'chrome'
+[INFO ] [2022-03-14 17:36:59,407] Personal_Details_03 - Step 18: Verify is Success message displayed
+[INFO ] [2022-03-14 17:36:59,555] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:59,555] Personal_Details_03 - Step 19: Verify is all of fields updated successfully
+[INFO ] [2022-03-14 17:36:59,636] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:59,720] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:59,829] --------------------- FAILED ---------------------
+[INFO ] [2022-03-14 17:36:59,918] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:37:00,089] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:37:01,646] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:37:01,809] Post-Condition: Cleaning the browser 'firefox'

@@ -2,17 +2,23 @@ package commons;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.opera.OperaDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
@@ -140,24 +146,157 @@ public class BaseTest {
 		return driver;
 	}
 
+	protected WebDriver getBrowserDriver(String browserName, String ipAddress, String portNumber) {
+		BrowserList browserList = BrowserList.valueOf(browserName.toUpperCase());
+		DesiredCapabilities capability = null;
+
+		switch (browserList) {
+		case FIREFOX:
+			WebDriverManager.firefoxdriver().setup();
+			capability = DesiredCapabilities.firefox();
+			capability.setBrowserName("firefox");
+			capability.setPlatform(Platform.WINDOWS);
+			FirefoxOptions firefoxOptions = new FirefoxOptions();
+			firefoxOptions.merge(capability);
+			break;
+		case CHROME:
+			WebDriverManager.chromedriver().setup();
+			capability = DesiredCapabilities.chrome();
+			capability.setBrowserName("chrome");
+			capability.setPlatform(Platform.WINDOWS);
+			ChromeOptions chromeOptions = new ChromeOptions();
+			chromeOptions.merge(capability);
+			break;
+		case EDGE:
+			WebDriverManager.edgedriver().setup();
+			driver = new EdgeDriver();
+			break;
+		case IE:
+			// WebDriverManager.iedriver().arch32().setup();
+			System.setProperty("webdriver.ie.driver", GlobalConstants.PROJECT_PATH + File.separator + "driverBrowsers" + File.separator + "IEDriverServer.exe");
+			driver = new InternetExplorerDriver();
+			break;
+		case SAFARI:
+			driver = new SafariDriver();
+			break;
+		case OPERA:
+			WebDriverManager.operadriver().setup();
+			driver = new OperaDriver();
+			break;
+		case COCCOC:
+			WebDriverManager.chromedriver().driverVersion("95.0.4638.69").setup();
+			ChromeOptions options = new ChromeOptions();
+			options.setBinary("C:\\Program Files\\CocCoc\\Browser\\Application\\browser.exe");
+			driver = new ChromeDriver(options);
+			break;
+		case BRAVE:
+			WebDriverManager.chromedriver().driverVersion("96.0.4664.45").setup();
+			ChromeOptions option = new ChromeOptions();
+			option.setBinary("C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe");
+			driver = new ChromeDriver(option);
+			driver = new FirefoxDriver();
+			break;
+
+		default:
+			throw new RuntimeException("Browser is not supported!");
+		}
+
+		try {
+			driver = new RemoteWebDriver(new URL(String.format("http://%s:%s/wd/hub", ipAddress, portNumber)), capability);
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
+		}
+		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		driver.get(getBrowserEnvironment("TESTING"));
+		return driver;
+	}
+
+	protected WebDriver getBrowserDriver(String browserName, String envUrl, String ipAddress, String portNumber) {
+		BrowserList browserList = BrowserList.valueOf(browserName.toUpperCase());
+		DesiredCapabilities capability = null;
+
+		switch (browserList) {
+		case FIREFOX:
+			WebDriverManager.firefoxdriver().setup();
+			capability = DesiredCapabilities.firefox();
+			capability.setBrowserName("firefox");
+			capability.setPlatform(Platform.WINDOWS);
+			FirefoxOptions firefoxOptions = new FirefoxOptions();
+			firefoxOptions.merge(capability);
+			break;
+		case CHROME:
+			WebDriverManager.chromedriver().setup();
+			capability = DesiredCapabilities.chrome();
+			capability.setBrowserName("chrome");
+			capability.setPlatform(Platform.WINDOWS);
+			ChromeOptions chromeOptions = new ChromeOptions();
+			chromeOptions.merge(capability);
+			break;
+		case EDGE:
+			WebDriverManager.edgedriver().setup();
+			driver = new EdgeDriver();
+			break;
+		case IE:
+			// WebDriverManager.iedriver().arch32().setup();
+			System.setProperty("webdriver.ie.driver", GlobalConstants.PROJECT_PATH + File.separator + "driverBrowsers" + File.separator + "IEDriverServer.exe");
+			driver = new InternetExplorerDriver();
+			break;
+		case SAFARI:
+			driver = new SafariDriver();
+			break;
+		case OPERA:
+			WebDriverManager.operadriver().setup();
+			driver = new OperaDriver();
+			break;
+		case COCCOC:
+			WebDriverManager.chromedriver().driverVersion("95.0.4638.69").setup();
+			ChromeOptions options = new ChromeOptions();
+			options.setBinary("C:\\Program Files\\CocCoc\\Browser\\Application\\browser.exe");
+			driver = new ChromeDriver(options);
+			break;
+		case BRAVE:
+			WebDriverManager.chromedriver().driverVersion("96.0.4664.45").setup();
+			ChromeOptions option = new ChromeOptions();
+			option.setBinary("C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe");
+			driver = new ChromeDriver(option);
+			driver = new FirefoxDriver();
+			break;
+
+		default:
+			throw new RuntimeException("Browser is not supported!");
+		}
+
+		try {
+			driver = new RemoteWebDriver(new URL(String.format("http://%s:%s/wd/hub", ipAddress, portNumber)), capability);
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
+		}
+		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		driver.get(envUrl);
+		return driver;
+	}
+
 	private String getBrowserEnvironment(String environmentName) {
 		String url = null;
 		EnvironmentList environmentList = EnvironmentList.valueOf(environmentName.toUpperCase());
 		switch (environmentList) {
 		case DEV:
-			url = "https://demo.guru99.com/v1/";
+			url = GlobalConstants.ADMIN_HRM_URL;
 			break;
 		case TESTING:
-			url = "https://demo.guru99.com/v2/";
+			url = GlobalConstants.PORTAL_HRM_URL;
 			break;
 		case STAGING:
-			url = "https://demo.guru99.com/v3/";
+			url = GlobalConstants.PORTAL_HRM_URL;
 			break;
 		case PREPRODUCTION:
-			url = "https://demo.guru99.com/v4/";
+			url = GlobalConstants.PORTAL_HRM_URL;
+			;
 			break;
 		case LIVE:
-			url = "https://demo.guru99.com/";
+			url = GlobalConstants.PORTAL_HRM_URL;
 			break;
 
 		default:

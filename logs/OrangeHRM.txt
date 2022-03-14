@@ -1,22 +1,175 @@
-[INFO ] [2022-03-08 17:20:50,622] ------------ START delete file in folder ------------
-[INFO ] [2022-03-08 17:20:50,651] ---------- FILE is removed ---------------
-[INFO ] [2022-03-08 17:20:50,652] ---------- FILE is removed ---------------
-[INFO ] [2022-03-08 17:20:50,653] ---------- FILE is removed ---------------
-[INFO ] [2022-03-08 17:20:50,653] ---------- FILE is removed ---------------
-[INFO ] [2022-03-08 17:20:50,653] ---------- FILE is removed ---------------
-[INFO ] [2022-03-08 17:20:50,654] ---------- FILE is removed ---------------
-[INFO ] [2022-03-08 17:20:50,654] ---------- FILE is removed ---------------
-[INFO ] [2022-03-08 17:20:50,655] ---------- FILE is removed ---------------
-[INFO ] [2022-03-08 17:20:50,655] ---------- FILE is removed ---------------
-[INFO ] [2022-03-08 17:20:50,656] ---------- FILE is removed ---------------
-[INFO ] [2022-03-08 17:20:50,656] ---------- FILE is removed ---------------
-[INFO ] [2022-03-08 17:20:50,656] ---------- FILE is removed ---------------
-[INFO ] [2022-03-08 17:20:50,657] ---------- FILE is removed ---------------
-[INFO ] [2022-03-08 17:20:50,663] ---------- FILE is removed ---------------
-[INFO ] [2022-03-08 17:20:50,663] ---------- FILE is removed ---------------
-[INFO ] [2022-03-08 17:20:50,663] ---------- FILE is removed ---------------
-[INFO ] [2022-03-08 17:20:50,664] ------------ END delete file in folder ------------
-[INFO ] [2022-03-08 17:20:50,702] Dev: testing
-[INFO ] [2022-03-08 17:21:03,455] Current Testing: https://demo.guru99.com/v2/
-[INFO ] [2022-03-08 17:21:03,660] --------------------- PASSED ---------------------
-[INFO ] [2022-03-08 17:21:03,903] Post-Condition: Cleaning the browser 'firefox'
+[INFO ] [2022-03-14 17:35:43,675] ------------ START delete file in folder ------------
+[INFO ] [2022-03-14 17:35:43,675] ------------ START delete file in folder ------------
+[INFO ] [2022-03-14 17:35:43,676] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,676] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,676] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,676] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,677] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,677] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,677] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,677] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,678] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,678] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,678] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,678] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,678] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,679] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,679] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,679] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,679] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,679] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,680] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,680] ---------- FILE is removed ---------------
+[INFO ] [2022-03-14 17:35:43,680] ------------ END delete file in folder ------------
+[INFO ] [2022-03-14 17:35:43,680] ------------ END delete file in folder ------------
+[INFO ] [2022-03-14 17:35:43,844] Pre-Condition - Step 01: Opening the application with 'chrome'
+[INFO ] [2022-03-14 17:35:43,844] Pre-Condition - Step 01: Opening the application with 'firefox'
+[INFO ] [2022-03-14 17:35:52,576] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-03-14 17:35:55,821] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-03-14 17:35:59,513] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-14 17:36:01,864] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-14 17:36:06,374] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-03-14 17:36:09,685] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-03-14 17:36:10,198] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-03-14 17:36:10,348] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-03-14 17:36:10,492] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-03-14 17:36:10,555] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-03-14 17:36:10,670] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-03-14 17:36:10,813] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-03-14 17:36:10,957] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-03-14 17:36:11,094] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-03-14 17:36:11,217] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-03-14 17:36:13,668] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-03-14 17:36:13,798] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-03-14 17:36:13,886] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-03-14 17:36:13,958] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-03-14 17:36:14,263] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-03-14 17:36:14,374] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-03-14 17:36:14,483] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-03-14 17:36:14,607] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-03-14 17:36:14,729] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-03-14 17:36:15,227] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-03-14 17:36:18,826] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-03-14 17:36:21,326] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:21,329] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-03-14 17:36:21,538] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:21,538] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-03-14 17:36:25,112] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:25,112] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-03-14 17:36:25,192] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:25,192] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-03-14 17:36:25,237] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:25,237] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-03-14 17:36:25,272] --------------------- FAILED ---------------------
+[INFO ] [2022-03-14 17:36:25,348] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:25,419] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:25,704] Upload_Avatar_02 - Step 01: Login to system as User role with username & password: nguyentest12 12345678@X
+[INFO ] [2022-03-14 17:36:29,008] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:29,008] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-03-14 17:36:29,116] --------------------- FAILED ---------------------
+[INFO ] [2022-03-14 17:36:29,195] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:29,264] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:29,386] Upload_Avatar_02 - Step 01: Login to system as User role with username & password: nguyentest12 12345678@X
+[INFO ] [2022-03-14 17:36:31,155] Upload_Avatar_02 - Step 02: Open 'My Info' page
+[INFO ] [2022-03-14 17:36:34,653] Upload_Avatar_02 - Step 02: Open 'My Info' page
+[INFO ] [2022-03-14 17:36:40,470] Upload_Avatar_02 - Step 03: Click to Change photo link
+[INFO ] [2022-03-14 17:36:41,225] Upload_Avatar_02 - Step 04: Upload new Avatar
+[INFO ] [2022-03-14 17:36:41,309] Upload_Avatar_02 - Step 05: Click to 'Upload' button
+[INFO ] [2022-03-14 17:36:45,945] Upload_Avatar_02 - Step 03: Click to Change photo link
+[INFO ] [2022-03-14 17:36:46,601] Upload_Avatar_02 - Step 05: Verify success message is displayed
+[INFO ] [2022-03-14 17:36:46,665] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:46,665] Upload_Avatar_02 - Step 06: Verify image uploaded successfully
+[INFO ] [2022-03-14 17:36:46,711] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:46,718] Personal_Details_03 - Step 01: Opening 'Personal Details' form at Sidebar link
+[INFO ] [2022-03-14 17:36:47,031] Upload_Avatar_02 - Step 04: Upload new Avatar
+[INFO ] [2022-03-14 17:36:47,530] Personal_Details_03 - Step 01: Opening 'Personal Details' form at Sidebar link
+[INFO ] [2022-03-14 17:36:47,770] Personal_Details_03 - Step 02: Verify is all of fileds in 'Personal Details' form disabled
+[INFO ] [2022-03-14 17:36:47,833] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:47,903] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:47,950] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:47,999] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:48,046] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:48,095] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:48,144] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:48,191] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:48,239] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:48,287] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:48,336] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:48,336] Personal_Details_03 - Step 03: Verify is 'First Name' displayed correctly
+[INFO ] [2022-03-14 17:36:48,383] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:48,383] Personal_Details_03 - Step 04: Verify is 'Last Name' displayed correctly
+[INFO ] [2022-03-14 17:36:48,430] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:48,430] Personal_Details_03 - Step 05: Verify is 'Employee Id' displayed correctly
+[INFO ] [2022-03-14 17:36:48,479] --------------------- FAILED ---------------------
+[INFO ] [2022-03-14 17:36:48,479] Personal_Details_03 - Step 06: Click to 'Edit' button
+[INFO ] [2022-03-14 17:36:49,046] Personal_Details_03 - Step 02: Verify is all of fileds in 'Personal Details' form disabled
+[INFO ] [2022-03-14 17:36:49,125] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:49,186] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:49,244] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:49,304] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:49,364] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:49,422] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:49,476] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:49,531] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:49,594] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:49,650] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:49,705] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:49,705] Personal_Details_03 - Step 03: Verify is 'First Name' displayed correctly
+[INFO ] [2022-03-14 17:36:49,767] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:49,767] Personal_Details_03 - Step 04: Verify is 'Last Name' displayed correctly
+[INFO ] [2022-03-14 17:36:49,833] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:49,833] Personal_Details_03 - Step 05: Verify is 'Employee Id' displayed correctly
+[INFO ] [2022-03-14 17:36:49,892] --------------------- FAILED ---------------------
+[INFO ] [2022-03-14 17:36:49,892] Personal_Details_03 - Step 06: Click to 'Edit' button
+[INFO ] [2022-03-14 17:36:51,662] Personal_Details_03 - Step 07: Verify is field 'Employee Id' disabled
+[INFO ] [2022-03-14 17:36:51,709] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:51,709] Personal_Details_03 - Step 08: Verify is field 'Driver's License Number' disabled
+[INFO ] [2022-03-14 17:36:51,760] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:51,760] Personal_Details_03 - Step 09: Verify is field 'SSN Number' disabled
+[INFO ] [2022-03-14 17:36:51,810] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:51,811] Personal_Details_03 - Step 10: Verify is field 'SIN Number' disabled
+[INFO ] [2022-03-14 17:36:51,860] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:51,860] Personal_Details_03 - Step 11: Verify is field 'Date of Birth' disabled
+[INFO ] [2022-03-14 17:36:51,907] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:51,907] Personal_Details_03 - Step 12: Updated 'First Name' textbox
+[INFO ] [2022-03-14 17:36:52,044] Personal_Details_03 - Step 13: Updated 'Last Name' textbox
+[INFO ] [2022-03-14 17:36:52,180] Personal_Details_03 - Step 14: Updated 'Male Gender' Radio butto
+[INFO ] [2022-03-14 17:36:52,285] Personal_Details_03 - Step 15: Updated 'Marital Status' dropdown
+[INFO ] [2022-03-14 17:36:52,397] Personal_Details_03 - Step 16: Updated 'Nationality' dropdown
+[INFO ] [2022-03-14 17:36:52,509] Personal_Details_03 - Step 17: Click to 'Save' button
+[INFO ] [2022-03-14 17:36:53,286] Personal_Details_03 - Step 07: Verify is field 'Employee Id' disabled
+[INFO ] [2022-03-14 17:36:53,345] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:53,345] Personal_Details_03 - Step 08: Verify is field 'Driver's License Number' disabled
+[INFO ] [2022-03-14 17:36:53,406] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:53,407] Personal_Details_03 - Step 09: Verify is field 'SSN Number' disabled
+[INFO ] [2022-03-14 17:36:53,465] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:53,465] Personal_Details_03 - Step 10: Verify is field 'SIN Number' disabled
+[INFO ] [2022-03-14 17:36:53,519] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:53,519] Personal_Details_03 - Step 11: Verify is field 'Date of Birth' disabled
+[INFO ] [2022-03-14 17:36:53,573] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:53,573] Personal_Details_03 - Step 12: Updated 'First Name' textbox
+[INFO ] [2022-03-14 17:36:53,667] Personal_Details_03 - Step 13: Updated 'Last Name' textbox
+[INFO ] [2022-03-14 17:36:53,764] Personal_Details_03 - Step 14: Updated 'Male Gender' Radio butto
+[INFO ] [2022-03-14 17:36:54,076] Personal_Details_03 - Step 15: Updated 'Marital Status' dropdown
+[INFO ] [2022-03-14 17:36:54,462] Personal_Details_03 - Step 16: Updated 'Nationality' dropdown
+[INFO ] [2022-03-14 17:36:54,794] Personal_Details_03 - Step 17: Click to 'Save' button
+[INFO ] [2022-03-14 17:36:56,905] Personal_Details_03 - Step 18: Verify is Success message displayed
+[INFO ] [2022-03-14 17:36:56,975] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:56,975] Personal_Details_03 - Step 19: Verify is all of fields updated successfully
+[INFO ] [2022-03-14 17:36:57,028] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:57,075] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:57,119] --------------------- FAILED ---------------------
+[INFO ] [2022-03-14 17:36:57,168] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:57,280] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:58,928] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:59,162] Post-Condition: Cleaning the browser 'chrome'
+[INFO ] [2022-03-14 17:36:59,407] Personal_Details_03 - Step 18: Verify is Success message displayed
+[INFO ] [2022-03-14 17:36:59,555] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:59,555] Personal_Details_03 - Step 19: Verify is all of fields updated successfully
+[INFO ] [2022-03-14 17:36:59,636] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:59,720] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:36:59,829] --------------------- FAILED ---------------------
+[INFO ] [2022-03-14 17:36:59,918] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:37:00,089] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:37:01,646] --------------------- PASSED ---------------------
+[INFO ] [2022-03-14 17:37:01,809] Post-Condition: Cleaning the browser 'firefox'
