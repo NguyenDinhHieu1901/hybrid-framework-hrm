@@ -4,10 +4,13 @@ import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.MutableCapabilities;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -203,6 +206,50 @@ public class BaseTest {
 
 		try {
 			driver = new RemoteWebDriver(new URL(String.format("http://%s:%s/wd/hub", ipAddress, portNumber)), capability);
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
+		}
+		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		driver.get(getBrowserEnvironment("TESTING"));
+		return driver;
+	}
+
+	protected WebDriver getBrowserDriverInBrowserStack(String browserName, String osName, String osVersion) {
+		DesiredCapabilities caps = new DesiredCapabilities();
+		caps.setCapability("os", osName);
+		caps.setCapability("os_version", osVersion);
+		caps.setCapability("browser", browserName);
+		caps.setCapability("browserstack.debug", "true");
+		caps.setCapability("resolution", "1920x1080");
+		caps.setCapability("name", "Run on " + osName + " | " + osVersion + " | " + browserName);
+		try {
+			driver = new RemoteWebDriver(new URL(GlobalConstants.BROWSERSTACK_URL), caps);
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
+		}
+		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		driver.get(getBrowserEnvironment("TESTING"));
+		return driver;
+	}
+
+	protected WebDriver getBrowserDriverInSauceLabs(String browserName, String osName, String browserVersion) {
+		MutableCapabilities  caps = new MutableCapabilities();
+		caps.setCapability("name", "Run on " + osName + " | " + browserName + " | " + browserVersion);
+		caps.setCapability("platformName", osName);
+		caps.setCapability("browserName", browserName);
+		caps.setCapability("browserVersion", browserVersion);
+		Map<String, Object> sauceOptions = new HashMap<>();
+		if (osName.contains("Windows")) {
+			sauceOptions.put("screenResolution", "1920x1080");
+			caps.setCapability("sauce:options", sauceOptions);
+		} else {
+			sauceOptions.put("screenResolution", "1920x1440");
+			caps.setCapability("sauce:options", sauceOptions);
+		}
+		try {
+			driver = new RemoteWebDriver(new URL(GlobalConstants.SAUCELABS_URL), caps);
 		} catch (MalformedURLException e) {
 			e.printStackTrace();
 		}

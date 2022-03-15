@@ -8150,3 +8150,930 @@
 [INFO ] [2022-03-14 17:37:00,089] --------------------- PASSED ---------------------
 [INFO ] [2022-03-14 17:37:01,646] --------------------- PASSED ---------------------
 [INFO ] [2022-03-14 17:37:01,809] Post-Condition: Cleaning the browser 'firefox'
+[INFO ] [2022-03-15 10:34:00,582] ------------ START delete file in folder ------------
+[INFO ] [2022-03-15 10:34:00,582] ------------ START delete file in folder ------------
+[INFO ] [2022-03-15 10:34:00,589] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,589] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,615] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,615] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,616] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,616] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,622] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,622] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,623] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,623] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,624] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,624] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,624] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,624] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,625] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,625] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,626] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,626] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,626] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,627] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,627] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,627] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,627] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,627] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,628] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,628] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,629] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,629] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,629] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,630] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,630] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,630] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,630] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,631] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,631] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,631] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,631] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,631] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,632] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,632] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,632] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,632] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:34:00,633] ------------ END delete file in folder ------------
+[INFO ] [2022-03-15 10:34:00,633] ------------ END delete file in folder ------------
+[INFO ] [2022-03-15 10:34:00,723] Pre-Condition - Step 01: Opening the application with 'Chrome'
+[INFO ] [2022-03-15 10:34:00,723] Pre-Condition - Step 01: Opening the application with 'Safari'
+[INFO ] [2022-03-15 10:34:13,289] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-03-15 10:34:15,854] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-03-15 10:34:21,636] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-15 10:34:22,188] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-15 10:34:29,579] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-03-15 10:34:32,664] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-03-15 10:34:35,584] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-03-15 10:34:37,055] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-03-15 10:34:38,479] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-03-15 10:34:39,491] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-03-15 10:34:39,574] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-03-15 10:34:40,971] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-03-15 10:34:41,211] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-03-15 10:34:42,490] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-03-15 10:34:42,775] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-03-15 10:34:43,611] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-03-15 10:34:44,349] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-03-15 10:34:45,272] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-03-15 10:34:45,836] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-03-15 10:34:46,710] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-03-15 10:34:47,956] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-03-15 10:34:48,201] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-03-15 10:34:49,677] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-03-15 10:34:51,926] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-03-15 10:34:53,950] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-03-15 10:34:58,872] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-03-15 10:35:04,035] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 10:35:04,037] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-03-15 10:35:06,077] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 10:35:06,077] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-03-15 10:35:10,075] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 10:35:10,076] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-03-15 10:35:12,091] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 10:35:12,091] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-03-15 10:35:12,375] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 10:35:12,375] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-03-15 10:35:13,689] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 10:35:15,017] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 10:35:16,364] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 10:35:16,424] Post-Condition: Cleaning the browser 'Safari'
+[INFO ] [2022-03-15 10:35:20,116] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 10:35:20,117] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-03-15 10:35:21,968] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 10:35:23,381] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 10:35:24,891] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 10:35:24,912] Post-Condition: Cleaning the browser 'Chrome'
+[INFO ] [2022-03-15 10:41:08,414] ------------ START delete file in folder ------------
+[INFO ] [2022-03-15 10:41:08,414] ------------ START delete file in folder ------------
+[INFO ] [2022-03-15 10:41:08,416] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:41:08,416] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:41:08,416] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:41:08,416] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:41:08,416] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:41:08,416] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:41:08,417] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:41:08,417] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:41:08,417] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:41:08,417] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:41:08,418] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:41:08,418] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:41:08,418] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:41:08,418] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:41:08,418] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:41:08,418] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:41:08,419] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:41:08,419] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:41:08,419] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:41:08,419] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:41:08,419] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:41:08,419] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:41:08,420] ------------ END delete file in folder ------------
+[INFO ] [2022-03-15 10:41:08,420] ------------ END delete file in folder ------------
+[INFO ] [2022-03-15 10:41:08,494] Pre-Condition - Step 01: Opening the application with 'Safari'
+[INFO ] [2022-03-15 10:41:08,494] Pre-Condition - Step 01: Opening the application with 'Firefox'
+[INFO ] [2022-03-15 10:41:21,087] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-03-15 10:41:22,361] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-03-15 10:41:30,453] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-15 10:41:31,215] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-15 10:41:39,796] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-03-15 10:41:44,649] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-03-15 10:41:47,166] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-03-15 10:41:49,980] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-03-15 10:41:51,790] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-03-15 10:41:53,059] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-03-15 10:41:54,505] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-03-15 10:41:54,628] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-03-15 10:41:56,014] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-03-15 10:41:56,327] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-03-15 10:41:57,512] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-03-15 10:41:58,399] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-03-15 10:41:58,924] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-03-15 10:42:00,140] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-03-15 10:42:01,416] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-03-15 10:42:02,157] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-03-15 10:42:03,697] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-03-15 10:42:05,030] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-03-15 10:42:06,347] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-03-15 10:42:07,269] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-03-15 10:42:08,507] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-03-15 10:42:15,657] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 10:42:15,658] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-03-15 10:42:17,203] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-03-15 10:42:17,572] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 10:42:17,572] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-03-15 10:42:23,675] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 10:42:23,675] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-03-15 10:42:25,011] --------------------- FAILED ---------------------
+[INFO ] [2022-03-15 10:42:26,305] --------------------- FAILED ---------------------
+[INFO ] [2022-03-15 10:42:27,603] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 10:42:28,745] Post-Condition: Cleaning the browser 'Safari'
+[INFO ] [2022-03-15 10:42:32,424] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 10:42:32,424] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-03-15 10:42:34,514] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 10:42:34,515] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-03-15 10:42:43,650] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 10:42:43,650] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-03-15 10:42:44,976] --------------------- FAILED ---------------------
+[INFO ] [2022-03-15 10:42:46,303] --------------------- FAILED ---------------------
+[INFO ] [2022-03-15 10:42:47,603] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 10:42:49,614] Post-Condition: Cleaning the browser 'Firefox'
+[INFO ] [2022-03-15 10:48:40,816] ------------ START delete file in folder ------------
+[INFO ] [2022-03-15 10:48:40,816] ------------ START delete file in folder ------------
+[INFO ] [2022-03-15 10:48:40,817] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:48:40,817] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:48:40,818] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:48:40,818] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:48:40,818] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:48:40,818] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:48:40,818] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:48:40,818] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:48:40,819] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:48:40,819] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:48:40,819] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:48:40,819] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:48:40,820] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:48:40,820] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:48:40,820] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:48:40,820] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:48:40,820] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:48:40,820] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:48:40,821] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:48:40,821] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:48:40,821] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:48:40,821] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 10:48:40,822] ------------ END delete file in folder ------------
+[INFO ] [2022-03-15 10:48:40,822] ------------ END delete file in folder ------------
+[INFO ] [2022-03-15 10:48:41,127] Pre-Condition - Step 01: Opening the application with 'Edge'
+[INFO ] [2022-03-15 10:48:41,127] Pre-Condition - Step 01: Opening the application with 'Safari'
+[INFO ] [2022-03-15 10:48:51,532] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-03-15 10:48:52,383] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-03-15 10:48:58,613] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-15 10:49:02,551] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-15 10:49:05,513] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-03-15 10:49:11,391] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-03-15 10:49:12,810] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-03-15 10:49:14,230] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-03-15 10:49:14,640] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-03-15 10:49:15,291] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-03-15 10:49:16,828] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-03-15 10:49:18,312] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-03-15 10:49:19,810] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-03-15 10:49:21,255] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-03-15 10:49:21,980] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-03-15 10:49:23,318] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-03-15 10:49:23,489] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-03-15 10:49:24,980] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-03-15 10:49:26,119] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-03-15 10:49:27,888] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-03-15 10:49:29,194] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-03-15 10:49:29,384] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-03-15 10:49:31,031] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-03-15 10:49:32,571] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-03-15 10:49:34,778] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-03-15 10:49:37,437] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 10:49:37,439] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-03-15 10:49:39,498] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 10:49:39,498] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-03-15 10:49:42,864] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-03-15 10:49:45,681] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 10:49:45,681] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-03-15 10:49:57,844] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 10:49:57,844] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-03-15 10:50:00,005] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 10:50:00,006] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-03-15 10:50:04,899] Post-Condition: Cleaning the browser 'Safari'
+[INFO ] [2022-03-15 10:50:09,609] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 10:50:09,609] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-03-15 10:50:26,864] Post-Condition: Cleaning the browser 'Edge'
+[INFO ] [2022-03-15 11:05:18,832] ------------ START delete file in folder ------------
+[INFO ] [2022-03-15 11:05:18,832] ------------ START delete file in folder ------------
+[INFO ] [2022-03-15 11:05:18,834] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:05:18,834] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:05:18,834] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:05:18,834] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:05:18,835] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:05:18,835] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:05:18,835] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:05:18,835] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:05:18,836] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:05:18,836] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:05:18,836] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:05:18,836] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:05:18,836] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:05:18,837] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:05:18,837] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:05:18,837] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:05:18,837] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:05:18,837] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:05:18,838] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:05:18,837] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:05:18,838] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:05:18,838] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:05:18,839] ------------ END delete file in folder ------------
+[INFO ] [2022-03-15 11:05:18,839] ------------ END delete file in folder ------------
+[INFO ] [2022-03-15 11:05:19,058] Pre-Condition - Step 01: Opening the application with 'Edge'
+[INFO ] [2022-03-15 11:05:19,058] Pre-Condition - Step 01: Opening the application with 'Safari'
+[INFO ] [2022-03-15 11:05:21,160] Post-Condition: Cleaning the browser 'Safari'
+[INFO ] [2022-03-15 11:05:21,189] Post-Condition: Cleaning the browser 'Edge'
+[INFO ] [2022-03-15 11:11:28,723] ------------ START delete file in folder ------------
+[INFO ] [2022-03-15 11:11:28,723] ------------ START delete file in folder ------------
+[INFO ] [2022-03-15 11:11:28,725] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:11:28,725] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:11:28,725] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:11:28,725] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:11:28,726] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:11:28,726] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:11:28,726] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:11:28,726] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:11:28,726] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:11:28,727] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:11:28,727] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:11:28,727] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:11:28,727] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:11:28,727] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:11:28,728] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:11:28,728] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:11:28,728] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:11:28,728] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:11:28,729] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:11:28,729] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:11:28,729] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:11:28,729] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:11:28,729] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:11:28,729] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:11:28,730] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:11:28,730] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:11:28,730] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:11:28,730] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:11:28,730] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:11:28,730] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:11:28,731] ------------ END delete file in folder ------------
+[INFO ] [2022-03-15 11:11:28,731] ------------ END delete file in folder ------------
+[INFO ] [2022-03-15 11:11:28,939] Pre-Condition - Step 01: Opening the application with 'Safari'
+[INFO ] [2022-03-15 11:11:28,939] Pre-Condition - Step 01: Opening the application with 'Edge'
+[INFO ] [2022-03-15 11:11:30,660] Post-Condition: Cleaning the browser 'Edge'
+[INFO ] [2022-03-15 11:11:31,090] Post-Condition: Cleaning the browser 'Safari'
+[INFO ] [2022-03-15 11:14:39,129] ------------ START delete file in folder ------------
+[INFO ] [2022-03-15 11:14:39,129] ------------ START delete file in folder ------------
+[INFO ] [2022-03-15 11:14:39,130] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:14:39,130] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:14:39,131] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:14:39,131] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:14:39,131] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:14:39,131] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:14:39,132] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:14:39,132] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:14:39,132] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:14:39,132] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:14:39,133] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:14:39,133] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:14:39,133] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:14:39,133] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:14:39,134] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:14:39,134] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:14:39,134] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:14:39,134] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:14:39,135] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:14:39,135] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:14:39,135] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:14:39,135] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:14:39,135] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:14:39,135] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:14:39,136] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:14:39,136] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:14:39,136] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:14:39,136] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:14:39,137] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:14:39,137] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:14:39,137] ------------ END delete file in folder ------------
+[INFO ] [2022-03-15 11:14:39,137] ------------ END delete file in folder ------------
+[INFO ] [2022-03-15 11:14:39,346] Pre-Condition - Step 01: Opening the application with 'Edge'
+[INFO ] [2022-03-15 11:14:39,346] Pre-Condition - Step 01: Opening the application with 'Safari'
+[INFO ] [2022-03-15 11:14:41,078] Post-Condition: Cleaning the browser 'Edge'
+[INFO ] [2022-03-15 11:14:41,080] Post-Condition: Cleaning the browser 'Safari'
+[INFO ] [2022-03-15 11:18:23,486] ------------ START delete file in folder ------------
+[INFO ] [2022-03-15 11:18:23,486] ------------ START delete file in folder ------------
+[INFO ] [2022-03-15 11:18:23,487] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:18:23,487] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:18:23,487] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:18:23,487] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:18:23,488] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:18:23,488] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:18:23,488] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:18:23,488] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:18:23,489] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:18:23,489] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:18:23,489] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:18:23,489] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:18:23,489] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:18:23,489] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:18:23,490] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:18:23,490] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:18:23,490] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:18:23,490] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:18:23,491] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:18:23,490] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:18:23,491] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:18:23,491] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:18:23,492] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:18:23,492] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:18:23,492] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:18:23,492] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:18:23,492] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:18:23,493] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:18:23,493] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:18:23,493] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:18:23,493] ------------ END delete file in folder ------------
+[INFO ] [2022-03-15 11:18:23,493] ------------ END delete file in folder ------------
+[INFO ] [2022-03-15 11:18:23,711] Pre-Condition - Step 01: Opening the application with 'Safari'
+[INFO ] [2022-03-15 11:18:23,711] Pre-Condition - Step 01: Opening the application with 'Edge'
+[INFO ] [2022-03-15 11:18:25,473] Post-Condition: Cleaning the browser 'Edge'
+[INFO ] [2022-03-15 11:21:48,668] ------------ START delete file in folder ------------
+[INFO ] [2022-03-15 11:21:48,668] ------------ START delete file in folder ------------
+[INFO ] [2022-03-15 11:21:48,670] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:21:48,670] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:21:48,670] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:21:48,670] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:21:48,671] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:21:48,671] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:21:48,671] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:21:48,671] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:21:48,672] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:21:48,672] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:21:48,672] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:21:48,672] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:21:48,672] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:21:48,672] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:21:48,673] ------------ END delete file in folder ------------
+[INFO ] [2022-03-15 11:21:48,673] ------------ END delete file in folder ------------
+[INFO ] [2022-03-15 11:21:48,899] Pre-Condition - Step 01: Opening the application with 'safari'
+[INFO ] [2022-03-15 11:21:48,899] Pre-Condition - Step 01: Opening the application with 'edge'
+[INFO ] [2022-03-15 11:21:50,669] Post-Condition: Cleaning the browser 'edge'
+[INFO ] [2022-03-15 11:23:22,815] ------------ START delete file in folder ------------
+[INFO ] [2022-03-15 11:23:22,816] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:23:22,816] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:23:22,817] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:23:22,817] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:23:22,818] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:23:22,818] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:23:22,818] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:23:22,819] ------------ END delete file in folder ------------
+[INFO ] [2022-03-15 11:23:23,030] Pre-Condition - Step 01: Opening the application with 'edge'
+[INFO ] [2022-03-15 11:23:24,715] Post-Condition: Cleaning the browser 'edge'
+[INFO ] [2022-03-15 11:25:57,037] Post-Condition: Cleaning the browser 'Safari'
+[INFO ] [2022-03-15 11:28:41,420] ------------ START delete file in folder ------------
+[INFO ] [2022-03-15 11:28:41,422] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:28:41,422] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:28:41,422] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:28:41,423] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:28:41,423] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:28:41,424] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:28:41,424] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:28:41,424] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:28:41,425] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:28:41,425] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:28:41,425] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:28:41,425] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:28:41,426] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:28:41,426] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:28:41,426] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:28:41,427] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:28:41,427] ------------ END delete file in folder ------------
+[INFO ] [2022-03-15 11:28:41,631] Pre-Condition - Step 01: Opening the application with 'edge'
+[INFO ] [2022-03-15 11:28:43,343] Post-Condition: Cleaning the browser 'edge'
+[INFO ] [2022-03-15 11:29:22,860] Post-Condition: Cleaning the browser 'safari'
+[INFO ] [2022-03-15 11:32:22,219] ------------ START delete file in folder ------------
+[INFO ] [2022-03-15 11:32:22,220] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:32:22,220] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:32:22,221] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:32:22,221] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:32:22,222] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:32:22,222] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:32:22,223] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:32:22,223] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:32:22,223] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:32:22,224] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:32:22,224] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:32:22,225] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:32:22,225] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:32:22,225] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:32:22,226] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:32:22,226] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:32:22,226] ------------ END delete file in folder ------------
+[INFO ] [2022-03-15 11:32:22,434] Pre-Condition - Step 01: Opening the application with 'safari'
+[INFO ] [2022-03-15 11:32:24,054] Post-Condition: Cleaning the browser 'safari'
+[INFO ] [2022-03-15 11:32:37,860] ------------ START delete file in folder ------------
+[INFO ] [2022-03-15 11:32:37,862] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:32:37,863] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:32:37,863] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:32:37,863] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:32:37,864] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:32:37,864] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:32:37,864] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:32:37,865] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:32:37,865] ------------ END delete file in folder ------------
+[INFO ] [2022-03-15 11:32:38,073] Pre-Condition - Step 01: Opening the application with 'safari'
+[INFO ] [2022-03-15 11:32:39,787] Post-Condition: Cleaning the browser 'safari'
+[INFO ] [2022-03-15 11:33:03,779] ------------ START delete file in folder ------------
+[INFO ] [2022-03-15 11:33:03,781] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:33:03,781] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:33:03,782] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:33:03,782] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:33:03,782] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:33:03,783] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:33:03,783] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:33:03,784] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:33:03,784] ------------ END delete file in folder ------------
+[INFO ] [2022-03-15 11:33:03,994] Pre-Condition - Step 01: Opening the application with 'Safari'
+[INFO ] [2022-03-15 11:33:05,620] Post-Condition: Cleaning the browser 'Safari'
+[INFO ] [2022-03-15 11:35:21,325] ------------ START delete file in folder ------------
+[INFO ] [2022-03-15 11:35:21,326] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:35:21,326] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:35:21,327] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:35:21,327] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:35:21,327] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:35:21,328] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:35:21,328] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:35:21,328] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:35:21,329] ------------ END delete file in folder ------------
+[INFO ] [2022-03-15 11:35:21,540] Pre-Condition - Step 01: Opening the application with 'Safari'
+[INFO ] [2022-03-15 11:39:03,552] ------------ START delete file in folder ------------
+[INFO ] [2022-03-15 11:39:03,553] ------------ END delete file in folder ------------
+[INFO ] [2022-03-15 11:39:03,760] Pre-Condition - Step 01: Opening the application with 'Safari'
+[INFO ] [2022-03-15 11:41:30,639] ------------ START delete file in folder ------------
+[INFO ] [2022-03-15 11:41:30,639] ------------ START delete file in folder ------------
+[INFO ] [2022-03-15 11:41:30,641] ------------ END delete file in folder ------------
+[INFO ] [2022-03-15 11:41:30,641] ------------ END delete file in folder ------------
+[INFO ] [2022-03-15 11:41:30,850] Pre-Condition - Step 01: Opening the application with 'Edge'
+[INFO ] [2022-03-15 11:41:30,850] Pre-Condition - Step 01: Opening the application with 'Safari'
+[INFO ] [2022-03-15 11:41:33,039] Post-Condition: Cleaning the browser 'Edge'
+[INFO ] [2022-03-15 11:41:42,956] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-03-15 11:41:50,336] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-15 11:41:59,289] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-03-15 11:42:05,870] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-03-15 11:42:07,746] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-03-15 11:42:09,719] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-03-15 11:42:10,892] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-03-15 11:42:12,869] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-03-15 11:42:14,985] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-03-15 11:42:16,936] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-03-15 11:42:18,923] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-03-15 11:42:21,486] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-03-15 11:42:29,070] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-03-15 11:42:36,958] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 11:42:36,960] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-03-15 11:42:39,213] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 11:42:39,213] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-03-15 11:42:46,849] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 11:42:46,849] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-03-15 11:42:48,384] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 11:42:49,866] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 11:42:51,309] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 11:42:51,323] Post-Condition: Cleaning the browser 'Safari'
+[INFO ] [2022-03-15 11:49:46,539] ------------ START delete file in folder ------------
+[INFO ] [2022-03-15 11:49:46,541] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:49:46,541] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:49:46,541] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:49:46,542] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:49:46,542] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:49:46,543] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:49:46,543] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:49:46,543] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:49:46,544] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:49:46,545] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:49:46,545] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:49:46,546] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:49:46,546] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:49:46,546] ------------ END delete file in folder ------------
+[INFO ] [2022-03-15 11:49:46,762] Pre-Condition - Step 01: Opening the application with 'Safari'
+[INFO ] [2022-03-15 11:49:46,846] ------------ START delete file in folder ------------
+[INFO ] [2022-03-15 11:49:46,847] ------------ END delete file in folder ------------
+[INFO ] [2022-03-15 11:49:46,849] Pre-Condition - Step 01: Opening the application with 'Edge'
+[INFO ] [2022-03-15 11:49:49,064] Post-Condition: Cleaning the browser 'Edge'
+[INFO ] [2022-03-15 11:50:01,977] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-03-15 11:50:10,489] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-15 11:50:18,921] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-03-15 11:50:26,605] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-03-15 11:50:28,815] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-03-15 11:50:31,287] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-03-15 11:50:32,507] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-03-15 11:50:34,599] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-03-15 11:50:37,660] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-03-15 11:50:39,852] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-03-15 11:50:42,011] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-03-15 11:50:44,343] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-03-15 11:50:51,899] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-03-15 11:51:00,049] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 11:51:00,051] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-03-15 11:51:02,741] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 11:51:02,741] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-03-15 11:51:09,418] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 11:51:09,418] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-03-15 11:51:28,118] Post-Condition: Cleaning the browser 'Safari'
+[INFO ] [2022-03-15 11:54:58,397] ------------ START delete file in folder ------------
+[INFO ] [2022-03-15 11:54:58,397] ------------ START delete file in folder ------------
+[INFO ] [2022-03-15 11:54:58,399] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:54:58,399] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:54:58,399] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:54:58,400] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:54:58,400] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:54:58,400] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:54:58,401] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:54:58,401] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:54:58,401] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:54:58,401] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:54:58,402] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:54:58,402] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:54:58,402] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:54:58,402] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:54:58,403] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:54:58,403] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:54:58,403] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:54:58,403] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:54:58,404] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:54:58,404] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:54:58,404] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:54:58,404] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:54:58,405] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:54:58,405] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:54:58,405] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:54:58,405] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:54:58,406] ------------ END delete file in folder ------------
+[INFO ] [2022-03-15 11:54:58,406] ------------ END delete file in folder ------------
+[INFO ] [2022-03-15 11:54:58,616] Pre-Condition - Step 01: Opening the application with 'Safari'
+[INFO ] [2022-03-15 11:54:58,616] Pre-Condition - Step 01: Opening the application with 'Chrome'
+[INFO ] [2022-03-15 11:55:09,009] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-03-15 11:55:10,295] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-03-15 11:55:17,993] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-15 11:55:18,775] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-15 11:55:26,515] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-03-15 11:55:27,080] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-03-15 11:55:33,136] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-03-15 11:55:33,549] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-03-15 11:55:34,978] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-03-15 11:55:35,263] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-03-15 11:55:36,783] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-03-15 11:55:36,846] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-03-15 11:55:37,979] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-03-15 11:55:38,087] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-03-15 11:55:39,782] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-03-15 11:55:39,832] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-03-15 11:55:41,476] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-03-15 11:55:41,708] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-03-15 11:55:43,597] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-03-15 11:55:44,400] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-03-15 11:55:45,354] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-03-15 11:55:46,555] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-03-15 11:55:47,756] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-03-15 11:55:48,566] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-03-15 11:55:54,375] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-03-15 11:55:55,731] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-03-15 11:56:02,069] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 11:56:02,070] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-03-15 11:56:04,253] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 11:56:04,253] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-03-15 11:56:04,755] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 11:56:04,755] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-03-15 11:56:06,723] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 11:56:06,724] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-03-15 11:56:10,670] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 11:56:10,670] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-03-15 11:56:11,983] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 11:56:13,329] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 11:56:13,563] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 11:56:13,563] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-03-15 11:56:14,689] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 11:56:14,825] Post-Condition: Cleaning the browser 'Safari'
+[INFO ] [2022-03-15 11:56:14,860] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 11:56:16,110] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 11:56:17,398] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 11:56:17,410] Post-Condition: Cleaning the browser 'Chrome'
+[INFO ] [2022-03-15 11:58:43,484] ------------ START delete file in folder ------------
+[INFO ] [2022-03-15 11:58:43,484] ------------ START delete file in folder ------------
+[INFO ] [2022-03-15 11:58:43,486] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:58:43,486] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:58:43,486] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:58:43,486] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:58:43,487] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:58:43,487] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:58:43,487] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:58:43,487] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:58:43,487] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:58:43,487] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:58:43,488] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:58:43,488] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:58:43,488] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:58:43,488] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:58:43,488] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:58:43,488] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:58:43,489] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:58:43,489] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:58:43,489] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:58:43,489] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:58:43,490] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:58:43,490] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 11:58:43,490] ------------ END delete file in folder ------------
+[INFO ] [2022-03-15 11:58:43,490] ------------ END delete file in folder ------------
+[INFO ] [2022-03-15 11:58:43,696] Pre-Condition - Step 01: Opening the application with 'Chrome'
+[INFO ] [2022-03-15 11:58:43,696] Pre-Condition - Step 01: Opening the application with 'Safari'
+[INFO ] [2022-03-15 11:58:55,193] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-03-15 11:58:57,250] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-03-15 11:59:03,778] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-15 11:59:04,733] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-15 11:59:13,620] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-03-15 11:59:14,929] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-03-15 11:59:20,596] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-03-15 11:59:21,766] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-03-15 11:59:23,559] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-03-15 11:59:24,137] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-03-15 11:59:25,468] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-03-15 11:59:26,431] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-03-15 11:59:26,496] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-03-15 11:59:28,538] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-03-15 11:59:28,902] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-03-15 11:59:30,742] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-03-15 11:59:30,974] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-03-15 11:59:32,495] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-03-15 11:59:33,167] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-03-15 11:59:35,229] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-03-15 11:59:35,469] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-03-15 11:59:37,145] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-03-15 11:59:37,478] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-03-15 11:59:39,306] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-03-15 11:59:45,545] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-03-15 11:59:45,970] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-03-15 11:59:54,118] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 11:59:54,119] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-03-15 11:59:55,682] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 11:59:55,682] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-03-15 11:59:56,726] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 11:59:56,726] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-03-15 11:59:57,710] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 11:59:57,710] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-03-15 12:00:03,381] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 12:00:03,381] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-03-15 12:00:21,583] Post-Condition: Cleaning the browser 'Safari'
+[INFO ] [2022-03-15 12:00:23,188] Post-Condition: Cleaning the browser 'Chrome'
+[INFO ] [2022-03-15 12:00:40,252] ------------ START delete file in folder ------------
+[INFO ] [2022-03-15 12:00:40,252] ------------ START delete file in folder ------------
+[INFO ] [2022-03-15 12:00:40,253] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:00:40,253] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:00:40,254] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:00:40,254] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:00:40,254] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:00:40,254] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:00:40,255] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:00:40,255] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:00:40,255] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:00:40,255] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:00:40,255] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:00:40,255] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:00:40,256] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:00:40,256] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:00:40,256] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:00:40,256] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:00:40,257] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:00:40,257] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:00:40,257] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:00:40,257] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:00:40,258] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:00:40,258] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:00:40,258] ------------ END delete file in folder ------------
+[INFO ] [2022-03-15 12:00:40,258] ------------ END delete file in folder ------------
+[INFO ] [2022-03-15 12:00:40,468] Pre-Condition - Step 01: Opening the application with 'Safari'
+[INFO ] [2022-03-15 12:00:40,468] Pre-Condition - Step 01: Opening the application with 'Chrome'
+[INFO ] [2022-03-15 12:00:50,975] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-03-15 12:00:53,438] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-03-15 12:01:00,301] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-15 12:01:00,989] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-15 12:01:09,050] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-03-15 12:01:09,608] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-03-15 12:01:15,728] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-03-15 12:01:16,371] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-03-15 12:01:17,752] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-03-15 12:01:18,629] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-03-15 12:01:19,890] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-03-15 12:01:20,317] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-03-15 12:01:21,043] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-03-15 12:01:21,438] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-03-15 12:01:23,433] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-03-15 12:01:24,543] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-03-15 12:01:26,500] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-03-15 12:01:27,796] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-03-15 12:01:28,606] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-03-15 12:01:29,518] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-03-15 12:01:30,590] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-03-15 12:01:31,246] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-03-15 12:01:33,004] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-03-15 12:01:33,326] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-03-15 12:01:40,057] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-03-15 12:01:40,930] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-03-15 12:01:48,005] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 12:01:48,007] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-03-15 12:01:50,267] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 12:01:50,267] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-03-15 12:01:50,582] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 12:01:50,582] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-03-15 12:01:52,221] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 12:01:52,222] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-03-15 12:01:57,423] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 12:01:57,423] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-03-15 12:01:58,822] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 12:01:59,766] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 12:01:59,767] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-03-15 12:02:00,422] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 12:02:01,612] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 12:02:01,898] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 12:02:01,975] Post-Condition: Cleaning the browser 'Safari'
+[INFO ] [2022-03-15 12:02:02,973] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 12:02:04,388] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 12:02:04,400] Post-Condition: Cleaning the browser 'Chrome'
+[INFO ] [2022-03-15 12:05:37,801] ------------ START delete file in folder ------------
+[INFO ] [2022-03-15 12:05:37,801] ------------ START delete file in folder ------------
+[INFO ] [2022-03-15 12:05:37,803] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:05:37,803] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:05:37,803] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:05:37,803] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:05:37,804] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:05:37,804] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:05:37,804] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:05:37,804] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:05:37,804] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:05:37,804] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:05:37,805] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:05:37,805] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:05:37,805] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:05:37,805] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:05:37,806] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:05:37,806] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:05:37,806] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:05:37,806] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:05:37,807] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:05:37,807] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:05:37,807] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:05:37,807] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:05:37,807] ------------ END delete file in folder ------------
+[INFO ] [2022-03-15 12:05:37,807] ------------ END delete file in folder ------------
+[INFO ] [2022-03-15 12:05:38,020] Pre-Condition - Step 01: Opening the application with 'Firefox'
+[INFO ] [2022-03-15 12:05:38,020] Pre-Condition - Step 01: Opening the application with 'Safari'
+[INFO ] [2022-03-15 12:05:57,904] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-03-15 12:06:03,379] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-03-15 12:06:07,339] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-15 12:06:14,722] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-15 12:06:18,903] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-03-15 12:06:25,937] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-03-15 12:06:26,352] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-03-15 12:06:31,749] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-03-15 12:06:34,461] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-03-15 12:06:35,914] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-03-15 12:06:37,740] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-03-15 12:06:38,498] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-03-15 12:06:40,235] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-03-15 12:06:42,695] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-03-15 12:06:43,005] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-03-15 12:06:44,166] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-03-15 12:06:45,071] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-03-15 12:06:47,041] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-03-15 12:06:47,084] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-03-15 12:06:49,721] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-03-15 12:06:51,974] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-03-15 12:06:57,777] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-03-15 12:06:58,758] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-03-15 12:07:01,192] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-03-15 12:07:05,392] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-03-15 12:07:09,360] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 12:07:09,362] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-03-15 12:07:11,456] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 12:07:11,456] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-03-15 12:07:14,970] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-03-15 12:07:18,815] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 12:07:18,815] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-03-15 12:07:20,263] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 12:07:21,704] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 12:07:23,784] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 12:07:23,857] Post-Condition: Cleaning the browser 'Firefox'
+[INFO ] [2022-03-15 12:07:27,483] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 12:07:27,483] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-03-15 12:07:33,233] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 12:07:33,233] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-03-15 12:07:42,670] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 12:07:42,671] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-03-15 12:07:44,627] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 12:07:46,084] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 12:07:47,584] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 12:07:47,600] Post-Condition: Cleaning the browser 'Safari'
+[INFO ] [2022-03-15 12:08:42,043] ------------ START delete file in folder ------------
+[INFO ] [2022-03-15 12:08:42,043] ------------ START delete file in folder ------------
+[INFO ] [2022-03-15 12:08:42,044] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:08:42,044] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:08:42,045] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:08:42,045] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:08:42,045] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:08:42,045] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:08:42,046] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:08:42,046] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:08:42,046] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:08:42,046] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:08:42,047] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:08:42,047] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:08:42,047] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:08:42,047] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:08:42,048] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:08:42,048] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:08:42,048] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:08:42,048] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:08:42,048] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:08:42,049] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:08:42,049] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:08:42,049] ---------- FILE is removed ---------------
+[INFO ] [2022-03-15 12:08:42,049] ------------ END delete file in folder ------------
+[INFO ] [2022-03-15 12:08:42,049] ------------ END delete file in folder ------------
+[INFO ] [2022-03-15 12:08:42,255] Pre-Condition - Step 01: Opening the application with 'Safari'
+[INFO ] [2022-03-15 12:08:42,255] Pre-Condition - Step 01: Opening the application with 'Firefox'
+[INFO ] [2022-03-15 12:08:58,976] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-03-15 12:08:59,635] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-03-15 12:09:07,240] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-15 12:09:07,590] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-03-15 12:09:16,110] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-03-15 12:09:17,458] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-03-15 12:09:25,095] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-03-15 12:09:25,800] Employee_01 - Step 03: Input to First Name textbox
+[INFO ] [2022-03-15 12:09:27,321] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-03-15 12:09:28,903] Employee_01 - Step 04: Input to Last Name textbox
+[INFO ] [2022-03-15 12:09:29,915] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-03-15 12:09:31,125] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-03-15 12:09:31,184] Employee_01 - Step 05: Get Employee ID
+[INFO ] [2022-03-15 12:09:32,155] Employee_01 - Step 06: Check to Create Login Details checkbox
+[INFO ] [2022-03-15 12:09:33,186] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-03-15 12:09:35,422] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-03-15 12:09:35,725] Employee_01 - Step 07: Input to User Name textbox
+[INFO ] [2022-03-15 12:09:37,331] Employee_01 - Step 08: Input to Password textbox
+[INFO ] [2022-03-15 12:09:37,644] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-03-15 12:09:39,687] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-03-15 12:09:40,274] Employee_01 - Step 09: Input to Confirm Password textbox
+[INFO ] [2022-03-15 12:09:41,820] Employee_01 - Step 10: Select Enabled Status dropdown
+[INFO ] [2022-03-15 12:09:43,801] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-03-15 12:09:43,807] Employee_01 - Step 11: Click to Save button
+[INFO ] [2022-03-15 12:09:50,482] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-03-15 12:09:51,152] Employee_01 - Step 12: Open Employee List page
+[INFO ] [2022-03-15 12:09:59,881] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 12:09:59,882] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-03-15 12:10:01,558] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 12:10:01,558] Employee_01 - Step 13: Input to Employee Name textbox
+[INFO ] [2022-03-15 12:10:03,383] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 12:10:03,384] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-03-15 12:10:03,923] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 12:10:03,923] Employee_01 - Step 14: Click to Search button
+[INFO ] [2022-03-15 12:10:10,371] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 12:10:10,371] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-03-15 12:10:11,596] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 12:10:12,642] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 12:10:12,642] Employee_01 - Step 15: Verify Information Employee is displayed in data table
+[INFO ] [2022-03-15 12:10:14,054] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 12:10:14,550] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 12:10:15,392] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 12:10:15,742] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 12:10:15,812] Post-Condition: Cleaning the browser 'Firefox'
+[INFO ] [2022-03-15 12:10:16,752] --------------------- PASSED ---------------------
+[INFO ] [2022-03-15 12:10:16,766] Post-Condition: Cleaning the browser 'Safari'

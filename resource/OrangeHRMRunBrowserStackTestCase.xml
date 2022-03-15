@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Orange HRM" parallel="tests" thread-count="2">
+
+	<!-- <parameter name="environment" value="testing" /> -->
+
+	<listeners>
+		<!-- <listener class-name="commons.MethodListener" /> -->
+		<listener class-name="reportConfig.AllureTestListener" />
+		<!-- <listener class-name="retryConfig.RetryListener" /> -->
+	</listeners>
+
+	<test name="Run on Safari">
+		<parameter name="browser" value="Safari" />
+		<parameter name="osName" value="OS X" />
+		<parameter name="osVersion" value="Monterey" />
+		<classes>
+			<class name="com.hrm.employees.Level_25_Cloud_Testing_With_BrowserStack" />
+		</classes>
+	</test>
+
+	<test name="Run on Chrome">
+		<parameter name="browser" value="Firefox" />
+		<parameter name="osName" value="Windows" />
+		<parameter name="osVersion" value="8" />
+		<classes>
+			<class name="com.hrm.employees.Level_25_Cloud_Testing_With_BrowserStack" />
+		</classes>
+	</test>
+
+</suite>
