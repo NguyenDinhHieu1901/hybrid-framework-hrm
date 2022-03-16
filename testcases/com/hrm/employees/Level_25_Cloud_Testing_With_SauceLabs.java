@@ -229,11 +229,11 @@ public class Level_25_Cloud_Testing_With_SauceLabs extends BaseTest {
 
 	}
 
-	@Parameters("browser")
+	@Parameters({"browser", "environment"})
 	@AfterClass(alwaysRun = true)
-	public void afterClass(String browserName) {
+	public void afterClass(String browserName, String envName) {
 		log.info("Post-Condition: Cleaning the browser '" + browserName + "'");
-		closeBrowserAndDriver();
+		closeBrowserAndDriver(envName);
 	}
 
 	private WebDriver driver;

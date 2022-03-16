@@ -2,7 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Orange HRM">
 
-	<!-- <parameter name="environment" value="testing" /> -->
+	<parameter name="server" value="testing" />
+	<parameter name="environment" value="local" />
 
 	<listeners>
 		<!-- <listener class-name="commons.MethodListener" /> -->
@@ -10,10 +11,10 @@
 		<!-- <listener class-name="retryConfig.RetryListener" /> -->
 	</listeners>
 
-	<test name="Run on Firefox">
-		<parameter name="browser" value="firefox" />
+	<test name="Run on Chrome">
+		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="com.hrm.employees.Level_24_Selenium_Grid" />
+			<class name="com.hrm.employees.Level_26_Refactor_Environment_All" />
 		</classes>
 	</test>
 

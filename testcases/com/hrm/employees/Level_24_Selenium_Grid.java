@@ -812,11 +812,11 @@ public class Level_24_Selenium_Grid extends BaseTest {
 		verifyEquals(employeeListPage.getValueTextInDataTableByRowAndColumnIndex(driver, "resultTable", "1", "Sub Unit"), subUnit);
 	}
 
-	@Parameters("browser")
+	@Parameters({"browser", "environment"})
 	@AfterClass(alwaysRun = true)
-	public void afterClass(String browserName) {
+	public void afterClass(String browserName, String envName) {
 		log.info("Post-Condition: Cleaning the browser '" + browserName + "'");
-		closeBrowserAndDriver();
+		closeBrowserAndDriver(envName);
 	}
 
 	private WebDriver driver;

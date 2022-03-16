@@ -2,7 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Orange HRM" parallel="tests" thread-count="2">
 
-	<!-- <parameter name="environment" value="testing" /> -->
+	<parameter name="server" value="testing" />
+	<parameter name="environment" value="saucelabs" />
 
 	<listeners>
 		<!-- <listener class-name="commons.MethodListener" /> -->
@@ -15,16 +16,16 @@
 		<parameter name="osName" value="macOS 11.00" />
 		<parameter name="browserVersion" value="14" />
 		<classes>
-			<class name="com.hrm.employees.Level_25_Cloud_Testing_With_SauceLabs" />
+			<class name="com.hrm.employees.Level_26_Refactor_Environment_All" />
 		</classes>
 	</test>
 
 	<test name="Run on Firefox">
 		<parameter name="browser" value="Firefox" />
 		<parameter name="osName" value="Windows 11" />
-		<parameter name="browserVersion" value="98" />
+		<parameter name="browserVersion" value="latest" />
 		<classes>
-			<class name="com.hrm.employees.Level_25_Cloud_Testing_With_SauceLabs" />
+			<class name="com.hrm.employees.Level_26_Refactor_Environment_All" />
 		</classes>
 	</test>
 

@@ -8,17 +8,17 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.BaseTest;
-import environmentConfig.Environment;
+import serverConfig.Server;
 
 public class Level_22_Multiple_Environment extends BaseTest {
-	Environment environment;
+	Server environment;
 
 	@Parameters({ "browser", "environment", "ipAddress", "port" })
 	@BeforeClass
 	public void beforeClass(String browserName, String environmentName, String ipAddress, String portNumber) {
 
 		ConfigFactory.setProperty("env", environmentName);
-		environment = ConfigFactory.create(Environment.class);
+		environment = ConfigFactory.create(Server.class);
 
 		log.info("Dev: " + environmentName);
 		driver = getBrowserDriver(browserName, environment.applicationUrl(), ipAddress, portNumber);
@@ -80,11 +80,11 @@ public class Level_22_Multiple_Environment extends BaseTest {
 
 	}
 
-	@Parameters("browser")
+	@Parameters({"browser", "environment"})
 	@AfterClass(alwaysRun = true)
-	public void afterClass(String browserName) {
+	public void afterClass(String browserName, String envName) {
 		log.info("Post-Condition: Cleaning the browser '" + browserName + "'");
-		closeBrowserAndDriver();
+		closeBrowserAndDriver(envName);
 	}
 
 	private WebDriver driver;

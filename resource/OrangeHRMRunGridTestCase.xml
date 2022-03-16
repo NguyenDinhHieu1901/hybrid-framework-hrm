@@ -2,7 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Orange HRM" parallel="tests" thread-count="2">
 
-<!-- 	<parameter name="environment" value="testing" /> -->
+	<parameter name="server" value="testing" />
+	<parameter name="environment" value="grid" />
 
 	<listeners>
 		<!-- <listener class-name="commons.MethodListener" /> -->
