@@ -128,7 +128,7 @@ public class BaseTest {
 			WebDriverManager.firefoxdriver().setup();
 			capability = DesiredCapabilities.firefox();
 			capability.setBrowserName("firefox");
-			capability.setPlatform(Platform.WINDOWS);
+			capability.setPlatform(Platform.ANY);
 			FirefoxOptions firefoxOptions = new FirefoxOptions();
 			firefoxOptions.merge(capability);
 			break;
@@ -136,7 +136,7 @@ public class BaseTest {
 			WebDriverManager.chromedriver().setup();
 			capability = DesiredCapabilities.chrome();
 			capability.setBrowserName("chrome");
-			capability.setPlatform(Platform.WINDOWS);
+			capability.setPlatform(Platform.ANY);
 			ChromeOptions chromeOptions = new ChromeOptions();
 			chromeOptions.merge(capability);
 			break;
