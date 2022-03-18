@@ -63,5 +63,6 @@
 	<classpathentry kind="lib" path="libOwner/junit-4.13.2.jar"/>
 	<classpathentry kind="lib" path="libOwner/mockito-core-4.3.1.jar"/>
 	<classpathentry kind="lib" path="libOwner/owner-1.0.12.jar"/>
+	<classpathentry kind="lib" path="libraries/msedge-selenium-tools-java-3.141.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

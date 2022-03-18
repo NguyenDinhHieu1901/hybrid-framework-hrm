@@ -1,17 +1,17 @@
 package environment;
 
-import java.io.File;
-
+import org.apache.commons.lang3.SystemUtils;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.opera.OperaDriver;
-import org.openqa.selenium.safari.SafariDriver;
 
-import commons.GlobalConstants;
+import factoryBrowser.BraveDriverManager;
+import factoryBrowser.BrowserNotSupportedException;
+import factoryBrowser.ChromeDriverManager;
+import factoryBrowser.CocCocDriverManager;
+import factoryBrowser.EdgeDriverManager;
+import factoryBrowser.FirefoxDriverManager;
+import factoryBrowser.IEDriverManager;
+import factoryBrowser.OperaDriverManager;
+import factoryBrowser.SafariDriverManager;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class LocalFactory {
@@ -28,44 +28,40 @@ public class LocalFactory {
 		switch (browserList) {
 		case FIREFOX:
 			WebDriverManager.firefoxdriver().setup();
-			driver = new FirefoxDriver();
+			driver = new FirefoxDriverManager().getBrowserDriver();
 			break;
 		case CHROME:
-			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
+			driver = new ChromeDriverManager().getBrowserDriver();
 			break;
 		case EDGE:
-			WebDriverManager.edgedriver().setup();
-			driver = new EdgeDriver();
+			driver = new EdgeDriverManager().getBrowserDriver();
 			break;
 		case IE:
-			// WebDriverManager.iedriver().arch32().setup();
-			System.setProperty("webdriver.ie.driver", GlobalConstants.PROJECT_PATH + File.separator + "driverBrowsers" + File.separator + "IEDriverServer.exe");
-			driver = new InternetExplorerDriver();
+			if (SystemUtils.IS_OS_WINDOWS) {
+				driver = new IEDriverManager().getBrowserDriver();
+			} else {
+				throw new BrowserNotSupportedException(browserName);
+			}
 			break;
 		case SAFARI:
-			driver = new SafariDriver();
+			if (SystemUtils.IS_OS_MAC) {
+				driver = new SafariDriverManager().getBrowserDriver();
+			} else {
+				throw new BrowserNotSupportedException(browserName);
+			}
 			break;
 		case OPERA:
-			WebDriverManager.operadriver().setup();
-			driver = new OperaDriver();
+			driver = new OperaDriverManager().getBrowserDriver();
 			break;
 		case COCCOC:
-			WebDriverManager.chromedriver().driverVersion("95.0.4638.69").setup();
-			ChromeOptions options = new ChromeOptions();
-			options.setBinary("C:\\Program Files\\CocCoc\\Browser\\Application\\browser.exe");
-			driver = new ChromeDriver(options);
+			driver = new CocCocDriverManager().getBrowserDriver();
 			break;
 		case BRAVE:
-			WebDriverManager.chromedriver().driverVersion("96.0.4664.45").setup();
-			ChromeOptions option = new ChromeOptions();
-			option.setBinary("C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe");
-			driver = new ChromeDriver(option);
-			driver = new FirefoxDriver();
+			driver = new BraveDriverManager().getBrowserDriver();
 			break;
 
 		default:
-			throw new RuntimeException("Browser is not supported!");
+			throw new BrowserNotSupportedException(browserName);
 		}
 		return driver;
 	}

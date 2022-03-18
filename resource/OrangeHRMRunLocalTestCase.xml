@@ -11,7 +11,7 @@
 		<!-- <listener class-name="retryConfig.RetryListener" /> -->
 	</listeners>
 
-	<test name="Run on Chrome">
+	<test name="Run on Firefox">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.hrm.employees.Level_26_Refactor_Environment_All" />
