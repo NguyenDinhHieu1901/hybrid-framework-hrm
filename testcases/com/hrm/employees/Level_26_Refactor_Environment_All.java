@@ -104,6 +104,7 @@ public class Level_26_Refactor_Environment_All extends BaseTest {
 
 		log.info("Pre-Condition - Step 01: Opening the application with '" + browserName + "'");
 		driver = getBrowserDriver(browserName, serverName, envName, ipAddress, portNumber, osName, osVersion, browserVersion);
+		System.out.printf("Thread: %s have Id = %d with Browser %s\n", Thread.currentThread().getName() ,Thread.currentThread().getId(), browserName);
 		loginPage = PageGeneratorManager.getLoginPage(driver);
 
 		log.info("Pre-Condition - Step 02: Login to system as Admin role with username & password: " + userNameAdmin + " " + passwordAdmin);

@@ -12,6 +12,7 @@ public class IEDriverManager implements BrowserFactory {
 	public WebDriver getBrowserDriver() {
 		WebDriverManager.iedriver().arch32().setup();
 		InternetExplorerOptions options = new InternetExplorerOptions();
+		options.setCapability("disable-save-password-bubble", "true");
 		return new InternetExplorerDriver(options);
 	}
 }

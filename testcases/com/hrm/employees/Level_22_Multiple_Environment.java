@@ -4,6 +4,7 @@ import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -13,15 +14,16 @@ import serverConfig.Server;
 public class Level_22_Multiple_Environment extends BaseTest {
 	Server environment;
 
-	@Parameters({ "browser", "environment", "ipAddress", "port" })
+	@Parameters({ "browser", "server", "environment", "ipAddress", "port", "osName", "osVersion", "browserVersion" })
 	@BeforeClass
-	public void beforeClass(String browserName, String environmentName, String ipAddress, String portNumber) {
+	public void beforeClass(@Optional("chrome") String browserName, @Optional("testing") String serverName, @Optional("local") String envName, @Optional("localhost") String ipAddress, @Optional("4444") String portNumber,
+			@Optional("Windows") String osName, @Optional("10") String osVersion, @Optional("latest") String browserVersion) {
 
-		ConfigFactory.setProperty("env", environmentName);
+		ConfigFactory.setProperty("env", serverName);
 		environment = ConfigFactory.create(Server.class);
 
-		log.info("Dev: " + environmentName);
-		driver = getBrowserDriver(browserName, environment.applicationUrl(), ipAddress, portNumber);
+		log.info("Dev: " + serverName);
+		driver = getBrowserDriver(browserName, serverName, envName, ipAddress, portNumber, osName, osVersion, browserVersion);
 		log.info("Current Testing: " + driver.getCurrentUrl());
 	}
 
@@ -80,7 +82,7 @@ public class Level_22_Multiple_Environment extends BaseTest {
 
 	}
 
-	@Parameters({"browser", "environment"})
+	@Parameters({ "browser", "environment" })
 	@AfterClass(alwaysRun = true)
 	public void afterClass(String browserName, String envName) {
 		log.info("Post-Condition: Cleaning the browser '" + browserName + "'");

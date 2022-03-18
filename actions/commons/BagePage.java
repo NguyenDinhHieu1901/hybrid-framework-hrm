@@ -23,7 +23,7 @@ import pageObjects.hrm.LoginPO;
 import pageObjects.hrm.PageGeneratorManager;
 import pageUIs.hrm.BasePageUI;
 
-public class BagePage {
+public abstract class BagePage {
 
 	protected BagePage() {
 		log = Logger.getLogger(getClass());

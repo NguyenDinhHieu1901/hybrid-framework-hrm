@@ -3,6 +3,7 @@ package com.hrm.employees;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -26,9 +27,10 @@ import pageObjects.hrm.PageGeneratorManager;
 public class Level_25_Cloud_Testing_With_BrowserStack extends BaseTest {
 	@Description("Pre-Condition: Opening web application and login to system")
 	@Severity(SeverityLevel.BLOCKER)
-	@Parameters({ "browser", "osName", "osVersion" })
+	@Parameters({ "browser", "server", "environment", "ipAddress", "port", "osName", "osVersion", "browserVersion" })
 	@BeforeClass
-	public void beforeClass(String browserName, String osName, String osVersion) {
+	public void beforeClass(@Optional("chrome") String browserName, @Optional("testing") String serverName, @Optional("local") String envName, @Optional("localhost") String ipAddress, @Optional("4444") String portNumber,
+			@Optional("Windows") String osName, @Optional("10") String osVersion, @Optional("latest") String browserVersion) {
 		userNameAdmin = "Admin";
 		passwordAdmin = "admin123";
 		firstName = Employee.Add_New_Employee.firstName;
@@ -100,7 +102,7 @@ public class Level_25_Cloud_Testing_With_BrowserStack extends BaseTest {
 		competency = "Good";
 
 		log.info("Pre-Condition - Step 01: Opening the application with '" + browserName + "'");
-		driver = getBrowserDriverInBrowserStack(browserName, osName, osVersion);
+		driver = getBrowserDriver(browserName, serverName, envName, ipAddress, portNumber, osName, osVersion, browserVersion);
 		loginPage = PageGeneratorManager.getLoginPage(driver);
 
 		log.info("Pre-Condition - Step 02: Login to system as Admin role with username & password: " + userNameAdmin + " " + passwordAdmin);
@@ -229,7 +231,7 @@ public class Level_25_Cloud_Testing_With_BrowserStack extends BaseTest {
 
 	}
 
-	@Parameters({"browser", "environment"})
+	@Parameters({ "browser", "environment" })
 	@AfterClass(alwaysRun = true)
 	public void afterClass(String browserName, String envName) {
 		log.info("Post-Condition: Cleaning the browser '" + browserName + "'");
