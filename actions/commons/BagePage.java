@@ -726,7 +726,7 @@ public abstract class BagePage {
 		return getElementText(driver, BasePageUI.VALUE_DATA_IN_QUALIFICATIONS_FORM_TABLE, formID, rowIndex, String.valueOf(columnIndex));
 	}
 
-	private long longTimeout = GlobalConstants.LONG_TIMEOUT;
-	private long shortTimeout = GlobalConstants.SHORT_TIMEOUT;
+	private long longTimeout = GlobalConstants.getGlobalConstants().getLongTimeout();
+	private long shortTimeout = GlobalConstants.getGlobalConstants().getShortTimeout();
 	private final Logger log;
 }

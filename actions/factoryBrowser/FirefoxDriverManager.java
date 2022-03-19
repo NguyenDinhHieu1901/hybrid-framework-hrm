@@ -16,7 +16,7 @@ public class FirefoxDriverManager implements BrowserFactory {
 		options.addArguments("--disable-notifications");
 		options.addArguments("--disable-geolocation");
 		options.addPreference("browser.download.folderList", 2);
-		options.addPreference("browser.download.dir", GlobalConstants.DOWLOAD_FILE_FOLDER);
+		options.addPreference("browser.download.dir", GlobalConstants.getGlobalConstants().getDowloadFileFolder());
 		options.addPreference("browser.download.useDownloadDir", true);
 		return new FirefoxDriver(options);
 	}

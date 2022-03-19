@@ -39,7 +39,7 @@ public class Level_20_Employee_Data_Test_III extends BaseTest {
 		employeeID = "";
 		statusValue = Employee.Add_New_Employee.employeeStatus;
 		fullname = firstName + " " + lastName;
-		pathAvatarFile = GlobalConstants.UPLOAD_FILE_FOLDER + "Avatar.jpg";
+		pathAvatarFile = GlobalConstants.getGlobalConstants().getUploadFileFolder() + "Avatar.jpg";
 		editEmpFirstName = Employee.PersonalDetails.firstName;
 		editEmpLastName = Employee.PersonalDetails.lastName;
 		editEmpFullName = editEmpFirstName + " " + editEmpLastName;

@@ -14,7 +14,7 @@ public class EmployeeData {
 		try {
 			ObjectMapper mapper = new ObjectMapper();
 			mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
-			return mapper.readValue(new File(GlobalConstants.PROJECT_PATH + "\\json\\employee.json"), EmployeeData.class);
+			return mapper.readValue(new File(GlobalConstants.getGlobalConstants().getProjectPath() + "\\json\\employee.json"), EmployeeData.class);
 		} catch (Exception e) {
 			e.printStackTrace();
 			return null;

@@ -1,6 +1,5 @@
 package environment;
 
-import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
 
@@ -15,7 +14,6 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariOptions;
 
-import commons.GlobalConstants;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class GridFactory {
@@ -61,8 +59,7 @@ public class GridFactory {
 			edgeOptions.merge(capability);
 			break;
 		case IE:
-			// WebDriverManager.iedriver().arch32().setup();
-			System.setProperty("webdriver.ie.driver", GlobalConstants.PROJECT_PATH + File.separator + "driverBrowsers" + File.separator + "IEDriverServer.exe");
+			WebDriverManager.iedriver().arch32().setup();
 			capability = DesiredCapabilities.internetExplorer();
 			capability.setBrowserName(browserName);
 			capability.setPlatform(Platform.WINDOWS);

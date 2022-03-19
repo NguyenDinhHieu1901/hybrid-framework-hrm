@@ -39,7 +39,7 @@ public class Level_20_Employee_Data_Test_IV extends BaseTest {
 		employeeID = "";
 		statusValue = employeeData.getStatusValue();
 		fullname = employeeData.getFullName();
-		pathAvatarFile = GlobalConstants.UPLOAD_FILE_FOLDER + "Avatar.jpg";
+		pathAvatarFile = GlobalConstants.getGlobalConstants().getUploadFileFolder() + "Avatar.jpg";
 		editEmpFirstName = employeeData.getEditFirstName();
 		editEmpLastName = employeeData.getEditLastName();
 		editEmpFullName = employeeData.getEditFullName();

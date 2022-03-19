@@ -37,7 +37,7 @@ public class SauceLabsFactory {
 		caps.setCapability("sauce:options", sauceOptions);
 		caps.setCapability("name", "Run on " + osName + " | " + browserName + " | " + browserVersion);
 		try {
-			driver = new RemoteWebDriver(new URL(GlobalConstants.SAUCELABS_URL), caps);
+			driver = new RemoteWebDriver(new URL(GlobalConstants.getGlobalConstants().getSauceLabsUrl()), caps);
 		} catch (MalformedURLException e) {
 			e.printStackTrace();
 		}

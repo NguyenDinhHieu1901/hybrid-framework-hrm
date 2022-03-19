@@ -39,7 +39,7 @@ public class Level_17_Live_Coding extends BaseTest {
 		employeeID = "";
 		statusValue = "Enabled";
 		fullname = firstName + " " + lastName;
-		pathAvatarFile = GlobalConstants.UPLOAD_FILE_FOLDER + "Avatar.jpg";
+		pathAvatarFile = GlobalConstants.getGlobalConstants().getUploadFileFolder() + "Avatar.jpg";
 		editEmpFirstName = "El";
 		editEmpLastName = "Nino";
 		editEmpFullName = editEmpFirstName + " " + editEmpLastName;

@@ -26,7 +26,7 @@ public class TestJson {
 	public static String readJSON(String functionName, String dataName) {
 
 		try {
-			Object obj = jsonParser.parse(new FileReader(GlobalConstants.PROJECT_PATH + "\\json\\employee.json"));
+			Object obj = jsonParser.parse(new FileReader(GlobalConstants.getGlobalConstants().getProjectPath() + "\\json\\employee.json"));
 			JSONArray employeeList = (JSONArray) obj;
 			for (int i = 0; i < employeeList.size(); i++) {
 				JSONObject function = (JSONObject) employeeList.get(i);

@@ -27,7 +27,7 @@ public class EdgeDriverManager implements BrowserFactory {
 		prefs.put("credentials_enable_service", false);
 		prefs.put("profile.password_manager_enabled", false);
 		prefs.put("profile.default_content_settings.popups", 0);
-		prefs.put("download.default_directory", GlobalConstants.DOWLOAD_FILE_FOLDER);
+		prefs.put("download.default_directory", GlobalConstants.getGlobalConstants().getDowloadFileFolder());
 		options.setExperimentalOption("prefs", prefs);
 		return new EdgeDriver(options);
 	}

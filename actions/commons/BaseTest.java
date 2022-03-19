@@ -43,7 +43,7 @@ public abstract class BaseTest {
 			driver.set(new LocalFactory(browserName).createDriver());
 			break;
 		}
-		driver.get().manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS);
+		driver.get().manage().timeouts().implicitlyWait(GlobalConstants.getGlobalConstants().getLongTimeout(), TimeUnit.SECONDS);
 		driver.get().manage().window().maximize();
 		driver.get().get(getBrowserEnvironment(serverName));
 		return driver.get();
@@ -54,20 +54,20 @@ public abstract class BaseTest {
 		ServerList serverList = ServerList.valueOf(serverName.toUpperCase());
 		switch (serverList) {
 		case DEV:
-			url = GlobalConstants.ADMIN_HRM_URL;
+			url = GlobalConstants.getGlobalConstants().getAdminHRMUrl();
 			break;
 		case TESTING:
-			url = GlobalConstants.PORTAL_HRM_URL;
+			url = GlobalConstants.getGlobalConstants().getPortalHRMUrl();
 			break;
 		case STAGING:
-			url = GlobalConstants.PORTAL_HRM_URL;
+			url = GlobalConstants.getGlobalConstants().getPortalHRMUrl();
 			break;
 		case PREPRODUCTION:
-			url = GlobalConstants.PORTAL_HRM_URL;
+			url = GlobalConstants.getGlobalConstants().getPortalHRMUrl();
 			;
 			break;
 		case LIVE:
-			url = GlobalConstants.PORTAL_HRM_URL;
+			url = GlobalConstants.getGlobalConstants().getPortalHRMUrl();
 			break;
 
 		default:
@@ -148,7 +148,7 @@ public abstract class BaseTest {
 	@BeforeTest
 	public void deleteAllFilesInReportFolder() {
 		log.info("------------ START delete file in folder ------------");
-		String pathFolderReport = GlobalConstants.PROJECT_PATH + File.separator + "allure-json";
+		String pathFolderReport = GlobalConstants.getGlobalConstants().getProjectPath() + File.separator + "allure-json";
 		File file = new File(pathFolderReport);
 		File[] listOfFiles = file.listFiles();
 		for (int i = 0; i < listOfFiles.length; i++) {
@@ -164,7 +164,7 @@ public abstract class BaseTest {
 		String cmd = "";
 		if (envName.equals("local") || envName.equals("gird")) {
 			try {
-				String osName = GlobalConstants.OS_NAME.toLowerCase();
+				String osName = GlobalConstants.getGlobalConstants().getOsName().toLowerCase();
 				String driverInstanceName = driver.get().toString().toLowerCase();
 				if (driverInstanceName.contains("chrome")) {
 					if (osName.contains("windows")) {

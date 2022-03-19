@@ -42,7 +42,7 @@ public class Level_19_Employee_Fake_Data extends BaseTest {
 		employeeID = "";
 		statusValue = data.getEmployeeStatus();
 		fullname = firstName + " " + lastName;
-		pathAvatarFile = GlobalConstants.UPLOAD_FILE_FOLDER + "Avatar.jpg";
+		pathAvatarFile = GlobalConstants.getGlobalConstants().getUploadFileFolder() + "Avatar.jpg";
 		editEmpFirstName = data.getEditFirstName();
 		editEmpLastName = data.getEditLastName();
 		editEmpFullName = editEmpFirstName + " " + editEmpLastName;

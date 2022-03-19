@@ -41,7 +41,7 @@ public class Level_24_Selenium_Grid extends BaseTest {
 		employeeID = "";
 		statusValue = employeeData.getStatusValue();
 		fullname = employeeData.getFullName();
-		pathAvatarFile = GlobalConstants.UPLOAD_FILE_FOLDER + "Avatar.jpg";
+		pathAvatarFile = GlobalConstants.getGlobalConstants().getUploadFileFolder() + "Avatar.jpg";
 		editEmpFirstName = employeeData.getEditFirstName();
 		editEmpLastName = employeeData.getEditLastName();
 		editEmpFullName = employeeData.getEditFullName();
