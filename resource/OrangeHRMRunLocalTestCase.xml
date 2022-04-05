@@ -8,7 +8,7 @@
 	<listeners>
 		<!-- <listener class-name="commons.MethodListener" /> -->
 		<listener class-name="reportConfig.AllureTestListener" />
-		<!-- <listener class-name="retryConfig.RetryListener" /> -->
+		<listener class-name="retryConfig.RetryListener" />
 	</listeners>
 
 	<test name="Run on Firefox">
