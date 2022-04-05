@@ -8,13 +8,13 @@
 	<listeners>
 		<!-- <listener class-name="commons.MethodListener" /> -->
 		<listener class-name="reportConfig.AllureTestListener" />
-<!-- 		<listener class-name="retryConfig.RetryListener" /> -->
+		<!-- <listener class-name="retryConfig.RetryListener" /> -->
 	</listeners>
 
 	<test name="Run on Firefox">
 		<parameter name="browser" value="firefox" />
-		<parameter name="ipAddress" value="192.168.1.8" />
-		<parameter name="port" value="4444" />
+		<parameter name="ipAddress" value="192.168.1.10" />
+		<parameter name="port" value="5555" />
 		<classes>
 			<class name="com.hrm.employees.Level_26_Refactor_Environment_All" />
 		</classes>
@@ -23,7 +23,7 @@
 	<test name="Run on Chorme">
 		<parameter name="browser" value="chrome" />
 		<parameter name="ipAddress" value="localhost" />
-		<parameter name="port" value="4444" />
+		<parameter name="port" value="5555" />
 		<classes>
 			<class name="com.hrm.employees.Level_26_Refactor_Environment_All" />
 		</classes>

@@ -12,12 +12,9 @@ public class GlobalConstants {
 
 	}
 
-	public static GlobalConstants getGlobalConstants() {
+	public synchronized static GlobalConstants getGlobalConstants() {
 		if (globalInstance == null) {
-			System.out.println("Create new Instance");
 			globalInstance = new GlobalConstants();
-		} else {
-			System.out.println("Exist Instance");
 		}
 		return globalInstance;
 	}

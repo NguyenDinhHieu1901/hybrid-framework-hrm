@@ -657,7 +657,7 @@ public abstract class BagePage {
 		clickToElement(driver, BasePageUI.LOGOUT_LINK);
 		return PageGeneratorManager.getLoginPage(driver);
 	}
-
+	
 	@Step("Upload file with path: {1}")
 	public void uploadEmployeeImage(WebDriver driver, String pathAvatarFile) {
 		waitForElementVisible(driver, BasePageUI.UPLOAD_FILE);

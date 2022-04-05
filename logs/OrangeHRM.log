@@ -10154,3 +10154,349 @@
 [INFO ] [2022-03-18 21:32:40,800] --------------------- PASSED ---------------------
 [INFO ] [2022-03-18 21:32:40,839] --------------------- PASSED ---------------------
 [INFO ] [2022-03-18 21:32:41,062] Post-Condition: Cleaning the browser 'firefox'
+[INFO ] [2022-04-04 23:14:19,675] ------------ START delete file in folder ------------
+[INFO ] [2022-04-04 23:14:19,741] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,756] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,757] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,757] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,757] ------------ START delete file in folder ------------
+[INFO ] [2022-04-04 23:14:19,764] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,764] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,764] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,770] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,770] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,770] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,770] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,772] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,772] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,773] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,773] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,775] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,775] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,775] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,775] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,776] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,776] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,776] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,776] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,777] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,777] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,778] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,778] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,788] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,788] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,789] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,789] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,798] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,798] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,799] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,799] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,801] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,801] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,801] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,801] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,803] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,803] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,805] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,805] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,806] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,806] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,806] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,807] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,807] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,807] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,808] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,808] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,809] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,809] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,809] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,809] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,810] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,810] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,811] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,811] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,812] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,812] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,812] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,812] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,813] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,813] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,814] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,814] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,814] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,814] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,815] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,815] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,833] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,833] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,833] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,833] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,833] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,834] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,834] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,834] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,834] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,836] ---------- FILE is removed ---------------
+[INFO ] [2022-04-04 23:14:19,836] ------------ END delete file in folder ------------
+[INFO ] [2022-04-04 23:14:19,835] ------------ END delete file in folder ------------
+[INFO ] [2022-04-04 23:14:20,146] Pre-Condition - Step 01: Opening the application with 'firefox'
+[INFO ] [2022-04-04 23:14:20,146] Pre-Condition - Step 01: Opening the application with 'chrome'
+[INFO ] [2022-04-04 23:14:25,363] Post-Condition: Cleaning the browser 'firefox'
+[INFO ] [2022-04-04 23:14:27,729] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-04-04 23:14:33,116] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-04-04 23:14:39,246] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-04-04 23:14:54,512] Post-Condition: Cleaning the browser 'chrome'
+[INFO ] [2022-04-05 09:36:02,715] ------------ START delete file in folder ------------
+[INFO ] [2022-04-05 09:36:02,715] ------------ START delete file in folder ------------
+[INFO ] [2022-04-05 09:36:02,757] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:36:02,757] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:36:02,790] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:36:02,790] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:36:02,802] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:36:02,802] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:36:02,804] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:36:02,804] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:36:02,804] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:36:02,804] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:36:02,807] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:36:02,807] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:36:02,808] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:36:02,809] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:36:02,809] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:36:02,809] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:36:02,810] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:36:02,810] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:36:02,810] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:36:02,811] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:36:02,811] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:36:02,811] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:36:02,812] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:36:02,812] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:36:02,813] ------------ END delete file in folder ------------
+[INFO ] [2022-04-05 09:36:02,813] ------------ END delete file in folder ------------
+[INFO ] [2022-04-05 09:36:02,828] Pre-Condition - Step 01: Opening the application with 'chrome'
+[INFO ] [2022-04-05 09:36:02,828] Pre-Condition - Step 01: Opening the application with 'firefox'
+[INFO ] [2022-04-05 09:36:20,110] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-04-05 09:36:25,391] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-04-05 09:36:25,859] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-04-05 09:36:29,962] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-04-05 09:36:41,000] Post-Condition: Cleaning the browser 'chrome'
+[INFO ] [2022-04-05 09:36:45,149] Post-Condition: Cleaning the browser 'firefox'
+[INFO ] [2022-04-05 09:57:54,254] ------------ START delete file in folder ------------
+[INFO ] [2022-04-05 09:57:54,272] ------------ START delete file in folder ------------
+[INFO ] [2022-04-05 09:57:54,287] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:57:54,287] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:57:54,307] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:57:54,320] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:57:54,320] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:57:54,321] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:57:54,322] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:57:54,322] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:57:54,324] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:57:54,324] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:57:54,326] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:57:54,327] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:57:54,327] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:57:54,327] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:57:54,328] ------------ END delete file in folder ------------
+[INFO ] [2022-04-05 09:57:54,328] ------------ END delete file in folder ------------
+[INFO ] [2022-04-05 09:57:54,345] Pre-Condition - Step 01: Opening the application with 'firefox'
+[INFO ] [2022-04-05 09:57:54,345] Pre-Condition - Step 01: Opening the application with 'chrome'
+[INFO ] [2022-04-05 09:57:58,241] Post-Condition: Cleaning the browser 'firefox'
+[INFO ] [2022-04-05 09:58:00,274] Post-Condition: Cleaning the browser 'chrome'
+[INFO ] [2022-04-05 09:58:24,641] ------------ START delete file in folder ------------
+[INFO ] [2022-04-05 09:58:24,643] ------------ START delete file in folder ------------
+[INFO ] [2022-04-05 09:58:24,644] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:58:24,644] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:58:24,644] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:58:24,644] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:58:24,645] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:58:24,645] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:58:24,645] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:58:24,646] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:58:24,646] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:58:24,646] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:58:24,646] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:58:24,647] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:58:24,647] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:58:24,647] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:58:24,647] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:58:24,647] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:58:24,648] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:58:24,648] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:58:24,648] ------------ END delete file in folder ------------
+[INFO ] [2022-04-05 09:58:24,648] ------------ END delete file in folder ------------
+[INFO ] [2022-04-05 09:58:24,664] Pre-Condition - Step 01: Opening the application with 'firefox'
+[INFO ] [2022-04-05 09:58:24,664] Pre-Condition - Step 01: Opening the application with 'chrome'
+[INFO ] [2022-04-05 09:58:25,767] Post-Condition: Cleaning the browser 'chrome'
+[INFO ] [2022-04-05 09:58:26,625] Post-Condition: Cleaning the browser 'firefox'
+[INFO ] [2022-04-05 09:58:48,611] ------------ START delete file in folder ------------
+[INFO ] [2022-04-05 09:58:48,612] ------------ START delete file in folder ------------
+[INFO ] [2022-04-05 09:58:48,612] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:58:48,612] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:58:48,613] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:58:48,613] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:58:48,613] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:58:48,614] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:58:48,614] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:58:48,614] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:58:48,614] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:58:48,614] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:58:48,615] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:58:48,615] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:58:48,615] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:58:48,615] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:58:48,616] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:58:48,616] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:58:48,616] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:58:48,616] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 09:58:48,616] ------------ END delete file in folder ------------
+[INFO ] [2022-04-05 09:58:48,616] ------------ END delete file in folder ------------
+[INFO ] [2022-04-05 09:58:48,630] Pre-Condition - Step 01: Opening the application with 'chrome'
+[INFO ] [2022-04-05 09:58:48,630] Pre-Condition - Step 01: Opening the application with 'firefox'
+[INFO ] [2022-04-05 09:58:49,557] Post-Condition: Cleaning the browser 'chrome'
+[INFO ] [2022-04-05 09:58:50,306] Post-Condition: Cleaning the browser 'firefox'
+[INFO ] [2022-04-05 10:00:56,975] ------------ START delete file in folder ------------
+[INFO ] [2022-04-05 10:00:56,977] ------------ START delete file in folder ------------
+[INFO ] [2022-04-05 10:00:56,987] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:00:56,987] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:00:56,988] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:00:56,988] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:00:56,988] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:00:56,989] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:00:56,989] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:00:56,989] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:00:56,989] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:00:56,989] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:00:56,990] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:00:56,990] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:00:56,990] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:00:56,990] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:00:56,990] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:00:56,990] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:00:56,991] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:00:56,991] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:00:56,991] ------------ END delete file in folder ------------
+[INFO ] [2022-04-05 10:00:56,991] ------------ END delete file in folder ------------
+[INFO ] [2022-04-05 10:00:57,006] Pre-Condition - Step 01: Opening the application with 'chrome'
+[INFO ] [2022-04-05 10:00:57,007] Pre-Condition - Step 01: Opening the application with 'firefox'
+[INFO ] [2022-04-05 10:00:58,369] Post-Condition: Cleaning the browser 'chrome'
+[INFO ] [2022-04-05 10:00:58,699] Post-Condition: Cleaning the browser 'firefox'
+[INFO ] [2022-04-05 10:06:08,032] ------------ START delete file in folder ------------
+[INFO ] [2022-04-05 10:06:08,032] ------------ START delete file in folder ------------
+[INFO ] [2022-04-05 10:06:08,054] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:06:08,054] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:06:08,078] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:06:08,078] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:06:08,079] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:06:08,079] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:06:08,080] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:06:08,080] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:06:08,080] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:06:08,106] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:06:08,109] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:06:08,109] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:06:08,111] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:06:08,111] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:06:08,113] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:06:08,114] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:06:08,118] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:06:08,119] ------------ END delete file in folder ------------
+[INFO ] [2022-04-05 10:06:08,119] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:06:08,119] ------------ END delete file in folder ------------
+[INFO ] [2022-04-05 10:06:08,134] Pre-Condition - Step 01: Opening the application with 'chrome'
+[INFO ] [2022-04-05 10:06:08,134] Pre-Condition - Step 01: Opening the application with 'firefox'
+[INFO ] [2022-04-05 10:06:11,426] Post-Condition: Cleaning the browser 'firefox'
+[INFO ] [2022-04-05 10:06:11,427] Post-Condition: Cleaning the browser 'chrome'
+[INFO ] [2022-04-05 10:18:28,908] ------------ START delete file in folder ------------
+[INFO ] [2022-04-05 10:18:28,908] ------------ START delete file in folder ------------
+[INFO ] [2022-04-05 10:18:28,971] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:18:28,971] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:18:29,061] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:18:29,061] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:18:29,065] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:18:29,065] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:18:29,085] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:18:29,101] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:18:29,110] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:18:29,110] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:18:29,111] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:18:29,111] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:18:29,116] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:18:29,116] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:18:29,123] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:18:29,123] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:18:29,123] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:18:29,124] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:18:29,125] ------------ END delete file in folder ------------
+[INFO ] [2022-04-05 10:18:29,131] ------------ END delete file in folder ------------
+[INFO ] [2022-04-05 10:18:29,153] Pre-Condition - Step 01: Opening the application with 'firefox'
+[INFO ] [2022-04-05 10:18:29,153] Pre-Condition - Step 01: Opening the application with 'chrome'
+[INFO ] [2022-04-05 10:19:40,955] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-04-05 10:19:48,016] Post-Condition: Cleaning the browser 'firefox'
+[INFO ] [2022-04-05 10:20:00,173] Post-Condition: Cleaning the browser 'chrome'
+[INFO ] [2022-04-05 10:25:37,665] ------------ START delete file in folder ------------
+[INFO ] [2022-04-05 10:25:37,696] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:25:37,743] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:25:37,758] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:25:37,774] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:25:37,790] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:25:37,790] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:25:37,790] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:25:37,805] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:25:37,805] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:25:37,821] ------------ END delete file in folder ------------
+[INFO ] [2022-04-05 10:25:37,837] Pre-Condition - Step 01: Opening the application with 'firefox'
+[INFO ] [2022-04-05 10:25:38,696] ------------ START delete file in folder ------------
+[INFO ] [2022-04-05 10:25:38,696] ------------ END delete file in folder ------------
+[INFO ] [2022-04-05 10:25:38,701] Pre-Condition - Step 01: Opening the application with 'chrome'
+[INFO ] [2022-04-05 10:26:46,420] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-04-05 10:26:48,777] Post-Condition: Cleaning the browser 'firefox'
+[INFO ] [2022-04-05 10:26:58,235] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-04-05 10:27:09,684] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-04-05 10:27:20,451] Post-Condition: Cleaning the browser 'chrome'
+[INFO ] [2022-04-05 10:57:54,833] ------------ START delete file in folder ------------
+[INFO ] [2022-04-05 10:57:54,833] ------------ START delete file in folder ------------
+[INFO ] [2022-04-05 10:57:54,833] ------------ START delete file in folder ------------
+[INFO ] [2022-04-05 10:57:54,865] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:57:54,865] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:57:54,865] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:57:54,866] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:57:54,866] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:57:54,866] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:57:54,866] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:57:54,866] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:57:54,866] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:57:54,867] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:57:54,867] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:57:54,867] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:57:54,867] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:57:54,867] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:57:54,867] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:57:54,868] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:57:54,868] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:57:54,868] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:57:54,868] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:57:54,868] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:57:54,868] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:57:54,869] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:57:54,869] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:57:54,869] ---------- FILE is removed ---------------
+[INFO ] [2022-04-05 10:57:54,869] ------------ END delete file in folder ------------
+[INFO ] [2022-04-05 10:57:54,869] ------------ END delete file in folder ------------
+[INFO ] [2022-04-05 10:57:54,869] ------------ END delete file in folder ------------
+[INFO ] [2022-04-05 10:57:54,883] Pre-Condition - Step 01: Opening the application with 'firefox'
+[INFO ] [2022-04-05 10:57:54,884] Pre-Condition - Step 01: Opening the application with 'chrome'
+[INFO ] [2022-04-05 10:57:54,890] Pre-Condition - Step 01: Opening the application with 'edge'
+[INFO ] [2022-04-05 10:58:02,791] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-04-05 10:58:06,762] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-04-05 10:58:08,850] Pre-Condition - Step 02: Login to system as Admin role with username & password: Admin admin123
+[INFO ] [2022-04-05 10:58:09,622] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-04-05 10:58:13,130] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-04-05 10:58:15,760] Employee_01 - Step 01: Open Employee List page
+[INFO ] [2022-04-05 10:58:17,764] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-04-05 10:58:20,268] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-04-05 10:58:21,864] Post-Condition: Cleaning the browser 'chrome'
+[INFO ] [2022-04-05 10:58:22,813] Employee_01 - Step 02: Click to Add button
+[INFO ] [2022-04-05 10:58:24,150] Post-Condition: Cleaning the browser 'firefox'
+[INFO ] [2022-04-05 10:58:26,734] Post-Condition: Cleaning the browser 'edge'

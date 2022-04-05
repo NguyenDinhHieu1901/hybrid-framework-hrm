@@ -2,11 +2,14 @@ package commons;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.List;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.logging.LogEntries;
+import org.openqa.selenium.logging.LogEntry;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeTest;
@@ -83,6 +86,16 @@ public abstract class BaseTest {
 
 	public WebDriver getWebDriver() {
 		return driver.get();
+	}
+
+	protected void showBrowserConsoleLogs(WebDriver driver) {
+		if (driver.toString().contains("chrome")) {
+			LogEntries logs = driver.manage().logs().get("browser");
+			List<LogEntry> logList = logs.getAll();
+			for (LogEntry logging : logList) {
+				log.info("------------" + logging.getLevel().toString() + "------------\n" + logging.getMessage());
+			}
+		}
 	}
 
 	private boolean checkTrue(boolean condition) {

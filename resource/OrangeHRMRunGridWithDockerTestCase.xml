@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Orange HRM" parallel="tests" thread-count="2">
+
+	<parameter name="server" value="testing" />
+	<parameter name="environment" value="grid" />
+
+	<listeners>
+		<!-- <listener class-name="commons.MethodListener" /> -->
+		<listener class-name="reportConfig.AllureTestListener" />
+		<!-- <listener class-name="retryConfig.RetryListener" /> -->
+	</listeners>
+
+	<test name="Run on Firefox">
+		<parameter name="browser" value="firefox" />
+		<parameter name="ipAddress" value="localhost" />
+		<parameter name="port" value="4444" />
+		<classes>
+			<class name="com.hrm.employees.Level_24_Selenium_Grid_In_Docker" />
+		</classes>
+	</test>
+
+	<test name="Run on Chorme">
+		<parameter name="browser" value="chrome" />
+		<parameter name="ipAddress" value="localhost" />
+		<parameter name="port" value="4444" />
+		<classes>
+			<class name="com.hrm.employees.Level_24_Selenium_Grid_In_Docker" />
+		</classes>
+	</test>
+
+</suite>

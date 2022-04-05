@@ -35,7 +35,7 @@ public class GridFactory {
 
 		switch (browserList) {
 		case FIREFOX:
-			WebDriverManager.firefoxdriver().driverVersion("92.0.1").setup();
+			WebDriverManager.firefoxdriver().setup();
 			capability = DesiredCapabilities.firefox();
 			capability.setBrowserName("firefox");
 			capability.setPlatform(Platform.ANY);
